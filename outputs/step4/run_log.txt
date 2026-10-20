@@ -1,0 +1,74 @@
+
+=== CHURN: no purchase in the next 90 days ===
+  Logistic Regression    test AUC 0.748   best params {'m__C': 0.01}
+  Random Forest          test AUC 0.744   best params {'min_samples_leaf': 40, 'max_features': 'sqrt', 'max_depth': 6}
+  LightGBM               test AUC 0.746   best params {'subsample_freq': 1, 'subsample': 0.7, 'reg_lambda': 5, 'num_leaves': 7, 'min_child_samples': 100, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+  MLP Neural Net         test AUC 0.743   best params {'m__learning_rate_init': 0.001, 'm__hidden_layer_sizes': (128, 64), 'm__alpha': 0.0001}
+  Cox Proportional Hazards test AUC 0.748
+  Random Survival Forest test AUC 0.745
+  BG/NBD                 test AUC 0.734   params r=0.720 alpha=66.0 a=0.000 b=0.160
+
+=== CANCELLATION: any cancellation in the next 90 days ===
+  Logistic Regression    test AUC 0.767   best params {'m__C': 0.1}
+  Random Forest          test AUC 0.763   best params {'min_samples_leaf': 40, 'max_features': 'sqrt', 'max_depth': 6}
+  LightGBM               test AUC 0.762   best params {'subsample_freq': 1, 'subsample': 0.9, 'reg_lambda': 0, 'num_leaves': 7, 'min_child_samples': 20, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+  MLP Neural Net         test AUC 0.765   best params {'m__learning_rate_init': 0.001, 'm__hidden_layer_sizes': (64, 32, 16), 'm__alpha': 0.1}
+
+CHURN results (test base rate 38.2%, n=2,783)
+                   Model CV ROC-AUC CV ± sd CV PR-AUC Test ROC-AUC Test PR-AUC Test Brier Top-20% capture Fit time (s)
+     Logistic Regression      0.742   0.012     0.666        0.748       0.607      0.196           33.8%          2.8
+Cox Proportional Hazards      0.741   0.014     0.664        0.748       0.605      0.196           33.6%          1.3
+                LightGBM      0.738   0.013     0.658        0.746       0.598      0.197           33.6%         41.8
+  Random Survival Forest      0.732   0.013     0.646        0.745       0.592      0.197           33.7%         82.6
+           Random Forest      0.739   0.013     0.661        0.744       0.596      0.198           33.6%        138.1
+          MLP Neural Net      0.739   0.011     0.660        0.743       0.598      0.199           33.3%         44.7
+                  BG/NBD      0.718   0.014     0.640        0.734       0.586      0.212           32.7%          0.3
+  Baseline: recency rule      0.643   0.021     0.604        0.656       0.528          –           30.7%          0.0
+
+CANCELLATION results (test base rate 18.8%)
+               Model CV ROC-AUC CV ± sd CV PR-AUC Test ROC-AUC Test PR-AUC Test Brier Top-20% capture Fit time (s) Top-20% £ capture
+ Logistic Regression      0.764   0.016     0.471        0.767       0.477      0.128           49.5%          3.2             68.8%
+      MLP Neural Net      0.761   0.019     0.467        0.765       0.471      0.128           47.8%         38.2             67.7%
+            LightGBM      0.766   0.015     0.474        0.762       0.462      0.128           48.4%         42.9             67.4%
+       Random Forest      0.766   0.015     0.470        0.763       0.460      0.128           46.8%        142.1             66.9%
+Baseline: spend rule      0.741   0.019     0.397        0.729       0.404          –           42.4%          0.0             73.6%
+
+Gamma-Gamma params p=2.49 q=3.31 v=379.0; 90-day CLV predicted £1,480,795 vs actual £2,512,360; Spearman rank corr 0.53
+
+Permutation importance - churn (Logistic Regression): drop in roc_auc when a feature is shuffled
+frequency            0.0283
+orders_90d           0.0192
+monetary             0.0112
+n_products           0.0098
+overdue_ratio        0.0051
+tenure_days          0.0050
+mean_gap_days        0.0044
+days_since_cancel    0.0041
+n_cancel_invoices    0.0040
+revenue_prev_90d     0.0021
+
+Permutation importance - cancel (Logistic Regression): drop in average_precision when a feature is shuffled
+n_cancel_invoices       0.2030
+avg_units_per_order     0.0140
+n_products              0.0138
+monetary                0.0136
+avg_lines_per_order     0.0082
+avg_unit_price          0.0053
+wholesale_line_share    0.0041
+mean_gap_days           0.0031
+cancel_rate             0.0031
+revenue_90d             0.0022
+
+Logistic Regression (churn) coefficients on standardised log features - largest effects
+orders_90d          -0.373
+frequency           -0.322
+monetary            -0.235
+n_products          -0.178
+tenure_days         -0.164
+avg_unit_price       0.093
+days_since_cancel    0.118
+cancel_value         0.134
+overdue_ratio        0.158
+mean_gap_days        0.162
+
+Saved to outputs/step4/

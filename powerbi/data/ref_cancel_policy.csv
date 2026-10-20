@@ -1,0 +1,9 @@
+Flag,Strategy,Cancelled £ covered,% of cancelled £,% of next-90d revenue touched
+top 5% (139 accounts),Model: expected £ loss (p × size),38591.71,0.5591192009890134,0.4595866831341075
+top 5% (139 accounts),Model: cancel probability only,32480.840000000004,0.4705845195315778,0.4011792961438351
+top 5% (139 accounts),Rule: biggest spenders,38631.22,0.5596916244351648,0.4681078478251765
+top 5% (139 accounts),Rule: past cancellers by £,32051.6,0.4643656625326905,0.287279534795578
+top 10% (278 accounts),Model: expected £ loss (p × size),42903.38,0.6215869559894603,0.5453803327143919
+top 10% (278 accounts),Model: cancel probability only,41653.22,0.6034745567122989,0.5029984978941768
+top 10% (278 accounts),Rule: biggest spenders,41626.76,0.6030912025137374,0.5589359399071059
+top 10% (278 accounts),Rule: past cancellers by £,36721.31,0.5320207243076263,0.3845823807046475

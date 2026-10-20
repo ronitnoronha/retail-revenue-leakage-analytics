@@ -1,0 +1,5 @@
+data/raw/
+data/processed/
+outputs/step4/models.joblib
+__pycache__/
+*.pyc

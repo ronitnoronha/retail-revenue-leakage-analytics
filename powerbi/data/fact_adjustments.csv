@@ -1,0 +1,2946 @@
+Invoice,Date,StockCode,Type,CustomerID,Country,Revenue,IsCredit
+536370,2010-12-01,POST,Postage,12583,France,54.0,False
+C536379,2010-12-01,D,Discount,14527,United Kingdom,-27.5,True
+536403,2010-12-01,POST,Postage,12791,Netherlands,15.0,False
+536527,2010-12-01,POST,Postage,12662,Germany,18.0,False
+536540,2010-12-01,C2,Postage,14911,EIRE,50.0,False
+536544,2010-12-01,DOT,Postage,UNKNOWN,United Kingdom,569.77,False
+536569,2010-12-01,M,Manual adjustment,16274,United Kingdom,1.25,False
+536569,2010-12-01,M,Manual adjustment,16274,United Kingdom,18.95,False
+536592,2010-12-01,DOT,Postage,UNKNOWN,United Kingdom,607.49,False
+536779,2010-12-02,BANK CHARGES,Bank charges,15823,United Kingdom,15.0,False
+536840,2010-12-02,POST,Postage,12738,Germany,18.0,False
+536852,2010-12-03,POST,Postage,12686,France,18.0,False
+536858,2010-12-03,POST,Postage,13520,Switzerland,80.0,False
+536861,2010-12-03,POST,Postage,12427,Germany,54.0,False
+536862,2010-12-03,DOT,Postage,UNKNOWN,United Kingdom,254.43,False
+536864,2010-12-03,DOT,Postage,UNKNOWN,United Kingdom,121.06,False
+536865,2010-12-03,M,Manual adjustment,UNKNOWN,United Kingdom,2.55,False
+536865,2010-12-03,DOT,Postage,UNKNOWN,United Kingdom,498.47,False
+536876,2010-12-03,DOT,Postage,UNKNOWN,United Kingdom,887.52,False
+536967,2010-12-03,POST,Postage,12600,Germany,18.0,False
+536974,2010-12-03,POST,Postage,12682,France,36.0,False
+536981,2010-12-03,M,Manual adjustment,14723,United Kingdom,1.7,False
+536983,2010-12-03,POST,Postage,12712,Germany,18.0,False
+536990,2010-12-03,POST,Postage,12793,Portugal,28.0,False
+537022,2010-12-03,POST,Postage,12725,Italy,56.0,False
+537026,2010-12-03,POST,Postage,12395,Belgium,36.0,False
+537065,2010-12-05,POST,Postage,12567,France,162.0,False
+537077,2010-12-05,M,Manual adjustment,17062,United Kingdom,5.04,False
+537137,2010-12-05,M,Manual adjustment,16327,United Kingdom,30.599999999999998,False
+537140,2010-12-05,M,Manual adjustment,12748,United Kingdom,0.42,False
+537140,2010-12-05,M,Manual adjustment,12748,United Kingdom,0.85,False
+C537164,2010-12-05,D,Discount,14527,United Kingdom,-29.29,True
+537197,2010-12-05,POST,Postage,12647,Germany,54.0,False
+537198,2010-12-05,POST,Postage,12647,Germany,18.0,False
+537199,2010-12-05,M,Manual adjustment,15894,United Kingdom,0.65,False
+537201,2010-12-05,POST,Postage,12472,Germany,108.0,False
+537208,2010-12-05,M,Manual adjustment,15889,United Kingdom,3.4,False
+537212,2010-12-05,POST,Postage,12720,Germany,72.0,False
+537225,2010-12-05,M,Manual adjustment,12748,United Kingdom,1.0,False
+537237,2010-12-06,DOT,Postage,UNKNOWN,United Kingdom,863.74,False
+537240,2010-12-06,DOT,Postage,UNKNOWN,United Kingdom,940.87,False
+537246,2010-12-06,POST,Postage,12808,Portugal,28.0,False
+537250,2010-12-06,POST,Postage,12708,Germany,18.0,False
+537368,2010-12-06,C2,Postage,14911,EIRE,50.0,False
+537377,2010-12-06,M,Manual adjustment,15882,United Kingdom,2.2800000000000002,False
+537378,2010-12-06,C2,Postage,14911,EIRE,50.0,False
+537392,2010-12-06,M,Manual adjustment,17068,United Kingdom,6.25,False
+537396,2010-12-06,M,Manual adjustment,17223,United Kingdom,35.0,False
+C537414,2010-12-06,POST,Postage,16861,United Kingdom,-4.41,True
+537434,2010-12-06,DOT,Postage,UNKNOWN,United Kingdom,950.99,False
+537435,2010-12-06,M,Manual adjustment,17920,United Kingdom,11.9,False
+537463,2010-12-07,POST,Postage,12681,France,72.0,False
+537468,2010-12-07,POST,Postage,12567,France,54.0,False
+537534,2010-12-07,M,Manual adjustment,UNKNOWN,United Kingdom,924.59,False
+C537572,2010-12-07,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-95.38,True
+C537581,2010-12-07,S,Samples,UNKNOWN,United Kingdom,-12.95,True
+C537581,2010-12-07,S,Samples,UNKNOWN,United Kingdom,-52.0,True
+537594,2010-12-07,POST,Postage,12647,Germany,90.0,False
+C537597,2010-12-07,D,Discount,15498,United Kingdom,-281.0,True
+C537600,2010-12-07,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-1.0,True
+C537610,2010-12-07,M,Manual adjustment,UNKNOWN,United Kingdom,-631.31,True
+C537613,2010-12-07,M,Manual adjustment,UNKNOWN,United Kingdom,-313.78,True
+C537630,2010-12-07,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-13541.33,True
+537632,2010-12-07,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,13541.33,False
+537638,2010-12-07,DOT,Postage,UNKNOWN,United Kingdom,836.14,False
+537641,2010-12-07,DOT,Postage,UNKNOWN,United Kingdom,229.74,False
+537642,2010-12-07,DOT,Postage,UNKNOWN,United Kingdom,448.0,False
+C537644,2010-12-07,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-13474.79,True
+537643,2010-12-07,DOT,Postage,UNKNOWN,United Kingdom,593.15,False
+537645,2010-12-07,DOT,Postage,UNKNOWN,United Kingdom,607.96,False
+C537647,2010-12-07,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-5519.25,True
+C537651,2010-12-07,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-13541.33,True
+C537652,2010-12-07,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-6706.71,True
+537666,2010-12-07,DOT,Postage,UNKNOWN,United Kingdom,701.95,False
+537673,2010-12-08,POST,Postage,12709,Germany,126.0,False
+537693,2010-12-08,POST,Postage,12441,France,18.0,False
+537800,2010-12-08,M,Manual adjustment,12748,United Kingdom,2.2800000000000002,False
+537804,2010-12-08,M,Manual adjustment,12748,United Kingdom,35.400000000000006,False
+537804,2010-12-08,M,Manual adjustment,12748,United Kingdom,2.2800000000000002,False
+537818,2010-12-08,POST,Postage,12766,Portugal,168.0,False
+537823,2010-12-08,DOT,Postage,UNKNOWN,United Kingdom,729.42,False
+C537857,2010-12-08,D,Discount,17340,United Kingdom,-267.12,True
+537892,2010-12-09,POST,Postage,12481,Germany,18.0,False
+537894,2010-12-09,POST,Postage,12621,Germany,36.0,False
+537897,2010-12-09,POST,Postage,12683,France,18.0,False
+537915,2010-12-09,POST,Postage,12797,Portugal,28.0,False
+537963,2010-12-09,C2,Postage,13369,United Kingdom,50.0,False
+537967,2010-12-09,POST,Postage,12494,France,18.0,False
+537995,2010-12-09,POST,Postage,12712,Germany,36.0,False
+538002,2010-12-09,C2,Postage,14932,Channel Islands,50.0,False
+538003,2010-12-09,POST,Postage,12429,Denmark,144.0,False
+538008,2010-12-09,POST,Postage,12683,France,90.0,False
+538071,2010-12-09,DOT,Postage,UNKNOWN,United Kingdom,885.94,False
+538093,2010-12-09,POST,Postage,12682,France,90.0,False
+C538124,2010-12-09,M,Manual adjustment,15329,United Kingdom,-2.0,True
+538147,2010-12-09,M,Manual adjustment,13090,United Kingdom,15.0,False
+538148,2010-12-09,DOT,Postage,UNKNOWN,United Kingdom,547.32,False
+538149,2010-12-09,DOT,Postage,UNKNOWN,United Kingdom,620.68,False
+538153,2010-12-09,DOT,Postage,UNKNOWN,United Kingdom,822.94,False
+538154,2010-12-09,DOT,Postage,UNKNOWN,United Kingdom,85.79,False
+538175,2010-12-10,POST,Postage,12471,Germany,378.0,False
+538177,2010-12-10,DOT,Postage,UNKNOWN,United Kingdom,847.42,False
+C538189,2010-12-10,M,Manual adjustment,UNKNOWN,United Kingdom,-133.08,True
+538196,2010-12-10,POST,Postage,12731,France,144.0,False
+538311,2010-12-10,POST,Postage,12785,Portugal,56.0,False
+538349,2010-12-10,DOT,Postage,UNKNOWN,United Kingdom,907.47,False
+538524,2010-12-13,DOT,Postage,UNKNOWN,United Kingdom,641.86,False
+538525,2010-12-13,POST,Postage,12540,Spain,140.0,False
+538566,2010-12-13,DOT,Postage,UNKNOWN,United Kingdom,584.59,False
+538597,2010-12-13,M,Manual adjustment,15555,United Kingdom,1.25,False
+C538680,2010-12-13,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-966.92,True
+C538681,2010-12-13,M,Manual adjustment,UNKNOWN,United Kingdom,-316.3,True
+C538682,2010-12-13,M,Manual adjustment,UNKNOWN,United Kingdom,-1130.9,True
+538685,2010-12-14,POST,Postage,15694,United Kingdom,15.0,False
+538707,2010-12-14,M,Manual adjustment,17894,United Kingdom,0.42,False
+C538806,2010-12-14,M,Manual adjustment,15181,United Kingdom,-4.25,True
+538807,2010-12-14,M,Manual adjustment,17194,United Kingdom,0.84,False
+538807,2010-12-14,M,Manual adjustment,17194,United Kingdom,20.0,False
+538807,2010-12-14,M,Manual adjustment,17194,United Kingdom,5.0,False
+538880,2010-12-14,DOT,Postage,UNKNOWN,United Kingdom,113.45,False
+538881,2010-12-14,DOT,Postage,UNKNOWN,United Kingdom,198.17,False
+538883,2010-12-14,DOT,Postage,UNKNOWN,United Kingdom,340.72,False
+538884,2010-12-14,DOT,Postage,UNKNOWN,United Kingdom,146.85,False
+C538897,2010-12-15,D,Discount,16422,United Kingdom,-5.76,True
+C538897,2010-12-15,D,Discount,16422,United Kingdom,-42.5,True
+C539003,2010-12-15,D,Discount,14527,United Kingdom,-26.93,True
+539014,2010-12-15,M,Manual adjustment,17692,United Kingdom,15.36,False
+539056,2010-12-15,M,Manual adjustment,16725,United Kingdom,1.45,False
+C539063,2010-12-15,POST,Postage,15107,United Kingdom,-12.34,True
+C539073,2010-12-15,POST,Postage,12971,United Kingdom,-3.5,True
+539317,2010-12-16,M,Manual adjustment,17392,United Kingdom,6.0,False
+539318,2010-12-16,POST,Postage,12348,Finland,240.0,False
+539327,2010-12-17,POST,Postage,12600,Germany,18.0,False
+539330,2010-12-17,POST,Postage,12370,Austria,120.0,False
+539337,2010-12-17,C2,Postage,UNKNOWN,EIRE,50.0,False
+539353,2010-12-17,POST,Postage,12782,Portugal,84.0,False
+539391,2010-12-17,POST,Postage,12417,Belgium,30.0,False
+539395,2010-12-17,POST,Postage,12471,Germany,198.0,False
+539403,2010-12-17,POST,Postage,12647,Germany,36.0,False
+539405,2010-12-17,POST,Postage,12621,Germany,108.0,False
+539407,2010-12-17,POST,Postage,12726,France,18.0,False
+539408,2010-12-17,POST,Postage,12720,Germany,54.0,False
+C539409,2010-12-17,POST,Postage,12720,Germany,-18.0,True
+539421,2010-12-17,C2,Postage,14016,EIRE,50.0,False
+539434,2010-12-17,DOT,Postage,UNKNOWN,United Kingdom,510.79,False
+539435,2010-12-17,POST,Postage,12691,France,18.0,False
+539436,2010-12-17,DOT,Postage,UNKNOWN,United Kingdom,565.37,False
+539437,2010-12-17,DOT,Postage,UNKNOWN,United Kingdom,803.55,False
+539446,2010-12-17,POST,Postage,12705,Germany,162.0,False
+539447,2010-12-17,POST,Postage,12395,Belgium,54.0,False
+539451,2010-12-17,DOT,Postage,UNKNOWN,United Kingdom,662.14,False
+539453,2010-12-17,DOT,Postage,UNKNOWN,United Kingdom,603.62,False
+539457,2010-12-17,M,Manual adjustment,UNKNOWN,United Kingdom,2.0,False
+539466,2010-12-19,POST,Postage,12668,Germany,72.0,False
+539473,2010-12-19,C2,Postage,14911,EIRE,50.0,False
+539491,2010-12-20,POST,Postage,14646,Netherlands,15.0,False
+539492,2010-12-20,GIFT_0001_40,Gift voucher,UNKNOWN,United Kingdom,34.04,False
+539492,2010-12-20,DOT,Postage,UNKNOWN,United Kingdom,396.81,False
+539551,2010-12-20,POST,Postage,12721,France,18.0,False
+C539589,2010-12-20,D,Discount,14527,United Kingdom,-13.88,True
+539595,2010-12-20,DOT,Postage,UNKNOWN,United Kingdom,350.78,False
+539607,2010-12-20,POST,Postage,12681,France,90.0,False
+539631,2010-12-20,DOT,Postage,UNKNOWN,United Kingdom,250.83,False
+539636,2010-12-20,POST,Postage,12481,Germany,108.0,False
+539651,2010-12-20,M,Manual adjustment,UNKNOWN,United Kingdom,22.0,False
+539676,2010-12-21,POST,Postage,12423,Belgium,45.0,False
+539688,2010-12-21,C2,Postage,12678,France,150.0,False
+539708,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,182.37,False
+C539712,2010-12-21,POST,Postage,15602,United Kingdom,-5.75,True
+539718,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,112.37,False
+539727,2010-12-21,POST,Postage,12678,France,18.0,False
+539735,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,164.55,False
+539736,2010-12-21,M,Manual adjustment,UNKNOWN,United Kingdom,2.55,False
+539736,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,337.23,False
+539737,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,514.0,False
+539738,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,549.79,False
+539739,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,324.43,False
+539740,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,311.66,False
+539741,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,128.6,False
+539742,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,114.34,False
+539743,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,103.57,False
+539745,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,152.68,False
+539744,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,189.57,False
+539746,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,50.6,False
+539747,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,50.64,False
+539748,2010-12-21,DOT,Postage,UNKNOWN,United Kingdom,29.53,False
+539752,2010-12-21,POST,Postage,12515,Italy,105.0,False
+539840,2010-12-22,POST,Postage,12383,Belgium,45.0,False
+539856,2010-12-22,M,Manual adjustment,UNKNOWN,United Kingdom,1298.4,False
+539946,2010-12-23,POST,Postage,13817,Germany,18.0,False
+539957,2010-12-23,POST,Postage,12585,Germany,108.0,False
+539958,2010-12-23,GIFT_0001_50,Gift voucher,UNKNOWN,United Kingdom,42.55,False
+539958,2010-12-23,DOT,Postage,UNKNOWN,United Kingdom,627.47,False
+539984,2010-12-23,C2,Postage,14911,EIRE,50.0,False
+539988,2010-12-23,M,Manual adjustment,18116,United Kingdom,3.6,False
+540021,2011-01-04,M,Manual adjustment,17841,United Kingdom,1.25,False
+540026,2011-01-04,DOT,Postage,UNKNOWN,United Kingdom,469.7,False
+540040,2011-01-04,POST,Postage,12483,Sweden,200.0,False
+C540057,2011-01-04,POST,Postage,12483,Sweden,-40.0,True
+540073,2011-01-04,M,Manual adjustment,16814,United Kingdom,9.899999999999999,False
+540116,2011-01-05,DOT,Postage,UNKNOWN,United Kingdom,2.51,False
+C540117,2011-01-05,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-16888.02,True
+C540118,2011-01-05,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-16453.71,True
+540154,2011-01-05,DOT,Postage,UNKNOWN,United Kingdom,192.86,False
+C540164,2011-01-05,C2,Postage,14911,EIRE,-50.0,True
+C540171,2011-01-05,D,Discount,14527,United Kingdom,-22.97,True
+540178,2011-01-05,POST,Postage,12681,France,54.0,False
+540238,2011-01-05,GIFT_0001_30,Gift voucher,UNKNOWN,United Kingdom,25.53,False
+540238,2011-01-05,DOT,Postage,UNKNOWN,United Kingdom,109.19,False
+540238,2011-01-05,GIFT_0001_20,Gift voucher,UNKNOWN,United Kingdom,17.02,False
+540239,2011-01-05,POST,Postage,12682,France,72.0,False
+540242,2011-01-05,M,Manual adjustment,15046,United Kingdom,18.95,False
+540255,2011-01-05,DOT,Postage,UNKNOWN,United Kingdom,219.24,False
+C540266,2011-01-06,M,Manual adjustment,UNKNOWN,United Kingdom,-458.29,True
+C540266,2011-01-06,POST,Postage,UNKNOWN,United Kingdom,-35.09,True
+C540271,2011-01-06,M,Manual adjustment,12503,Spain,-1126.0,True
+540278,2011-01-06,M,Manual adjustment,15719,United Kingdom,1.65,False
+C540307,2011-01-06,M,Manual adjustment,15823,United Kingdom,-43.9,True
+540351,2011-01-06,POST,Postage,12735,France,36.0,False
+540352,2011-01-06,DOT,Postage,UNKNOWN,United Kingdom,306.35,False
+540365,2011-01-06,POST,Postage,12413,France,54.0,False
+C540367,2011-01-06,POST,Postage,12413,France,-54.0,True
+540410,2011-01-07,POST,Postage,12530,Germany,54.0,False
+540414,2011-01-07,POST,Postage,12481,Germany,54.0,False
+540418,2011-01-07,DOT,Postage,UNKNOWN,United Kingdom,369.95,False
+540455,2011-01-07,POST,Postage,12583,France,54.0,False
+540458,2011-01-07,POST,Postage,12501,Germany,144.0,False
+540463,2011-01-07,POST,Postage,12489,France,36.0,False
+540468,2011-01-07,DOT,Postage,UNKNOWN,United Kingdom,278.97,False
+540469,2011-01-07,POST,Postage,12484,Spain,112.0,False
+540480,2011-01-07,POST,Postage,12480,Germany,72.0,False
+540519,2011-01-09,POST,Postage,12793,Portugal,56.0,False
+540546,2011-01-09,POST,Postage,12766,Portugal,84.0,False
+540547,2011-01-09,C2,Postage,14911,EIRE,50.0,False
+540551,2011-01-10,DOT,Postage,UNKNOWN,United Kingdom,557.0,False
+540553,2011-01-10,POST,Postage,12500,Germany,18.0,False
+540562,2011-01-10,POST,Postage,12524,Germany,54.0,False
+540566,2011-01-10,M,Manual adjustment,17811,United Kingdom,6.7,False
+540642,2011-01-10,POST,Postage,12681,France,126.0,False
+540646,2011-01-10,DOT,Postage,UNKNOWN,United Kingdom,262.73,False
+540681,2011-01-10,DOT,Postage,UNKNOWN,United Kingdom,223.35,False
+540688,2011-01-11,POST,Postage,12736,France,90.0,False
+540699,2011-01-11,POST,Postage,UNKNOWN,United Kingdom,0.0,False
+540769,2011-01-11,POST,Postage,12601,Germany,18.0,False
+540789,2011-01-11,POST,Postage,12643,France,36.0,False
+C540793,2011-01-11,POST,Postage,14295,United Kingdom,-3.0,True
+540801,2011-01-11,POST,Postage,12540,Spain,168.0,False
+540821,2011-01-11,DOT,Postage,UNKNOWN,United Kingdom,394.83,False
+540824,2011-01-11,POST,Postage,12728,France,36.0,False
+540835,2011-01-11,POST,Postage,12724,France,18.0,False
+540839,2011-01-11,M,Manual adjustment,16791,United Kingdom,12.75,False
+C540841,2011-01-11,POST,Postage,15602,United Kingdom,-12.99,True
+540848,2011-01-12,DOT,Postage,UNKNOWN,United Kingdom,491.93,False
+540900,2011-01-12,POST,Postage,12712,Germany,36.0,False
+C540937,2011-01-12,POST,Postage,14748,United Kingdom,-7.06,True
+540971,2011-01-12,POST,Postage,12383,Belgium,60.0,False
+540972,2011-01-12,POST,Postage,12437,France,54.0,False
+540976,2011-01-12,POST,Postage,12652,France,126.0,False
+540977,2011-01-12,DOT,Postage,UNKNOWN,United Kingdom,478.1,False
+540995,2011-01-13,GIFT_0001_20,Gift voucher,UNKNOWN,United Kingdom,16.67,False
+540995,2011-01-13,DOT,Postage,UNKNOWN,United Kingdom,404.49,False
+541093,2011-01-13,POST,Postage,12471,Germany,90.0,False
+541104,2011-01-13,DOT,Postage,UNKNOWN,United Kingdom,323.98,False
+541115,2011-01-13,POST,Postage,12578,Italy,196.0,False
+541120,2011-01-14,POST,Postage,12490,France,90.0,False
+541122,2011-01-14,POST,Postage,12708,Germany,36.0,False
+541125,2011-01-14,POST,Postage,12474,Germany,18.0,False
+541127,2011-01-14,DOT,Postage,UNKNOWN,United Kingdom,50.96,False
+541128,2011-01-14,DOT,Postage,UNKNOWN,United Kingdom,60.79,False
+541129,2011-01-14,DOT,Postage,UNKNOWN,United Kingdom,81.42,False
+541130,2011-01-14,DOT,Postage,UNKNOWN,United Kingdom,138.0,False
+541131,2011-01-14,DOT,Postage,UNKNOWN,United Kingdom,156.21,False
+541132,2011-01-14,DOT,Postage,UNKNOWN,United Kingdom,127.54,False
+541133,2011-01-14,M,Manual adjustment,UNKNOWN,United Kingdom,2.5,False
+541133,2011-01-14,DOT,Postage,UNKNOWN,United Kingdom,120.88,False
+541138,2011-01-14,POST,Postage,12553,France,108.0,False
+541219,2011-01-14,DOT,Postage,UNKNOWN,United Kingdom,391.32,False
+541224,2011-01-14,POST,Postage,12474,Germany,18.0,False
+541265,2011-01-16,M,Manual adjustment,17609,United Kingdom,2.5,False
+541269,2011-01-17,POST,Postage,12626,Germany,144.0,False
+C541284,2011-01-17,M,Manual adjustment,17744,United Kingdom,-31.32,True
+541405,2011-01-17,POST,Postage,12683,France,90.0,False
+541421,2011-01-17,DOT,Postage,UNKNOWN,United Kingdom,449.52,False
+541422,2011-01-17,DOT,Postage,UNKNOWN,United Kingdom,295.2,False
+541423,2011-01-17,DOT,Postage,UNKNOWN,United Kingdom,235.48,False
+541424,2011-01-17,DOT,Postage,UNKNOWN,United Kingdom,301.84,False
+541430,2011-01-18,POST,Postage,12356,Portugal,324.0,False
+541434,2011-01-18,C2,Postage,14911,EIRE,50.0,False
+541480,2011-01-18,POST,Postage,12527,Germany,18.0,False
+541485,2011-01-18,M,Manual adjustment,18118,United Kingdom,2.4000000000000004,False
+541491,2011-01-18,POST,Postage,12510,Spain,84.0,False
+541495,2011-01-18,DOT,Postage,UNKNOWN,United Kingdom,116.71,False
+541496,2011-01-18,DOT,Postage,UNKNOWN,United Kingdom,101.0,False
+541497,2011-01-18,DOT,Postage,UNKNOWN,United Kingdom,243.21,False
+541505,2011-01-18,BANK CHARGES,Bank charges,15939,United Kingdom,15.0,False
+541506,2011-01-18,DOT,Postage,UNKNOWN,United Kingdom,118.33,False
+541507,2011-01-18,DOT,Postage,UNKNOWN,United Kingdom,72.33,False
+541508,2011-01-18,DOT,Postage,UNKNOWN,United Kingdom,152.92,False
+541516,2011-01-18,DOT,Postage,UNKNOWN,United Kingdom,285.3,False
+541517,2011-01-19,POST,Postage,12665,Germany,18.0,False
+541564,2011-01-19,M,Manual adjustment,16904,United Kingdom,3.8,False
+541567,2011-01-19,POST,Postage,12681,France,54.0,False
+541569,2011-01-19,POST,Postage,13520,Switzerland,120.0,False
+541584,2011-01-19,DOT,Postage,UNKNOWN,United Kingdom,118.25,False
+541592,2011-01-19,DOT,Postage,UNKNOWN,United Kingdom,470.12,False
+541607,2011-01-20,POST,Postage,UNKNOWN,United Kingdom,29.43,False
+541631,2011-01-20,POST,Postage,12637,France,108.0,False
+C541650,2011-01-20,M,Manual adjustment,UNKNOWN,United Kingdom,-544.4,True
+C541651,2011-01-20,M,Manual adjustment,UNKNOWN,United Kingdom,-1283.8,True
+C541653,2011-01-20,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-1050.15,True
+541658,2011-01-20,M,Manual adjustment,15529,United Kingdom,2.55,False
+541675,2011-01-20,POST,Postage,12402,Belgium,30.0,False
+541695,2011-01-20,DOT,Postage,UNKNOWN,United Kingdom,334.16,False
+541696,2011-01-20,DOT,Postage,UNKNOWN,United Kingdom,307.85,False
+541703,2011-01-21,POST,Postage,12594,Italy,56.0,False
+541756,2011-01-21,POST,Postage,12664,Finland,80.0,False
+541808,2011-01-21,M,Manual adjustment,16210,United Kingdom,10.0,False
+541810,2011-01-21,DOT,Postage,UNKNOWN,United Kingdom,157.08,False
+541811,2011-01-21,DOT,Postage,UNKNOWN,United Kingdom,171.04,False
+541827,2011-01-21,DOT,Postage,UNKNOWN,United Kingdom,403.81,False
+541830,2011-01-21,DOT,Postage,UNKNOWN,United Kingdom,214.42,False
+541857,2011-01-23,POST,Postage,12727,France,108.0,False
+541869,2011-01-24,DOT,Postage,UNKNOWN,United Kingdom,144.45,False
+541870,2011-01-24,DOT,Postage,UNKNOWN,United Kingdom,105.71,False
+541871,2011-01-24,DOT,Postage,UNKNOWN,United Kingdom,127.09,False
+541877,2011-01-24,POST,Postage,12559,Germany,36.0,False
+541878,2011-01-24,DOT,Postage,UNKNOWN,United Kingdom,161.08,False
+541879,2011-01-24,DOT,Postage,UNKNOWN,United Kingdom,80.46,False
+541962,2011-01-24,POST,Postage,12693,Germany,36.0,False
+541965,2011-01-24,POST,Postage,12625,Germany,126.0,False
+541969,2011-01-24,DOT,Postage,UNKNOWN,United Kingdom,163.67,False
+541971,2011-01-24,DOT,Postage,UNKNOWN,United Kingdom,124.16,False
+541979,2011-01-24,C2,Postage,14911,EIRE,50.0,False
+541980,2011-01-24,POST,Postage,12421,Spain,28.0,False
+541983,2011-01-24,M,Manual adjustment,15797,United Kingdom,15.0,False
+541991,2011-01-25,POST,Postage,12417,Belgium,30.0,False
+541993,2011-01-25,DOT,Postage,UNKNOWN,United Kingdom,150.25,False
+541998,2011-01-25,POST,Postage,12348,Finland,40.0,False
+541999,2011-01-25,DOT,Postage,UNKNOWN,United Kingdom,216.11,False
+542080,2011-01-25,POST,Postage,13815,Germany,90.0,False
+542115,2011-01-25,DOT,Postage,UNKNOWN,United Kingdom,247.54,False
+542128,2011-01-25,POST,Postage,12609,Germany,36.0,False
+542132,2011-01-25,POST,Postage,12691,France,36.0,False
+542147,2011-01-26,POST,Postage,12782,Portugal,112.0,False
+542215,2011-01-26,POST,Postage,12472,Germany,54.0,False
+542229,2011-01-26,POST,Postage,12474,Germany,18.0,False
+542238,2011-01-26,POST,Postage,12591,Italy,84.0,False
+542252,2011-01-26,DOT,Postage,UNKNOWN,United Kingdom,200.38,False
+542255,2011-01-26,DOT,Postage,UNKNOWN,United Kingdom,246.37,False
+542278,2011-01-27,C2,Postage,14911,EIRE,50.0,False
+542344,2011-01-27,DOT,Postage,UNKNOWN,United Kingdom,200.33,False
+C542348,2011-01-27,M,Manual adjustment,12539,Spain,-1715.85,True
+542369,2011-01-27,POST,Postage,12645,Germany,18.0,False
+542371,2011-01-27,POST,Postage,12468,Germany,36.0,False
+542375,2011-01-27,POST,Postage,12626,Germany,36.0,False
+C542376,2011-01-27,M,Manual adjustment,13777,United Kingdom,-4.65,True
+C542376,2011-01-27,M,Manual adjustment,13777,United Kingdom,-5.1,True
+542398,2011-01-27,M,Manual adjustment,13174,United Kingdom,4.0,False
+542425,2011-01-28,POST,Postage,12574,France,36.0,False
+542433,2011-01-28,POST,Postage,12726,France,36.0,False
+542535,2011-01-28,POST,Postage,12735,France,54.0,False
+C542540,2011-01-28,POST,Postage,UNKNOWN,United Kingdom,-4.41,True
+C542540,2011-01-28,DOT,Postage,UNKNOWN,United Kingdom,-3.29,True
+542541,2011-01-28,DOT,Postage,UNKNOWN,United Kingdom,223.89,False
+542586,2011-01-28,POST,Postage,12377,Switzerland,80.0,False
+542621,2011-01-31,POST,Postage,12528,Germany,54.0,False
+542622,2011-01-31,DOT,Postage,UNKNOWN,United Kingdom,230.61,False
+542624,2011-01-31,DOT,Postage,UNKNOWN,United Kingdom,188.88,False
+542625,2011-01-31,DOT,Postage,UNKNOWN,United Kingdom,192.21,False
+542626,2011-01-31,POST,Postage,12720,Germany,36.0,False
+542648,2011-01-31,POST,Postage,12476,Germany,90.0,False
+542664,2011-01-31,DOT,Postage,UNKNOWN,United Kingdom,157.76,False
+542713,2011-01-31,POST,Postage,12668,Germany,126.0,False
+542717,2011-01-31,M,Manual adjustment,17580,United Kingdom,2.95,False
+542720,2011-01-31,POST,Postage,12778,Netherlands,15.0,False
+542735,2011-01-31,POST,Postage,12681,France,54.0,False
+542782,2011-02-01,POST,Postage,12712,Germany,36.0,False
+542794,2011-02-01,DOT,Postage,UNKNOWN,United Kingdom,86.77,False
+542887,2011-02-01,POST,Postage,12373,Austria,40.0,False
+542894,2011-02-01,POST,Postage,12775,Netherlands,30.0,False
+542904,2011-02-01,POST,Postage,12682,France,54.0,False
+542905,2011-02-01,POST,Postage,12540,Spain,28.0,False
+542906,2011-02-01,DOT,Postage,UNKNOWN,United Kingdom,189.59,False
+542911,2011-02-01,POST,Postage,12676,Sweden,40.0,False
+C542916,2011-02-01,M,Manual adjustment,15940,United Kingdom,-4.0,True
+542922,2011-02-02,POST,Postage,12682,France,36.0,False
+542997,2011-02-02,DOT,Postage,UNKNOWN,United Kingdom,108.75,False
+542998,2011-02-02,DOT,Postage,UNKNOWN,United Kingdom,172.42,False
+542999,2011-02-02,DOT,Postage,UNKNOWN,United Kingdom,142.29,False
+543000,2011-02-02,DOT,Postage,UNKNOWN,United Kingdom,259.75,False
+543013,2011-02-02,DOT,Postage,UNKNOWN,United Kingdom,174.12,False
+543017,2011-02-02,M,Manual adjustment,13199,United Kingdom,15.0,False
+543027,2011-02-02,POST,Postage,12414,Austria,40.0,False
+543030,2011-02-02,POST,Postage,12437,France,18.0,False
+543037,2011-02-02,POST,Postage,12350,Norway,40.0,False
+543048,2011-02-03,POST,Postage,12600,Germany,54.0,False
+C543050,2011-02-03,POST,Postage,12625,Germany,-18.0,True
+543055,2011-02-03,POST,Postage,12502,Spain,112.0,False
+543056,2011-02-03,POST,Postage,12471,Germany,108.0,False
+543097,2011-02-03,DOT,Postage,UNKNOWN,United Kingdom,168.53,False
+543117,2011-02-03,POST,Postage,12464,Belgium,45.0,False
+543121,2011-02-03,POST,Postage,12662,Germany,36.0,False
+543134,2011-02-03,M,Manual adjustment,15885,United Kingdom,15.0,False
+543171,2011-02-04,DOT,Postage,UNKNOWN,United Kingdom,230.08,False
+543172,2011-02-04,DOT,Postage,UNKNOWN,United Kingdom,164.46,False
+C543175,2011-02-04,POST,Postage,12712,Germany,-18.0,True
+543178,2011-02-04,C2,Postage,14911,EIRE,50.0,False
+543180,2011-02-04,POST,Postage,12410,Switzerland,160.0,False
+543182,2011-02-04,DOT,Postage,UNKNOWN,United Kingdom,208.12,False
+543188,2011-02-04,POST,Postage,12567,France,108.0,False
+543200,2011-02-04,DOT,Postage,UNKNOWN,United Kingdom,166.92,False
+543201,2011-02-04,DOT,Postage,UNKNOWN,United Kingdom,212.04,False
+543345,2011-02-07,DOT,Postage,UNKNOWN,United Kingdom,183.09,False
+543358,2011-02-07,DOT,Postage,UNKNOWN,United Kingdom,218.26,False
+543387,2011-02-08,POST,Postage,14646,Netherlands,150.0,False
+C543388,2011-02-08,POST,Postage,14646,Netherlands,-45.0,True
+543399,2011-02-08,DOT,Postage,UNKNOWN,United Kingdom,171.42,False
+543450,2011-02-08,DOT,Postage,UNKNOWN,United Kingdom,110.13,False
+543451,2011-02-08,DOT,Postage,UNKNOWN,United Kingdom,179.29,False
+543459,2011-02-08,POST,Postage,12599,France,36.0,False
+543461,2011-02-08,DOT,Postage,UNKNOWN,United Kingdom,153.71,False
+543467,2011-02-08,DOT,Postage,UNKNOWN,United Kingdom,234.92,False
+543484,2011-02-09,POST,Postage,12721,France,54.0,False
+543492,2011-02-09,POST,Postage,12720,Germany,18.0,False
+543530,2011-02-09,DOT,Postage,UNKNOWN,United Kingdom,213.15,False
+543532,2011-02-09,DOT,Postage,UNKNOWN,United Kingdom,225.17,False
+543533,2011-02-09,DOT,Postage,UNKNOWN,United Kingdom,254.08,False
+543537,2011-02-09,POST,Postage,12401,Belgium,15.0,False
+543541,2011-02-09,POST,Postage,12462,Spain,168.0,False
+543543,2011-02-09,M,Manual adjustment,17843,United Kingdom,2.95,False
+543543,2011-02-09,M,Manual adjustment,17843,United Kingdom,4.800000000000001,False
+543546,2011-02-09,DOT,Postage,UNKNOWN,United Kingdom,206.15,False
+543550,2011-02-10,POST,Postage,12601,Germany,18.0,False
+C543624,2011-02-10,M,Manual adjustment,12931,United Kingdom,-82.0,True
+543625,2011-02-10,POST,Postage,12583,France,36.0,False
+543629,2011-02-10,DOT,Postage,UNKNOWN,United Kingdom,208.92,False
+543660,2011-02-11,DOT,Postage,UNKNOWN,United Kingdom,248.48,False
+543732,2011-02-11,DOT,Postage,UNKNOWN,United Kingdom,198.21,False
+543733,2011-02-11,POST,Postage,12395,Belgium,15.0,False
+C543743,2011-02-11,M,Manual adjustment,12505,Italy,-4.5,True
+C543749,2011-02-11,M,Manual adjustment,13672,United Kingdom,-71.46,True
+C543752,2011-02-11,D,Discount,14031,United Kingdom,-64.27,True
+C543758,2011-02-11,D,Discount,15299,United Kingdom,-65.91,True
+C543789,2011-02-11,M,Manual adjustment,17450,United Kingdom,-856.48,True
+C543789,2011-02-11,D,Discount,17450,United Kingdom,-84.8,True
+C543789,2011-02-11,M,Manual adjustment,17450,United Kingdom,-190.8,True
+543822,2011-02-14,POST,Postage,12507,Spain,84.0,False
+543826,2011-02-14,DOT,Postage,UNKNOWN,United Kingdom,168.19,False
+543833,2011-02-14,POST,Postage,12476,Germany,18.0,False
+C543835,2011-02-14,M,Manual adjustment,12963,United Kingdom,-15.6,True
+C543838,2011-02-14,POST,Postage,15827,United Kingdom,-7.06,True
+C543840,2011-02-14,D,Discount,14527,United Kingdom,-70.01,True
+C543841,2011-02-14,M,Manual adjustment,17095,United Kingdom,-208.16,True
+543900,2011-02-14,POST,Postage,12621,Germany,54.0,False
+543899,2011-02-14,C2,Postage,UNKNOWN,EIRE,15.0,False
+543909,2011-02-14,DOT,Postage,UNKNOWN,United Kingdom,127.24,False
+543985,2011-02-15,DOT,Postage,UNKNOWN,United Kingdom,138.5,False
+C543992,2011-02-15,POST,Postage,12583,France,-18.0,True
+C544047,2011-02-15,M,Manual adjustment,UNKNOWN,United Kingdom,-1435.79,True
+C544049,2011-02-15,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-566.37,True
+C544054,2011-02-15,M,Manual adjustment,UNKNOWN,United Kingdom,-869.55,True
+544069,2011-02-15,POST,Postage,12616,France,36.0,False
+544087,2011-02-15,M,Manual adjustment,17530,United Kingdom,3.75,False
+544087,2011-02-15,M,Manual adjustment,17530,United Kingdom,0.84,False
+544089,2011-02-15,GIFT_0001_20,Gift voucher,UNKNOWN,United Kingdom,16.67,False
+544089,2011-02-15,DOT,Postage,UNKNOWN,United Kingdom,111.86,False
+544115,2011-02-16,POST,Postage,12727,France,90.0,False
+C544117,2011-02-16,POST,Postage,12727,France,-18.0,True
+544157,2011-02-16,POST,Postage,12372,Denmark,36.0,False
+544186,2011-02-16,DOT,Postage,UNKNOWN,United Kingdom,149.49,False
+544193,2011-02-17,POST,Postage,12431,Belgium,75.0,False
+544200,2011-02-17,POST,Postage,12494,France,36.0,False
+544201,2011-02-17,DOT,Postage,UNKNOWN,United Kingdom,213.08,False
+544202,2011-02-17,DOT,Postage,UNKNOWN,United Kingdom,143.04,False
+544203,2011-02-17,POST,Postage,12362,Belgium,45.0,False
+544204,2011-02-17,DOT,Postage,UNKNOWN,United Kingdom,132.25,False
+544205,2011-02-17,DOT,Postage,UNKNOWN,United Kingdom,207.79,False
+544206,2011-02-17,DOT,Postage,UNKNOWN,United Kingdom,159.46,False
+544207,2011-02-17,DOT,Postage,UNKNOWN,United Kingdom,185.83,False
+544208,2011-02-17,DOT,Postage,UNKNOWN,United Kingdom,135.75,False
+544210,2011-02-17,C2,Postage,14911,EIRE,50.0,False
+544281,2011-02-17,POST,Postage,12500,Germany,18.0,False
+544302,2011-02-17,POST,Postage,12654,Germany,18.0,False
+544323,2011-02-17,GIFT_0001_30,Gift voucher,UNKNOWN,United Kingdom,25.0,False
+544323,2011-02-17,DOT,Postage,UNKNOWN,United Kingdom,179.94,False
+544331,2011-02-17,POST,Postage,12455,Cyprus,15.0,False
+544355,2011-02-18,POST,Postage,12714,France,90.0,False
+544390,2011-02-18,C2,Postage,14911,EIRE,50.0,False
+544399,2011-02-18,POST,Postage,12594,Italy,28.0,False
+544407,2011-02-18,M,Manual adjustment,14606,United Kingdom,15.0,False
+544434,2011-02-18,GIFT_0001_30,Gift voucher,UNKNOWN,United Kingdom,25.0,False
+544434,2011-02-18,DOT,Postage,UNKNOWN,United Kingdom,149.02,False
+C544437,2011-02-18,M,Manual adjustment,16027,United Kingdom,-82.5,True
+544464,2011-02-20,M,Manual adjustment,17323,United Kingdom,3.4,False
+544474,2011-02-21,POST,Postage,12423,Belgium,15.0,False
+544483,2011-02-21,POST,Postage,12524,Germany,90.0,False
+544495,2011-02-21,POST,Postage,12766,Portugal,168.0,False
+544573,2011-02-21,POST,Postage,12621,Germany,90.0,False
+C544575,2011-02-21,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-134.76,True
+C544576,2011-02-21,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-149.16,True
+C544577,2011-02-21,M,Manual adjustment,12365,Cyprus,-320.69,True
+544578,2011-02-21,M,Manual adjustment,12365,Cyprus,320.69,False
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-5.74,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-11.08,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-5.79,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-6.7,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-8.74,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-9.74,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-9.99,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-20.98,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-7.69,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-5.44,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-7.0,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-10.0,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-19.5,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-20.55,True
+C544580,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-29.99,True
+C544581,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-12.94,True
+C544581,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-92.0,True
+C544581,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-107.99,True
+C544581,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-55.0,True
+C544583,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-128.56,True
+C544583,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-39.5,True
+C544583,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-37.49,True
+C544583,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-31.98,True
+C544583,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-2.8,True
+C544583,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-4.59,True
+C544583,2011-02-21,S,Samples,UNKNOWN,United Kingdom,-95.0,True
+C544584,2011-02-21,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-109.84,True
+544585,2011-02-21,POST,Postage,12523,France,18.0,False
+C544587,2011-02-21,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-5575.28,True
+C544589,2011-02-21,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-5258.77,True
+544598,2011-02-21,DOT,Postage,UNKNOWN,United Kingdom,144.15,False
+544599,2011-02-21,DOT,Postage,UNKNOWN,United Kingdom,198.77,False
+C544671,2011-02-22,S,Samples,UNKNOWN,United Kingdom,-21.9,True
+544673,2011-02-22,M,Manual adjustment,13421,United Kingdom,10.5,False
+544681,2011-02-22,DOT,Postage,UNKNOWN,United Kingdom,140.19,False
+544684,2011-02-22,DOT,Postage,UNKNOWN,United Kingdom,172.99,False
+544766,2011-02-23,DOT,Postage,UNKNOWN,United Kingdom,136.38,False
+544768,2011-02-23,DOT,Postage,UNKNOWN,United Kingdom,134.04,False
+544767,2011-02-23,DOT,Postage,UNKNOWN,United Kingdom,100.17,False
+544770,2011-02-23,DOT,Postage,UNKNOWN,United Kingdom,124.79,False
+544771,2011-02-23,DOT,Postage,UNKNOWN,United Kingdom,137.33,False
+544772,2011-02-23,DOT,Postage,UNKNOWN,United Kingdom,161.04,False
+544811,2011-02-23,POST,Postage,12471,Germany,54.0,False
+544812,2011-02-23,DOT,Postage,UNKNOWN,United Kingdom,170.54,False
+C544814,2011-02-23,M,Manual adjustment,15590,United Kingdom,-30.19,True
+544817,2011-02-23,POST,Postage,12437,France,36.0,False
+544819,2011-02-23,M,Manual adjustment,12748,United Kingdom,30.0,False
+544886,2011-02-24,POST,Postage,12582,Finland,40.0,False
+544928,2011-02-24,DOT,Postage,UNKNOWN,United Kingdom,189.91,False
+544933,2011-02-25,POST,Postage,12633,Germany,108.0,False
+544934,2011-02-25,C2,Postage,13345,United Kingdom,50.0,False
+544996,2011-02-25,POST,Postage,12474,Germany,36.0,False
+545017,2011-02-25,POST,Postage,12361,Belgium,15.0,False
+545024,2011-02-25,DOT,Postage,UNKNOWN,United Kingdom,79.67,False
+545025,2011-02-25,DOT,Postage,UNKNOWN,United Kingdom,137.96,False
+545034,2011-02-25,POST,Postage,13493,Switzerland,40.0,False
+545051,2011-02-27,POST,Postage,12599,France,18.0,False
+545078,2011-02-28,DOT,Postage,UNKNOWN,United Kingdom,147.49,False
+545084,2011-02-28,POST,Postage,12458,Switzerland,80.0,False
+545086,2011-02-28,POST,Postage,12678,France,18.0,False
+545105,2011-02-28,POST,Postage,12598,France,108.0,False
+545140,2011-02-28,POST,Postage,12464,Belgium,30.0,False
+545160,2011-02-28,M,Manual adjustment,UNKNOWN,United Kingdom,48.0,False
+545176,2011-02-28,M,Manual adjustment,UNKNOWN,United Kingdom,764.12,False
+545180,2011-02-28,POST,Postage,12728,France,18.0,False
+545181,2011-02-28,POST,Postage,12509,France,18.0,False
+545182,2011-02-28,M,Manual adjustment,14046,United Kingdom,3.4000000000000004,False
+545191,2011-02-28,POST,Postage,12811,Portugal,28.0,False
+545215,2011-02-28,DOT,Postage,UNKNOWN,United Kingdom,265.19,False
+545216,2011-02-28,DOT,Postage,UNKNOWN,United Kingdom,157.08,False
+545217,2011-02-28,DOT,Postage,UNKNOWN,United Kingdom,172.62,False
+545235,2011-03-01,POST,Postage,12683,France,36.0,False
+545301,2011-03-01,POST,Postage,12679,France,72.0,False
+545314,2011-03-01,POST,Postage,12866,Belgium,60.0,False
+545315,2011-03-01,DOT,Postage,UNKNOWN,United Kingdom,75.58,False
+545316,2011-03-01,DOT,Postage,UNKNOWN,United Kingdom,36.08,False
+545317,2011-03-01,DOT,Postage,UNKNOWN,United Kingdom,148.67,False
+545323,2011-03-01,POST,Postage,12352,Norway,40.0,False
+C545329,2011-03-01,M,Manual adjustment,12352,Norway,-280.05,True
+C545329,2011-03-01,M,Manual adjustment,12352,Norway,-183.75,True
+C545330,2011-03-01,M,Manual adjustment,12352,Norway,-376.5,True
+545332,2011-03-01,M,Manual adjustment,12352,Norway,376.5,False
+545332,2011-03-01,M,Manual adjustment,12352,Norway,280.05,False
+545332,2011-03-01,M,Manual adjustment,12352,Norway,183.75,False
+545333,2011-03-01,DOT,Postage,UNKNOWN,United Kingdom,155.31,False
+545336,2011-03-01,M,Manual adjustment,12428,Finland,551.2,False
+545464,2011-03-03,DOT,Postage,UNKNOWN,United Kingdom,201.64,False
+C545476,2011-03-03,D,Discount,14527,United Kingdom,-30.38,True
+C545478,2011-03-03,D,Discount,16422,United Kingdom,-7.2,True
+545515,2011-03-03,POST,Postage,12727,France,54.0,False
+545517,2011-03-03,POST,Postage,12727,France,18.0,False
+545533,2011-03-03,POST,Postage,12524,Germany,36.0,False
+545536,2011-03-03,POST,Postage,12417,Belgium,45.0,False
+545557,2011-03-03,POST,Postage,12500,Germany,18.0,False
+545568,2011-03-03,DOT,Postage,UNKNOWN,United Kingdom,226.19,False
+545570,2011-03-03,POST,Postage,12817,Austria,40.0,False
+545583,2011-03-04,POST,Postage,12553,France,36.0,False
+545585,2011-03-04,POST,Postage,12541,Spain,28.0,False
+545595,2011-03-04,M,Manual adjustment,14570,United Kingdom,0.85,False
+545634,2011-03-04,C2,Postage,14911,EIRE,50.0,False
+545647,2011-03-04,POST,Postage,12547,Spain,28.0,False
+545664,2011-03-04,POST,Postage,12584,Italy,84.0,False
+545667,2011-03-04,DOT,Postage,UNKNOWN,United Kingdom,176.48,False
+C545677,2011-03-06,M,Manual adjustment,14543,United Kingdom,-21.3,True
+C545677,2011-03-06,M,Manual adjustment,14543,United Kingdom,-12.75,True
+545706,2011-03-07,POST,Postage,12712,Germany,18.0,False
+545709,2011-03-07,POST,Postage,12708,Germany,18.0,False
+545714,2011-03-07,DOT,Postage,UNKNOWN,United Kingdom,130.58,False
+545715,2011-03-07,DOT,Postage,UNKNOWN,United Kingdom,180.92,False
+545717,2011-03-07,DOT,Postage,UNKNOWN,United Kingdom,147.13,False
+545716,2011-03-07,DOT,Postage,UNKNOWN,United Kingdom,192.29,False
+C545739,2011-03-07,M,Manual adjustment,12754,Japan,-45.57,True
+C545740,2011-03-07,POST,Postage,18257,United Kingdom,-8.65,True
+545854,2011-03-07,C2,Postage,14817,United Kingdom,50.0,False
+C545884,2011-03-07,M,Manual adjustment,UNKNOWN,United Kingdom,-537.83,True
+C545886,2011-03-07,M,Manual adjustment,UNKNOWN,United Kingdom,-222.59,True
+C545887,2011-03-07,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-326.68,True
+545889,2011-03-07,M,Manual adjustment,15291,United Kingdom,45.0,False
+C545891,2011-03-07,M,Manual adjustment,12754,Japan,-16.05,True
+C545892,2011-03-07,M,Manual adjustment,12755,Japan,-17.55,True
+545895,2011-03-07,GIFT_0001_10,Gift voucher,UNKNOWN,United Kingdom,8.33,False
+545895,2011-03-07,DOT,Postage,UNKNOWN,United Kingdom,249.02,False
+545897,2011-03-07,DOT,Postage,UNKNOWN,United Kingdom,218.64,False
+545901,2011-03-07,M,Manual adjustment,15834,United Kingdom,2.5,False
+545916,2011-03-08,POST,Postage,12528,Germany,36.0,False
+545933,2011-03-08,C2,Postage,13908,United Kingdom,50.0,False
+545988,2011-03-08,POST,Postage,12662,Germany,18.0,False
+545994,2011-03-08,POST,Postage,12623,Germany,36.0,False
+545995,2011-03-08,M,Manual adjustment,15023,United Kingdom,12.600000000000001,False
+546007,2011-03-08,DOT,Postage,UNKNOWN,United Kingdom,146.1,False
+546008,2011-03-08,DOT,Postage,UNKNOWN,United Kingdom,187.89,False
+546027,2011-03-09,POST,Postage,12759,Netherlands,30.0,False
+546035,2011-03-09,M,Manual adjustment,12924,United Kingdom,7.95,False
+C546106,2011-03-09,D,Discount,14527,United Kingdom,-9.87,True
+546117,2011-03-09,M,Manual adjustment,16771,United Kingdom,12.0,False
+546134,2011-03-09,POST,Postage,13493,Switzerland,80.0,False
+546136,2011-03-09,DOT,Postage,UNKNOWN,United Kingdom,199.33,False
+546172,2011-03-10,C2,Postage,14156,EIRE,50.0,False
+C546203,2011-03-10,POST,Postage,16839,United Kingdom,-4.5,True
+C546204,2011-03-10,POST,Postage,13599,United Kingdom,-1.72,True
+C546205,2011-03-10,POST,Postage,18223,United Kingdom,-2.84,True
+546303,2011-03-10,POST,Postage,UNKNOWN,United Kingdom,8.62,False
+546306,2011-03-10,DOT,Postage,UNKNOWN,United Kingdom,147.03,False
+C546325,2011-03-11,M,Manual adjustment,14911,EIRE,-1687.17,True
+C546327,2011-03-11,M,Manual adjustment,14911,EIRE,-1687.17,True
+546328,2011-03-11,M,Manual adjustment,14911,EIRE,1687.17,False
+546329,2011-03-11,M,Manual adjustment,14911,EIRE,1687.17,False
+C546363,2011-03-11,POST,Postage,16912,United Kingdom,-7.06,True
+546365,2011-03-11,POST,Postage,12520,Germany,90.0,False
+546373,2011-03-11,POST,Postage,12583,France,36.0,False
+546374,2011-03-11,M,Manual adjustment,17194,United Kingdom,10.0,False
+546406,2011-03-11,DOT,Postage,UNKNOWN,United Kingdom,201.37,False
+546418,2011-03-13,M,Manual adjustment,17315,United Kingdom,10.08,False
+546426,2011-03-13,M,Manual adjustment,13708,United Kingdom,2.0,False
+546428,2011-03-13,POST,Postage,12681,France,36.0,False
+546433,2011-03-14,POST,Postage,12778,Netherlands,15.0,False
+546434,2011-03-14,POST,Postage,12383,Belgium,72.0,False
+546479,2011-03-14,POST,Postage,12682,France,54.0,False
+546509,2011-03-14,C2,Postage,14911,EIRE,50.0,False
+546541,2011-03-14,C2,Postage,14911,EIRE,50.0,False
+546543,2011-03-14,M,Manual adjustment,17841,United Kingdom,0.85,False
+C546557,2011-03-15,M,Manual adjustment,UNKNOWN,Hong Kong,-2583.76,True
+546558,2011-03-15,M,Manual adjustment,UNKNOWN,Hong Kong,2583.76,False
+546650,2011-03-15,DOT,Postage,UNKNOWN,United Kingdom,111.79,False
+546651,2011-03-15,DOT,Postage,UNKNOWN,United Kingdom,112.67,False
+546649,2011-03-15,DOT,Postage,UNKNOWN,United Kingdom,133.13,False
+546652,2011-03-15,DOT,Postage,UNKNOWN,United Kingdom,167.58,False
+546653,2011-03-15,DOT,Postage,UNKNOWN,United Kingdom,155.46,False
+546654,2011-03-15,DOT,Postage,UNKNOWN,United Kingdom,125.96,False
+546655,2011-03-15,DOT,Postage,UNKNOWN,United Kingdom,122.58,False
+546656,2011-03-15,DOT,Postage,UNKNOWN,United Kingdom,172.54,False
+546678,2011-03-15,POST,Postage,12681,France,54.0,False
+546737,2011-03-16,C2,Postage,13358,United Kingdom,50.0,False
+546742,2011-03-16,M,Manual adjustment,12849,United Kingdom,5.04,False
+546742,2011-03-16,M,Manual adjustment,12849,United Kingdom,12.600000000000001,False
+546755,2011-03-16,POST,Postage,12502,Spain,140.0,False
+546759,2011-03-16,POST,Postage,12712,Germany,36.0,False
+546760,2011-03-16,POST,Postage,12597,Spain,84.0,False
+546765,2011-03-16,POST,Postage,12437,France,18.0,False
+546843,2011-03-17,POST,Postage,12472,Germany,36.0,False
+546851,2011-03-17,POST,Postage,12480,Germany,126.0,False
+C546859,2011-03-17,M,Manual adjustment,17603,United Kingdom,-555.9,True
+546861,2011-03-17,C2,Postage,14911,EIRE,50.0,False
+546866,2011-03-17,M,Manual adjustment,14462,United Kingdom,5.0,False
+C546870,2011-03-17,M,Manual adjustment,14462,United Kingdom,-5.0,True
+C546879,2011-03-17,M,Manual adjustment,16422,United Kingdom,-87.36,True
+546884,2011-03-17,DOT,Postage,UNKNOWN,United Kingdom,303.0,False
+546888,2011-03-17,DOT,Postage,UNKNOWN,United Kingdom,237.89,False
+546891,2011-03-17,DOT,Postage,UNKNOWN,United Kingdom,227.3,False
+546892,2011-03-17,DOT,Postage,UNKNOWN,United Kingdom,192.44,False
+546896,2011-03-17,DOT,Postage,UNKNOWN,United Kingdom,255.04,False
+C546905,2011-03-17,M,Manual adjustment,15061,United Kingdom,-21.6,True
+C546907,2011-03-17,M,Manual adjustment,16422,United Kingdom,-16.75,True
+546919,2011-03-18,POST,Postage,12500,Germany,18.0,False
+546920,2011-03-18,POST,Postage,12471,Germany,144.0,False
+546925,2011-03-18,POST,Postage,12647,Germany,54.0,False
+546933,2011-03-18,M,Manual adjustment,UNKNOWN,United Kingdom,498.79,False
+C546943,2011-03-18,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-56.93,True
+C546948,2011-03-18,S,Samples,UNKNOWN,United Kingdom,-50.99,True
+C546948,2011-03-18,S,Samples,UNKNOWN,United Kingdom,-65.85,True
+546950,2011-03-18,M,Manual adjustment,16511,United Kingdom,2.0,False
+546973,2011-03-18,DOT,Postage,UNKNOWN,United Kingdom,122.5,False
+546976,2011-03-18,DOT,Postage,UNKNOWN,United Kingdom,184.96,False
+546974,2011-03-18,DOT,Postage,UNKNOWN,United Kingdom,131.46,False
+C546975,2011-03-18,M,Manual adjustment,UNKNOWN,United Kingdom,-19.05,True
+546977,2011-03-18,DOT,Postage,UNKNOWN,United Kingdom,218.08,False
+C546987,2011-03-18,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-5693.05,True
+C546989,2011-03-18,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-5225.03,True
+547005,2011-03-18,POST,Postage,12474,Germany,72.0,False
+547042,2011-03-20,DOT,Postage,UNKNOWN,United Kingdom,279.84,False
+547048,2011-03-20,C2,Postage,14911,EIRE,50.0,False
+C547054,2011-03-20,M,Manual adjustment,16444,United Kingdom,-6.95,True
+547061,2011-03-20,POST,Postage,12407,Belgium,15.0,False
+547071,2011-03-20,POST,Postage,12693,Germany,36.0,False
+547085,2011-03-20,POST,Postage,12600,Germany,18.0,False
+547086,2011-03-20,POST,Postage,12428,Finland,120.0,False
+547087,2011-03-20,POST,Postage,12726,France,18.0,False
+547109,2011-03-21,POST,Postage,12423,Belgium,30.0,False
+547248,2011-03-22,DOT,Postage,UNKNOWN,United Kingdom,197.33,False
+547249,2011-03-22,DOT,Postage,UNKNOWN,United Kingdom,192.43,False
+547250,2011-03-22,DOT,Postage,UNKNOWN,United Kingdom,253.24,False
+547327,2011-03-22,POST,Postage,12681,France,54.0,False
+547365,2011-03-22,POST,Postage,12775,Netherlands,15.0,False
+547379,2011-03-22,POST,Postage,12720,Germany,108.0,False
+547383,2011-03-22,POST,Postage,12613,Germany,54.0,False
+547384,2011-03-22,POST,Postage,12613,Germany,18.0,False
+547385,2011-03-22,DOT,Postage,UNKNOWN,United Kingdom,110.6,False
+547386,2011-03-22,DOT,Postage,UNKNOWN,United Kingdom,131.22,False
+547390,2011-03-22,POST,Postage,12352,Norway,40.0,False
+547398,2011-03-22,DOT,Postage,UNKNOWN,United Kingdom,141.42,False
+547397,2011-03-22,DOT,Postage,UNKNOWN,United Kingdom,146.29,False
+547399,2011-03-22,DOT,Postage,UNKNOWN,United Kingdom,155.25,False
+547400,2011-03-22,DOT,Postage,UNKNOWN,United Kingdom,116.67,False
+547412,2011-03-23,POST,Postage,12399,Belgium,15.0,False
+547444,2011-03-23,POST,Postage,12811,Portugal,1.0,False
+547493,2011-03-23,POST,Postage,12818,Austria,360.0,False
+547492,2011-03-23,POST,Postage,12604,France,18.0,False
+547504,2011-03-23,POST,Postage,12683,France,144.0,False
+547517,2011-03-23,POST,Postage,12395,Belgium,45.0,False
+547520,2011-03-23,POST,Postage,12564,France,54.0,False
+547547,2011-03-23,DOT,Postage,UNKNOWN,United Kingdom,115.42,False
+547552,2011-03-23,DOT,Postage,UNKNOWN,United Kingdom,169.29,False
+547551,2011-03-23,DOT,Postage,UNKNOWN,United Kingdom,128.25,False
+547566,2011-03-24,POST,Postage,12811,Portugal,27.0,False
+547571,2011-03-24,C2,Postage,16265,United Kingdom,50.0,False
+547645,2011-03-24,POST,Postage,12676,Sweden,40.0,False
+547684,2011-03-24,POST,Postage,12408,Belgium,75.0,False
+547702,2011-03-24,C2,Postage,14911,EIRE,50.0,False
+547703,2011-03-24,POST,Postage,12540,Spain,224.0,False
+547715,2011-03-25,POST,Postage,12520,Germany,36.0,False
+547722,2011-03-25,POST,Postage,12553,France,54.0,False
+547788,2011-03-25,DOT,Postage,UNKNOWN,United Kingdom,175.28,False
+547790,2011-03-25,POST,Postage,12545,Spain,84.0,False
+547796,2011-03-25,POST,Postage,14646,Netherlands,135.0,False
+547810,2011-03-25,M,Manual adjustment,UNKNOWN,United Kingdom,0.85,False
+547815,2011-03-25,POST,Postage,13520,Switzerland,40.0,False
+547821,2011-03-25,POST,Postage,12621,Germany,72.0,False
+547822,2011-03-25,POST,Postage,12668,Germany,288.0,False
+547825,2011-03-25,POST,Postage,12778,Netherlands,15.0,False
+547830,2011-03-25,DOT,Postage,UNKNOWN,United Kingdom,220.71,False
+547863,2011-03-27,POST,Postage,12728,France,36.0,False
+547873,2011-03-27,M,Manual adjustment,13240,United Kingdom,14.95,False
+547882,2011-03-28,C2,Postage,14911,EIRE,50.0,False
+547888,2011-03-28,C2,Postage,13368,United Kingdom,50.0,False
+547892,2011-03-28,POST,Postage,12669,France,108.0,False
+547897,2011-03-28,POST,Postage,12792,Portugal,56.0,False
+C547899,2011-03-28,POST,Postage,UNKNOWN,United Kingdom,-55.89,True
+C547899,2011-03-28,M,Manual adjustment,UNKNOWN,United Kingdom,-1486.12,True
+547901,2011-03-28,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,219.76,False
+C547904,2011-03-28,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-219.76,True
+C547905,2011-03-28,POST,Postage,UNKNOWN,United Kingdom,-18.66,True
+C547905,2011-03-28,M,Manual adjustment,UNKNOWN,United Kingdom,-416.75,True
+547906,2011-03-28,M,Manual adjustment,14410,United Kingdom,1.0,False
+C547908,2011-03-28,M,Manual adjustment,UNKNOWN,United Kingdom,-646.46,True
+C547908,2011-03-28,POST,Postage,UNKNOWN,United Kingdom,-38.45,True
+C547913,2011-03-28,POST,Postage,UNKNOWN,United Kingdom,-13.39,True
+C547913,2011-03-28,M,Manual adjustment,UNKNOWN,United Kingdom,-325.0,True
+547914,2011-03-28,POST,Postage,12594,Italy,18.0,False
+C547915,2011-03-28,POST,Postage,UNKNOWN,United Kingdom,-29.7,True
+C547915,2011-03-28,M,Manual adjustment,UNKNOWN,United Kingdom,-165.29,True
+547925,2011-03-28,POST,Postage,12481,Germany,72.0,False
+C547930,2011-03-28,POST,Postage,12594,Italy,-18.0,True
+547931,2011-03-28,POST,Postage,12594,Italy,28.0,False
+547934,2011-03-28,POST,Postage,12474,Germany,18.0,False
+547941,2011-03-28,POST,Postage,16692,United Kingdom,150.0,False
+547964,2011-03-28,DOT,Postage,UNKNOWN,United Kingdom,184.6,False
+547966,2011-03-28,DOT,Postage,UNKNOWN,United Kingdom,0.0,False
+547967,2011-03-28,DOT,Postage,UNKNOWN,United Kingdom,229.79,False
+547993,2011-03-29,C2,Postage,UNKNOWN,EIRE,50.0,False
+548163,2011-03-29,DOT,Postage,UNKNOWN,United Kingdom,231.79,False
+548165,2011-03-29,DOT,Postage,UNKNOWN,United Kingdom,142.83,False
+548164,2011-03-29,DOT,Postage,UNKNOWN,United Kingdom,173.42,False
+548166,2011-03-29,DOT,Postage,UNKNOWN,United Kingdom,180.17,False
+548167,2011-03-29,DOT,Postage,UNKNOWN,United Kingdom,181.88,False
+548168,2011-03-29,DOT,Postage,UNKNOWN,United Kingdom,144.75,False
+548191,2011-03-29,DOT,Postage,UNKNOWN,United Kingdom,23.53,False
+548194,2011-03-29,DOT,Postage,UNKNOWN,United Kingdom,226.92,False
+548203,2011-03-29,M,Manual adjustment,UNKNOWN,United Kingdom,238.12,False
+548212,2011-03-30,POST,Postage,12456,Switzerland,160.0,False
+548219,2011-03-30,POST,Postage,UNKNOWN,United Kingdom,3.95,False
+548320,2011-03-30,POST,Postage,12709,Germany,36.0,False
+548327,2011-03-30,M,Manual adjustment,16788,United Kingdom,1.65,False
+C548350,2011-03-30,POST,Postage,15648,United Kingdom,-2.7,True
+548363,2011-03-30,POST,Postage,12428,Finland,400.0,False
+548373,2011-03-30,DOT,Postage,UNKNOWN,United Kingdom,299.76,False
+C548411,2011-03-31,D,Discount,13316,United Kingdom,-162.24,True
+548412,2011-03-31,POST,Postage,12601,Germany,18.0,False
+548449,2011-03-31,C2,Postage,14911,EIRE,50.0,False
+C548454,2011-03-31,M,Manual adjustment,16422,United Kingdom,-5.7,True
+C548454,2011-03-31,M,Manual adjustment,16422,United Kingdom,-7.88,True
+C548454,2011-03-31,M,Manual adjustment,16422,United Kingdom,-0.22,True
+C548454,2011-03-31,M,Manual adjustment,16422,United Kingdom,-57.6,True
+C548456,2011-03-31,M,Manual adjustment,16422,United Kingdom,-57.6,True
+548461,2011-03-31,M,Manual adjustment,14527,United Kingdom,1.0,False
+C548462,2011-03-31,D,Discount,14527,United Kingdom,-14.52,True
+C548469,2011-03-31,M,Manual adjustment,14543,United Kingdom,-12.75,True
+C548469,2011-03-31,M,Manual adjustment,14543,United Kingdom,-21.9,True
+548470,2011-03-31,POST,Postage,12782,Portugal,56.0,False
+548504,2011-03-31,DOT,Postage,UNKNOWN,United Kingdom,274.75,False
+548505,2011-03-31,DOT,Postage,UNKNOWN,United Kingdom,236.88,False
+548514,2011-03-31,DOT,Postage,UNKNOWN,United Kingdom,282.88,False
+548515,2011-03-31,M,Manual adjustment,UNKNOWN,United Kingdom,1.9500000000000002,False
+548516,2011-03-31,DOT,Postage,UNKNOWN,United Kingdom,197.3,False
+548522,2011-03-31,DOT,Postage,UNKNOWN,United Kingdom,290.59,False
+C548543,2011-03-31,M,Manual adjustment,14525,United Kingdom,-45.0,True
+548568,2011-04-01,M,Manual adjustment,14543,United Kingdom,12.75,False
+548568,2011-04-01,M,Manual adjustment,14543,United Kingdom,21.9,False
+548621,2011-04-01,M,Manual adjustment,16960,United Kingdom,1.9500000000000002,False
+548631,2011-04-01,M,Manual adjustment,13184,United Kingdom,1.0,False
+548654,2011-04-01,POST,Postage,12569,Germany,126.0,False
+548661,2011-04-01,POST,Postage,12415,Australia,350.0,False
+548663,2011-04-01,DOT,Postage,UNKNOWN,United Kingdom,244.46,False
+548725,2011-04-04,POST,Postage,12678,France,134.0,False
+548737,2011-04-04,POST,Postage,12682,France,72.0,False
+548745,2011-04-04,POST,Postage,12471,Germany,54.0,False
+548813,2011-04-04,M,Manual adjustment,12744,Singapore,162.6,False
+548813,2011-04-04,M,Manual adjustment,12744,Singapore,2382.92,False
+548813,2011-04-04,M,Manual adjustment,12744,Singapore,239.3,False
+548813,2011-04-04,M,Manual adjustment,12744,Singapore,1252.95,False
+548820,2011-04-04,M,Manual adjustment,12744,Singapore,2053.07,False
+C548830,2011-04-04,M,Manual adjustment,12744,Singapore,-162.6,True
+C548830,2011-04-04,M,Manual adjustment,12744,Singapore,-2382.92,True
+C548830,2011-04-04,M,Manual adjustment,12744,Singapore,-239.3,True
+C548830,2011-04-04,M,Manual adjustment,12744,Singapore,-1252.95,True
+C548834,2011-04-04,M,Manual adjustment,12744,Singapore,-2053.07,True
+548858,2011-04-04,C2,Postage,14911,EIRE,50.0,False
+548860,2011-04-04,M,Manual adjustment,13263,United Kingdom,2.0,False
+548893,2011-04-04,GIFT_0001_40,Gift voucher,UNKNOWN,United Kingdom,33.33,False
+548893,2011-04-04,DOT,Postage,UNKNOWN,United Kingdom,336.52,False
+548894,2011-04-04,DOT,Postage,UNKNOWN,United Kingdom,278.92,False
+548913,2011-04-05,M,Manual adjustment,12669,France,1136.3,False
+C548914,2011-04-05,M,Manual adjustment,12669,France,-1136.3,True
+548955,2011-04-05,POST,Postage,12348,Finland,40.0,False
+549023,2011-04-05,DOT,Postage,UNKNOWN,United Kingdom,185.28,False
+549155,2011-04-06,DOT,Postage,UNKNOWN,United Kingdom,187.21,False
+C549184,2011-04-07,POST,Postage,12428,Finland,-40.0,True
+549193,2011-04-07,POST,Postage,12580,Germany,36.0,False
+549242,2011-04-07,C2,Postage,14911,EIRE,50.0,False
+549245,2011-04-07,M,Manual adjustment,15005,United Kingdom,1.7,False
+549249,2011-04-07,POST,Postage,12423,Belgium,30.0,False
+549274,2011-04-07,POST,Postage,12721,France,54.0,False
+549295,2011-04-07,DOT,Postage,UNKNOWN,United Kingdom,252.57,False
+549325,2011-04-08,POST,Postage,12717,Greece,100.0,False
+549434,2011-04-08,POST,Postage,12647,Germany,72.0,False
+C549452,2011-04-08,D,Discount,17940,United Kingdom,-1867.86,True
+549468,2011-04-08,M,Manual adjustment,17940,United Kingdom,1867.86,False
+549524,2011-04-08,DOT,Postage,UNKNOWN,United Kingdom,183.2,False
+549525,2011-04-08,DOT,Postage,UNKNOWN,United Kingdom,134.66,False
+C549532,2011-04-08,POST,Postage,16217,United Kingdom,-7.06,True
+549559,2011-04-10,POST,Postage,12447,Belgium,45.0,False
+549588,2011-04-11,POST,Postage,12428,Finland,120.0,False
+549680,2011-04-11,POST,Postage,12701,Germany,36.0,False
+549682,2011-04-11,POST,Postage,12596,Spain,56.0,False
+549684,2011-04-11,S,Samples,UNKNOWN,United Kingdom,30.0,False
+549689,2011-04-11,POST,Postage,15971,United Kingdom,4.95,False
+549717,2011-04-11,BANK CHARGES,Bank charges,14606,United Kingdom,15.0,False
+549721,2011-04-11,C2,Postage,14911,EIRE,50.0,False
+549730,2011-04-11,M,Manual adjustment,15867,United Kingdom,1.5,False
+549739,2011-04-12,M,Manual adjustment,15935,United Kingdom,308.82,False
+549825,2011-04-12,POST,Postage,12463,Belgium,36.0,False
+C549827,2011-04-12,POST,Postage,12463,Belgium,-6.0,True
+549914,2011-04-13,C2,Postage,14931,Channel Islands,50.0,False
+C549930,2011-04-13,M,Manual adjustment,16454,United Kingdom,-15.05,True
+C549931,2011-04-13,M,Manual adjustment,UNKNOWN,United Kingdom,-97.35,True
+C549945,2011-04-13,POST,Postage,18270,United Kingdom,-5.95,True
+549981,2011-04-13,M,Manual adjustment,16348,United Kingdom,2.34,False
+549989,2011-04-13,M,Manual adjustment,13221,United Kingdom,2.55,False
+550002,2011-04-14,POST,Postage,12709,Germany,18.0,False
+550004,2011-04-14,POST,Postage,12569,Germany,72.0,False
+C550009,2011-04-14,M,Manual adjustment,16422,United Kingdom,-57.6,True
+550145,2011-04-14,POST,Postage,12637,France,54.0,False
+C550147,2011-04-14,POST,Postage,12637,France,-54.0,True
+550162,2011-04-14,POST,Postage,12569,Germany,36.0,False
+550178,2011-04-14,POST,Postage,12662,Germany,36.0,False
+550187,2011-04-14,POST,Postage,13811,Germany,36.0,False
+550188,2011-04-14,POST,Postage,12457,Switzerland,120.0,False
+550192,2011-04-15,POST,Postage,12582,Finland,120.0,False
+550193,2011-04-15,PADS,Other,13952,United Kingdom,0.001,False
+550203,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,77.96,False
+550204,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,74.75,False
+550205,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,137.08,False
+550206,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,155.33,False
+550207,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,145.46,False
+550208,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,210.42,False
+550209,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,164.33,False
+550210,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,202.42,False
+550212,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,106.04,False
+550211,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,110.92,False
+550213,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,105.21,False
+550214,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,175.13,False
+550215,2011-04-15,DOT,Postage,UNKNOWN,United Kingdom,213.08,False
+550277,2011-04-15,POST,Postage,12639,Sweden,120.0,False
+550281,2011-04-15,POST,Postage,12457,Switzerland,40.0,False
+550284,2011-04-15,POST,Postage,12383,Belgium,15.0,False
+550302,2011-04-17,C2,Postage,14156,EIRE,50.0,False
+550313,2011-04-17,POST,Postage,12681,France,36.0,False
+550354,2011-04-18,M,Manual adjustment,13811,Germany,222.75,False
+C550355,2011-04-18,M,Manual adjustment,13811,Germany,-222.75,True
+C550365,2011-04-18,POST,Postage,12731,France,-11.0,True
+550440,2011-04-18,POST,Postage,12407,Belgium,30.0,False
+550458,2011-04-18,DOT,Postage,UNKNOWN,United Kingdom,156.45,False
+550469,2011-04-18,M,Manual adjustment,16399,United Kingdom,1.8,False
+550470,2011-04-18,DOT,Postage,UNKNOWN,United Kingdom,2.29,False
+550471,2011-04-18,DOT,Postage,UNKNOWN,United Kingdom,28.66,False
+550474,2011-04-18,GIFT_0001_20,Gift voucher,UNKNOWN,United Kingdom,33.34,False
+550474,2011-04-18,DOT,Postage,UNKNOWN,United Kingdom,46.86,False
+550488,2011-04-18,M,Manual adjustment,16729,United Kingdom,3.32,False
+550496,2011-04-18,DOT,Postage,UNKNOWN,United Kingdom,84.21,False
+550499,2011-04-18,DOT,Postage,UNKNOWN,United Kingdom,148.67,False
+550500,2011-04-18,DOT,Postage,UNKNOWN,United Kingdom,222.02,False
+550513,2011-04-18,M,Manual adjustment,16928,United Kingdom,7.95,False
+550527,2011-04-19,POST,Postage,12476,Germany,198.0,False
+C550529,2011-04-19,M,Manual adjustment,18102,United Kingdom,-158.21,True
+C550540,2011-04-19,POST,Postage,14339,United Kingdom,-3.82,True
+550541,2011-04-19,DOT,Postage,UNKNOWN,United Kingdom,187.1,False
+550542,2011-04-19,GIFT_0001_10,Gift voucher,UNKNOWN,United Kingdom,8.33,False
+550542,2011-04-19,GIFT_0001_20,Gift voucher,UNKNOWN,United Kingdom,16.67,False
+550542,2011-04-19,DOT,Postage,UNKNOWN,United Kingdom,176.52,False
+550617,2011-04-19,C2,Postage,13376,United Kingdom,50.0,False
+550618,2011-04-19,C2,Postage,14156,EIRE,50.0,False
+550620,2011-04-19,POST,Postage,12585,Germany,108.0,False
+550625,2011-04-19,POST,Postage,12619,Germany,36.0,False
+550633,2011-04-19,M,Manual adjustment,17449,United Kingdom,3.0,False
+550636,2011-04-19,DOT,Postage,UNKNOWN,United Kingdom,149.67,False
+550638,2011-04-19,DOT,Postage,UNKNOWN,United Kingdom,192.67,False
+550661,2011-04-20,POST,Postage,12656,France,72.0,False
+550665,2011-04-20,POST,Postage,12530,Germany,36.0,False
+C550787,2011-04-20,POST,Postage,17450,United Kingdom,-21.78,True
+C550787,2011-04-20,POST,Postage,17450,United Kingdom,-3.96,True
+550827,2011-04-21,POST,Postage,12670,France,54.0,False
+550899,2011-04-21,POST,Postage,13505,Switzerland,160.0,False
+550924,2011-04-21,POST,Postage,12664,Finland,40.0,False
+C550932,2011-04-21,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-475.69,True
+C550933,2011-04-21,M,Manual adjustment,UNKNOWN,United Kingdom,-678.03,True
+C550935,2011-04-21,M,Manual adjustment,UNKNOWN,United Kingdom,-194.97,True
+550946,2011-04-21,POST,Postage,12708,Germany,18.0,False
+550953,2011-04-21,DOT,Postage,UNKNOWN,United Kingdom,283.0,False
+550957,2011-04-21,M,Manual adjustment,18283,United Kingdom,1.95,False
+550960,2011-04-21,POST,Postage,12622,Germany,18.0,False
+550986,2011-04-21,DOT,Postage,UNKNOWN,United Kingdom,221.16,False
+550987,2011-04-21,DOT,Postage,UNKNOWN,United Kingdom,163.83,False
+550998,2011-04-26,POST,Postage,12414,Austria,40.0,False
+551004,2011-04-26,DOT,Postage,UNKNOWN,United Kingdom,176.71,False
+551006,2011-04-26,DOT,Postage,UNKNOWN,United Kingdom,138.08,False
+551005,2011-04-26,DOT,Postage,UNKNOWN,United Kingdom,172.63,False
+551007,2011-04-26,DOT,Postage,UNKNOWN,United Kingdom,125.88,False
+551008,2011-04-26,DOT,Postage,UNKNOWN,United Kingdom,122.5,False
+551009,2011-04-26,DOT,Postage,UNKNOWN,United Kingdom,264.0,False
+551010,2011-04-26,DOT,Postage,UNKNOWN,United Kingdom,119.13,False
+551013,2011-04-26,POST,Postage,15108,European Community,36.0,False
+551016,2011-04-26,M,Manual adjustment,17975,United Kingdom,3.3,False
+551054,2011-04-26,POST,Postage,12429,Austria,56.0,False
+551173,2011-04-26,DOT,Postage,UNKNOWN,United Kingdom,133.64,False
+551174,2011-04-26,DOT,Postage,UNKNOWN,United Kingdom,111.73,False
+C551179,2011-04-26,M,Manual adjustment,16422,United Kingdom,-3.5999999999999996,True
+551187,2011-04-27,C2,Postage,14911,EIRE,50.0,False
+C551190,2011-04-27,D,Discount,17940,United Kingdom,-120.0,True
+551258,2011-04-27,POST,Postage,12621,Germany,144.0,False
+C551265,2011-04-27,D,Discount,14527,United Kingdom,-11.76,True
+551268,2011-04-27,M,Manual adjustment,16965,United Kingdom,9.120000000000001,False
+551270,2011-04-27,M,Manual adjustment,15891,United Kingdom,2.55,False
+551277,2011-04-27,M,Manual adjustment,13637,United Kingdom,1.25,False
+551278,2011-04-27,POST,Postage,12483,Sweden,40.0,False
+551339,2011-04-27,DOT,Postage,UNKNOWN,United Kingdom,102.5,False
+551340,2011-04-27,DOT,Postage,UNKNOWN,United Kingdom,181.34,False
+551345,2011-04-28,POST,Postage,14646,Netherlands,90.0,False
+551346,2011-04-28,POST,Postage,12362,Belgium,45.0,False
+C551386,2011-04-28,M,Manual adjustment,16422,United Kingdom,-1.01,True
+551389,2011-04-28,POST,Postage,12437,France,18.0,False
+551398,2011-04-28,POST,Postage,12417,Spain,84.0,False
+551419,2011-04-28,M,Manual adjustment,12748,United Kingdom,400.0,False
+551467,2011-04-28,POST,Postage,12600,Germany,18.0,False
+551468,2011-04-28,DOT,Postage,UNKNOWN,United Kingdom,143.18,False
+C551526,2011-05-01,M,Manual adjustment,16401,United Kingdom,-1.95,True
+551529,2011-05-01,POST,Postage,12524,Germany,144.0,False
+551544,2011-05-03,POST,Postage,12683,France,72.0,False
+C551551,2011-05-03,M,Manual adjustment,17841,United Kingdom,-0.29,True
+551552,2011-05-03,POST,Postage,12598,France,36.0,False
+551649,2011-05-03,POST,Postage,12643,France,40.0,False
+551652,2011-05-03,POST,Postage,12643,France,2.0,False
+C551685,2011-05-03,POST,Postage,16029,United Kingdom,-8142.75,True
+551697,2011-05-03,POST,Postage,16029,United Kingdom,8142.75,False
+C551699,2011-05-03,M,Manual adjustment,16029,United Kingdom,-6930.0,True
+551714,2011-05-03,M,Manual adjustment,16806,United Kingdom,25.95,False
+551718,2011-05-03,DOT,Postage,UNKNOWN,United Kingdom,160.37,False
+551719,2011-05-03,DOT,Postage,UNKNOWN,United Kingdom,178.12,False
+551818,2011-05-04,POST,Postage,12569,Germany,72.0,False
+551820,2011-05-04,POST,Postage,12645,Germany,36.0,False
+551868,2011-05-04,POST,Postage,12540,Spain,224.0,False
+551886,2011-05-05,POST,Postage,12569,Germany,18.0,False
+551887,2011-05-05,POST,Postage,12593,France,36.0,False
+551945,2011-05-05,BANK CHARGES,Bank charges,16714,United Kingdom,15.0,False
+551950,2011-05-05,C2,Postage,14911,EIRE,50.0,False
+551982,2011-05-05,M,Manual adjustment,15023,United Kingdom,6.300000000000001,False
+551985,2011-05-05,POST,Postage,12395,Belgium,15.0,False
+551995,2011-05-05,DOT,Postage,UNKNOWN,United Kingdom,55.64,False
+551997,2011-05-05,DOT,Postage,UNKNOWN,United Kingdom,43.57,False
+552000,2011-05-05,DOT,Postage,UNKNOWN,United Kingdom,49.62,False
+552008,2011-05-05,POST,Postage,12476,Germany,72.0,False
+552040,2011-05-06,POST,Postage,12502,Spain,112.0,False
+552188,2011-05-06,POST,Postage,12394,Belgium,30.0,False
+552202,2011-05-06,POST,Postage,12414,Austria,40.0,False
+C552203,2011-05-06,M,Manual adjustment,UNKNOWN,United Kingdom,-189.44,True
+552229,2011-05-06,DOT,Postage,UNKNOWN,United Kingdom,21.74,False
+552230,2011-05-06,DOT,Postage,UNKNOWN,United Kingdom,0.0,False
+552232,2011-05-06,GIFT_0001_50,Gift voucher,UNKNOWN,United Kingdom,41.67,False
+552232,2011-05-06,DOT,Postage,UNKNOWN,United Kingdom,36.71,False
+552234,2011-05-06,DOT,Postage,UNKNOWN,United Kingdom,174.24,False
+552259,2011-05-08,M,Manual adjustment,15796,United Kingdom,1.0,False
+552315,2011-05-08,POST,Postage,12700,France,108.0,False
+C552317,2011-05-08,POST,Postage,12700,France,-36.0,True
+552325,2011-05-09,POST,Postage,12490,France,36.0,False
+552337,2011-05-09,POST,Postage,12621,Germany,54.0,False
+C552343,2011-05-09,M,Manual adjustment,15521,United Kingdom,-125.0,True
+C552423,2011-05-09,D,Discount,14527,United Kingdom,-11.84,True
+C552455,2011-05-09,M,Manual adjustment,UNKNOWN,United Kingdom,-587.08,True
+C552458,2011-05-09,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-440.29,True
+C552459,2011-05-09,M,Manual adjustment,UNKNOWN,United Kingdom,-598.59,True
+552464,2011-05-09,POST,Postage,12726,France,18.0,False
+552493,2011-05-09,DOT,Postage,UNKNOWN,United Kingdom,226.61,False
+552508,2011-05-09,DOT,Postage,UNKNOWN,United Kingdom,198.6,False
+552514,2011-05-09,DOT,Postage,UNKNOWN,United Kingdom,205.45,False
+552520,2011-05-09,DOT,Postage,UNKNOWN,United Kingdom,189.84,False
+552543,2011-05-10,POST,Postage,12399,Belgium,30.0,False
+552549,2011-05-10,M,Manual adjustment,15674,United Kingdom,334.71,False
+C552553,2011-05-10,M,Manual adjustment,15674,United Kingdom,-334.71,True
+C552569,2011-05-10,D,Discount,12901,United Kingdom,-7.199999999999999,True
+552631,2011-05-10,POST,Postage,12684,France,36.0,False
+552649,2011-05-10,POST,Postage,12592,Germany,18.0,False
+C552650,2011-05-10,D,Discount,16672,United Kingdom,-26.099999999999998,True
+552656,2011-05-10,POST,Postage,12712,Germany,54.0,False
+552660,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,184.92,False
+552662,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,161.88,False
+552663,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,133.17,False
+552665,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,101.92,False
+552667,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,118.38,False
+552666,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,109.25,False
+552668,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,168.63,False
+552670,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,181.83,False
+552671,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,146.29,False
+552672,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,135.67,False
+552673,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,95.38,False
+552675,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,166.88,False
+552677,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,202.96,False
+552676,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,202.29,False
+552674,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,132.29,False
+552681,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,166.08,False
+552678,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,201.5,False
+552687,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,246.5,False
+552683,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,131.42,False
+552684,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,161.96,False
+552702,2011-05-10,DOT,Postage,UNKNOWN,United Kingdom,120.92,False
+552731,2011-05-11,POST,Postage,12372,Denmark,36.0,False
+C552744,2011-05-11,POST,Postage,16297,United Kingdom,-3.15,True
+552845,2011-05-11,POST,Postage,14646,Netherlands,90.0,False
+552844,2011-05-11,POST,Postage,12649,Germany,36.0,False
+552846,2011-05-11,POST,Postage,14646,Netherlands,18.0,False
+552857,2011-05-11,DOT,Postage,UNKNOWN,United Kingdom,175.69,False
+C552863,2011-05-11,M,Manual adjustment,13012,United Kingdom,-5.1,True
+552871,2011-05-12,POST,Postage,12693,Germany,36.0,False
+552874,2011-05-12,POST,Postage,12621,Germany,126.0,False
+C552876,2011-05-12,M,Manual adjustment,13235,United Kingdom,-929.9,True
+552878,2011-05-12,POST,Postage,12625,Germany,144.0,False
+552884,2011-05-12,POST,Postage,12395,Belgium,15.0,False
+552946,2011-05-12,POST,Postage,12683,France,18.0,False
+552980,2011-05-12,POST,Postage,12590,Germany,523.0,False
+C552995,2011-05-12,M,Manual adjustment,18133,United Kingdom,-216.0,True
+553002,2011-05-12,M,Manual adjustment,13263,United Kingdom,3.9,False
+553013,2011-05-12,DOT,Postage,UNKNOWN,United Kingdom,189.68,False
+553018,2011-05-12,M,Manual adjustment,12757,Portugal,557.72,False
+C553019,2011-05-12,M,Manual adjustment,12757,Portugal,-557.72,True
+C553033,2011-05-12,POST,Postage,13883,United Kingdom,-3.5,True
+553035,2011-05-12,M,Manual adjustment,17337,United Kingdom,1.45,False
+553037,2011-05-13,POST,Postage,12471,Germany,72.0,False
+553044,2011-05-13,POST,Postage,12682,France,36.0,False
+553161,2011-05-13,POST,Postage,12681,France,18.0,False
+553162,2011-05-13,DOT,Postage,UNKNOWN,United Kingdom,152.19,False
+553189,2011-05-15,M,Manual adjustment,15033,United Kingdom,3.3,False
+553195,2011-05-15,POST,Postage,12599,France,18.0,False
+553203,2011-05-15,C2,Postage,14911,EIRE,50.0,False
+553208,2011-05-16,POST,Postage,12674,France,36.0,False
+553316,2011-05-16,POST,Postage,12682,France,18.0,False
+C553354,2011-05-16,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-5876.4,True
+C553355,2011-05-16,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-7006.83,True
+553357,2011-05-16,M,Manual adjustment,12684,France,30.0,False
+C553370,2011-05-16,POST,Postage,UNKNOWN,United Kingdom,-19.29,True
+C553370,2011-05-16,M,Manual adjustment,UNKNOWN,United Kingdom,-260.7,True
+C553372,2011-05-16,POST,Postage,UNKNOWN,United Kingdom,-35.65,True
+C553372,2011-05-16,M,Manual adjustment,UNKNOWN,United Kingdom,-293.08,True
+C553373,2011-05-16,POST,Postage,UNKNOWN,United Kingdom,-16.85,True
+C553373,2011-05-16,M,Manual adjustment,UNKNOWN,United Kingdom,-233.37,True
+C553376,2011-05-16,POST,Postage,UNKNOWN,United Kingdom,-18.75,True
+C553376,2011-05-16,M,Manual adjustment,UNKNOWN,United Kingdom,-273.79,True
+C553378,2011-05-16,POST,Postage,UNKNOWN,United Kingdom,-27.42,True
+C553378,2011-05-16,M,Manual adjustment,UNKNOWN,United Kingdom,-269.7,True
+553387,2011-05-16,GIFT_0001_10,Gift voucher,UNKNOWN,United Kingdom,8.33,False
+553387,2011-05-16,DOT,Postage,UNKNOWN,United Kingdom,182.67,False
+553389,2011-05-16,GIFT_0001_10,Gift voucher,UNKNOWN,United Kingdom,8.33,False
+553389,2011-05-16,DOT,Postage,UNKNOWN,United Kingdom,113.99,False
+553393,2011-05-16,DOT,Postage,UNKNOWN,United Kingdom,66.38,False
+C553407,2011-05-17,POST,Postage,15768,United Kingdom,-40.0,True
+553411,2011-05-17,POST,Postage,12714,France,54.0,False
+C553414,2011-05-17,POST,Postage,12600,Germany,-18.0,True
+553415,2011-05-17,POST,Postage,12463,Belgium,36.0,False
+C553482,2011-05-17,D,Discount,14527,United Kingdom,-9.84,True
+C553510,2011-05-17,POST,Postage,14342,United Kingdom,-1.0,True
+C553511,2011-05-17,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-86.9,True
+C553513,2011-05-17,S,Samples,UNKNOWN,United Kingdom,-9.99,True
+C553513,2011-05-17,S,Samples,UNKNOWN,United Kingdom,-103.58,True
+553521,2011-05-17,M,Manual adjustment,UNKNOWN,United Kingdom,452.45,False
+C553528,2011-05-17,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-82.73,True
+C553531,2011-05-17,S,Samples,UNKNOWN,United Kingdom,-2.98,True
+C553531,2011-05-17,S,Samples,UNKNOWN,United Kingdom,-5.0,True
+C553531,2011-05-17,S,Samples,UNKNOWN,United Kingdom,-16.0,True
+C553531,2011-05-17,S,Samples,UNKNOWN,United Kingdom,-86.99,True
+C553531,2011-05-17,S,Samples,UNKNOWN,United Kingdom,-15.5,True
+C553531,2011-05-17,S,Samples,UNKNOWN,United Kingdom,-76.0,True
+C553531,2011-05-17,S,Samples,UNKNOWN,United Kingdom,-87.01,True
+553539,2011-05-17,M,Manual adjustment,UNKNOWN,United Kingdom,465.87,False
+553541,2011-05-17,DOT,Postage,UNKNOWN,United Kingdom,248.13,False
+553542,2011-05-17,DOT,Postage,UNKNOWN,United Kingdom,204.63,False
+553543,2011-05-17,DOT,Postage,UNKNOWN,United Kingdom,154.5,False
+553544,2011-05-17,DOT,Postage,UNKNOWN,United Kingdom,124.08,False
+553545,2011-05-17,DOT,Postage,UNKNOWN,United Kingdom,105.96,False
+553547,2011-05-17,POST,Postage,12474,Germany,72.0,False
+553549,2011-05-17,DOT,Postage,UNKNOWN,United Kingdom,179.67,False
+553559,2011-05-17,M,Manual adjustment,14931,Channel Islands,293.0,False
+C553560,2011-05-17,M,Manual adjustment,14931,Channel Islands,-293.0,True
+553566,2011-05-18,POST,Postage,12690,France,54.0,False
+553577,2011-05-18,POST,Postage,12437,France,36.0,False
+C553665,2011-05-18,D,Discount,14527,United Kingdom,-15.96,True
+553666,2011-05-18,POST,Postage,12679,France,36.0,False
+C553669,2011-05-18,POST,Postage,15128,United Kingdom,-3.71,True
+553674,2011-05-18,POST,Postage,12483,Sweden,40.0,False
+553679,2011-05-18,C2,Postage,14565,United Kingdom,50.0,False
+553682,2011-05-18,POST,Postage,14646,Netherlands,60.0,False
+553718,2011-05-18,DOT,Postage,UNKNOWN,United Kingdom,176.8,False
+553731,2011-05-19,POST,Postage,12481,Germany,72.0,False
+553741,2011-05-19,POST,Postage,12520,Germany,54.0,False
+553766,2011-05-19,DOT,Postage,UNKNOWN,United Kingdom,205.5,False
+553767,2011-05-19,DOT,Postage,UNKNOWN,United Kingdom,162.75,False
+553768,2011-05-19,DOT,Postage,UNKNOWN,United Kingdom,236.46,False
+C553841,2011-05-19,D,Discount,16029,United Kingdom,-9.600000000000001,True
+553842,2011-05-19,POST,Postage,12524,Germany,36.0,False
+553843,2011-05-19,POST,Postage,12553,France,36.0,False
+C553865,2011-05-19,S,Samples,UNKNOWN,United Kingdom,-16.5,True
+553884,2011-05-19,POST,Postage,12600,Germany,18.0,False
+553885,2011-05-19,POST,Postage,12601,Germany,18.0,False
+553890,2011-05-19,DOT,Postage,UNKNOWN,United Kingdom,167.03,False
+553897,2011-05-19,C2,Postage,14911,EIRE,50.0,False
+553921,2011-05-20,C2,Postage,13376,United Kingdom,50.0,False
+553931,2011-05-20,C2,Postage,14911,EIRE,50.0,False
+553997,2011-05-20,POST,Postage,12656,France,162.0,False
+C554002,2011-05-20,POST,Postage,13692,United Kingdom,-6.5,True
+C554010,2011-05-20,POST,Postage,17940,United Kingdom,-75.0,True
+554038,2011-05-20,POST,Postage,12775,Netherlands,30.0,False
+554054,2011-05-20,DOT,Postage,UNKNOWN,United Kingdom,124.27,False
+554097,2011-05-22,POST,Postage,12567,France,90.0,False
+C554100,2011-05-22,M,Manual adjustment,15555,United Kingdom,-0.85,True
+554104,2011-05-22,POST,Postage,12705,Germany,72.0,False
+554106,2011-05-22,POST,Postage,12710,Germany,72.0,False
+554109,2011-05-22,POST,Postage,12682,France,36.0,False
+C554127,2011-05-23,M,Manual adjustment,17949,United Kingdom,-480.0,True
+554132,2011-05-23,POST,Postage,12360,Austria,160.0,False
+554134,2011-05-23,POST,Postage,12583,France,36.0,False
+554137,2011-05-23,POST,Postage,12708,Germany,36.0,False
+554147,2011-05-23,POST,Postage,12423,Belgium,30.0,False
+C554154,2011-05-23,M,Manual adjustment,12757,Portugal,-1241.98,True
+554155,2011-05-23,M,Manual adjustment,12757,Portugal,1241.98,False
+554159,2011-05-23,POST,Postage,12464,Belgium,30.0,False
+554280,2011-05-23,C2,Postage,14817,United Kingdom,50.0,False
+554285,2011-05-23,DOT,Postage,UNKNOWN,United Kingdom,156.92,False
+554293,2011-05-23,DOT,Postage,UNKNOWN,United Kingdom,159.63,False
+554301,2011-05-23,M,Manual adjustment,12757,Portugal,1241.98,False
+C554302,2011-05-23,M,Manual adjustment,12757,Portugal,-1241.98,True
+C554303,2011-05-23,M,Manual adjustment,12757,Portugal,-15.0,True
+554305,2011-05-23,M,Manual adjustment,12757,Portugal,557.72,False
+C554308,2011-05-23,M,Manual adjustment,12757,Portugal,-557.72,True
+554310,2011-05-23,DOT,Postage,UNKNOWN,United Kingdom,249.91,False
+554324,2011-05-23,POST,Postage,12712,Germany,18.0,False
+554325,2011-05-23,POST,Postage,12621,Germany,54.0,False
+554356,2011-05-24,POST,Postage,12670,France,36.0,False
+554363,2011-05-24,POST,Postage,12647,Germany,36.0,False
+554511,2011-05-24,DOT,Postage,UNKNOWN,United Kingdom,162.67,False
+554512,2011-05-24,DOT,Postage,UNKNOWN,United Kingdom,194.12,False
+554514,2011-05-24,DOT,Postage,UNKNOWN,United Kingdom,214.29,False
+C554516,2011-05-24,D,Discount,14527,United Kingdom,-13.88,True
+C554535,2011-05-24,M,Manual adjustment,17940,United Kingdom,-60.0,True
+C554544,2011-05-25,M,Manual adjustment,UNKNOWN,United Kingdom,-102.64,True
+554555,2011-05-25,POST,Postage,12437,France,36.0,False
+554648,2011-05-25,POST,Postage,12562,France,54.0,False
+554650,2011-05-25,POST,Postage,12681,France,54.0,False
+554654,2011-05-25,POST,Postage,12815,Poland,120.0,False
+554694,2011-05-25,DOT,Postage,UNKNOWN,United Kingdom,202.77,False
+554699,2011-05-26,POST,Postage,12613,Germany,54.0,False
+554711,2011-05-26,POST,Postage,12654,Germany,18.0,False
+554714,2011-05-26,DOT,Postage,UNKNOWN,United Kingdom,155.25,False
+554770,2011-05-26,C2,Postage,14911,EIRE,50.0,False
+554792,2011-05-26,POST,Postage,12547,Spain,28.0,False
+554794,2011-05-26,POST,Postage,12720,Germany,36.0,False
+554826,2011-05-26,C2,Postage,12493,France,36.0,False
+554840,2011-05-26,POST,Postage,12684,France,36.0,False
+554857,2011-05-27,POST,Postage,UNKNOWN,United Kingdom,0.0,False
+554861,2011-05-27,POST,Postage,12633,Germany,90.0,False
+554924,2011-05-27,POST,Postage,12748,United Kingdom,4.0,False
+554933,2011-05-27,M,Manual adjustment,13232,United Kingdom,0.6,False
+554938,2011-05-27,POST,Postage,12876,Belgium,60.0,False
+554940,2011-05-27,POST,Postage,12494,France,36.0,False
+554957,2011-05-27,DOT,Postage,UNKNOWN,United Kingdom,75.75,False
+554958,2011-05-27,DOT,Postage,UNKNOWN,United Kingdom,167.88,False
+554959,2011-05-27,DOT,Postage,UNKNOWN,United Kingdom,58.5,False
+554960,2011-05-27,DOT,Postage,UNKNOWN,United Kingdom,148.75,False
+554961,2011-05-27,DOT,Postage,UNKNOWN,United Kingdom,164.29,False
+554985,2011-05-29,POST,Postage,12426,Germany,72.0,False
+555003,2011-05-31,POST,Postage,12787,Netherlands,15.0,False
+555096,2011-05-31,POST,Postage,12682,France,54.0,False
+555095,2011-05-31,POST,Postage,12540,Spain,196.0,False
+555106,2011-05-31,POST,Postage,12790,Netherlands,30.0,False
+555110,2011-05-31,M,Manual adjustment,17841,United Kingdom,3.3,False
+555147,2011-05-31,POST,Postage,13505,Switzerland,160.0,False
+555149,2011-05-31,GIFT_0001_30,Gift voucher,UNKNOWN,United Kingdom,25.0,False
+555149,2011-05-31,DOT,Postage,UNKNOWN,United Kingdom,154.01,False
+555150,2011-05-31,DOT,Postage,UNKNOWN,United Kingdom,183.55,False
+555161,2011-06-01,POST,Postage,12423,Belgium,15.0,False
+555162,2011-06-01,POST,Postage,12473,Germany,72.0,False
+C555163,2011-06-01,POST,Postage,12473,Germany,-36.0,True
+555264,2011-06-01,M,Manual adjustment,17757,United Kingdom,3.95,False
+555275,2011-06-01,DOT,Postage,UNKNOWN,United Kingdom,205.29,False
+555276,2011-06-01,DOT,Postage,UNKNOWN,United Kingdom,185.88,False
+555277,2011-06-01,DOT,Postage,UNKNOWN,United Kingdom,124.87,False
+555278,2011-06-01,DOT,Postage,UNKNOWN,United Kingdom,97.96,False
+555320,2011-06-02,DOT,Postage,UNKNOWN,United Kingdom,98.54,False
+555321,2011-06-02,DOT,Postage,UNKNOWN,United Kingdom,56.79,False
+555322,2011-06-02,DOT,Postage,UNKNOWN,United Kingdom,88.71,False
+555324,2011-06-02,DOT,Postage,UNKNOWN,United Kingdom,124.08,False
+555325,2011-06-02,DOT,Postage,UNKNOWN,United Kingdom,47.67,False
+555323,2011-06-02,DOT,Postage,UNKNOWN,United Kingdom,46.0,False
+555326,2011-06-02,DOT,Postage,UNKNOWN,United Kingdom,79.67,False
+555327,2011-06-02,DOT,Postage,UNKNOWN,United Kingdom,158.63,False
+C555339,2011-06-02,M,Manual adjustment,16422,United Kingdom,-11.7,True
+555397,2011-06-02,DOT,Postage,UNKNOWN,United Kingdom,216.8,False
+555403,2011-06-02,POST,Postage,12676,Sweden,40.0,False
+555407,2011-06-03,POST,Postage,12775,Netherlands,15.0,False
+555417,2011-06-03,POST,Postage,12601,Germany,18.0,False
+555470,2011-06-03,POST,Postage,12455,Spain,28.0,False
+555510,2011-06-03,DOT,Postage,UNKNOWN,United Kingdom,181.45,False
+555523,2011-06-05,POST,Postage,12468,Germany,36.0,False
+555531,2011-06-05,POST,Postage,12678,France,198.0,False
+555547,2011-06-05,POST,Postage,12681,France,72.0,False
+555553,2011-06-05,POST,Postage,12662,Germany,36.0,False
+555569,2011-06-05,POST,Postage,12727,France,90.0,False
+555572,2011-06-05,POST,Postage,12449,Belgium,90.0,False
+555574,2011-06-05,POST,Postage,12417,Belgium,45.0,False
+555589,2011-06-06,POST,Postage,12802,Netherlands,30.0,False
+C555597,2011-06-06,D,Discount,15796,United Kingdom,-42.0,True
+555648,2011-06-06,M,Manual adjustment,14623,United Kingdom,4.68,False
+555719,2011-06-06,POST,Postage,12609,Germany,90.0,False
+555721,2011-06-06,POST,Postage,15108,European Community,45.0,False
+555722,2011-06-06,DOT,Postage,UNKNOWN,United Kingdom,208.89,False
+555726,2011-06-06,POST,Postage,12540,Spain,56.0,False
+555739,2011-06-07,POST,Postage,12380,Belgium,45.0,False
+555851,2011-06-07,M,Manual adjustment,13050,United Kingdom,3.75,False
+555858,2011-06-07,C2,Postage,14911,EIRE,50.0,False
+555869,2011-06-07,POST,Postage,UNKNOWN,United Kingdom,5.15,False
+555923,2011-06-07,DOT,Postage,UNKNOWN,United Kingdom,222.18,False
+555924,2011-06-07,DOT,Postage,UNKNOWN,United Kingdom,174.78,False
+555925,2011-06-07,DOT,Postage,UNKNOWN,United Kingdom,173.59,False
+555928,2011-06-08,POST,Postage,12383,Belgium,30.0,False
+555931,2011-06-08,POST,Postage,17828,Malta,160.0,False
+555937,2011-06-08,POST,Postage,12683,France,54.0,False
+555941,2011-06-08,POST,Postage,12726,France,18.0,False
+555943,2011-06-08,POST,Postage,13520,Switzerland,120.0,False
+C556037,2011-06-08,D,Discount,14527,United Kingdom,-20.92,True
+556070,2011-06-08,M,Manual adjustment,17873,United Kingdom,129.38,False
+556082,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,212.96,False
+556081,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,169.29,False
+556083,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,89.79,False
+556085,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,151.33,False
+556086,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,53.33,False
+556087,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,110.13,False
+556088,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,36.13,False
+556091,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,84.63,False
+556089,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,93.75,False
+556090,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,61.79,False
+556092,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,97.79,False
+556093,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,224.42,False
+556094,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,98.75,False
+556095,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,192.54,False
+556108,2011-06-08,DOT,Postage,UNKNOWN,United Kingdom,275.98,False
+556114,2011-06-09,POST,Postage,12569,Germany,18.0,False
+556118,2011-06-09,POST,Postage,13811,Germany,36.0,False
+556126,2011-06-09,C2,Postage,14911,EIRE,50.0,False
+556194,2011-06-09,POST,Postage,12483,Sweden,36.0,False
+556203,2011-06-09,POST,Postage,12399,Belgium,15.0,False
+556206,2011-06-09,C2,Postage,14911,EIRE,50.0,False
+556222,2011-06-09,M,Manual adjustment,17522,United Kingdom,4.5600000000000005,False
+556235,2011-06-09,POST,Postage,12778,Netherlands,15.0,False
+556237,2011-06-09,DOT,Postage,UNKNOWN,United Kingdom,275.34,False
+556241,2011-06-09,POST,Postage,12597,Spain,224.0,False
+556243,2011-06-09,DOT,Postage,UNKNOWN,United Kingdom,237.33,False
+556258,2011-06-09,POST,Postage,12694,France,54.0,False
+556259,2011-06-09,POST,Postage,12721,France,72.0,False
+C556265,2011-06-09,D,Discount,16684,United Kingdom,-28.04,True
+C556274,2011-06-09,M,Manual adjustment,15299,United Kingdom,-600.0,True
+C556281,2011-06-09,POST,Postage,14040,United Kingdom,-4.05,True
+556305,2011-06-10,POST,Postage,12643,France,72.0,False
+C556324,2011-06-10,POST,Postage,14287,United Kingdom,-5.0,True
+556428,2011-06-10,DOT,Postage,UNKNOWN,United Kingdom,130.71,False
+556429,2011-06-10,DOT,Postage,UNKNOWN,United Kingdom,61.63,False
+556427,2011-06-10,DOT,Postage,UNKNOWN,United Kingdom,91.33,False
+556431,2011-06-10,DOT,Postage,UNKNOWN,United Kingdom,9.08,False
+556443,2011-06-10,POST,Postage,12712,Germany,72.0,False
+C556445,2011-06-10,M,Manual adjustment,15098,United Kingdom,-38970.0,True
+556459,2011-06-10,DOT,Postage,UNKNOWN,United Kingdom,171.46,False
+556463,2011-06-12,POST,Postage,12583,France,36.0,False
+556469,2011-06-12,POST,Postage,12516,Germany,54.0,False
+556507,2011-06-13,POST,Postage,12567,France,144.0,False
+556509,2011-06-13,POST,Postage,12708,Germany,36.0,False
+556513,2011-06-13,DOT,Postage,UNKNOWN,United Kingdom,101.17,False
+556515,2011-06-13,DOT,Postage,UNKNOWN,United Kingdom,61.71,False
+556514,2011-06-13,POST,Postage,UNKNOWN,United Kingdom,3.3,False
+556516,2011-06-13,DOT,Postage,UNKNOWN,United Kingdom,87.04,False
+556517,2011-06-13,POST,Postage,12481,Germany,90.0,False
+556519,2011-06-13,POST,Postage,16794,United Kingdom,2.02,False
+556527,2011-06-13,M,Manual adjustment,16205,United Kingdom,6.6,False
+556526,2011-06-13,POST,Postage,12732,France,18.0,False
+556529,2011-06-13,POST,Postage,12714,France,72.0,False
+556573,2011-06-13,M,Manual adjustment,14667,United Kingdom,4.25,False
+556578,2011-06-13,POST,Postage,12472,Germany,126.0,False
+556636,2011-06-13,DOT,Postage,UNKNOWN,United Kingdom,188.54,False
+556671,2011-06-13,M,Manual adjustment,17841,United Kingdom,2.5,False
+C556675,2011-06-13,M,Manual adjustment,16013,United Kingdom,-20.0,True
+556784,2011-06-14,M,Manual adjustment,14461,United Kingdom,0.39,False
+C556796,2011-06-14,D,Discount,16013,United Kingdom,-67.19999999999999,True
+C556807,2011-06-14,POST,Postage,UNKNOWN,United Kingdom,-14.95,True
+C556807,2011-06-14,M,Manual adjustment,UNKNOWN,United Kingdom,-91.58,True
+556812,2011-06-14,DOT,Postage,UNKNOWN,United Kingdom,239.67,False
+556813,2011-06-14,DOT,Postage,UNKNOWN,United Kingdom,191.78,False
+556816,2011-06-15,POST,Postage,12437,France,54.0,False
+556819,2011-06-15,POST,Postage,12682,France,72.0,False
+556821,2011-06-15,DOT,Postage,UNKNOWN,United Kingdom,50.96,False
+556824,2011-06-15,DOT,Postage,UNKNOWN,United Kingdom,65.79,False
+556823,2011-06-15,DOT,Postage,UNKNOWN,United Kingdom,20.5,False
+556825,2011-06-15,DOT,Postage,UNKNOWN,United Kingdom,117.42,False
+556826,2011-06-15,DOT,Postage,UNKNOWN,United Kingdom,277.0,False
+556829,2011-06-15,POST,Postage,12809,Portugal,84.0,False
+C556870,2011-06-15,M,Manual adjustment,UNKNOWN,United Kingdom,-306.6,True
+C556874,2011-06-15,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-464.52,True
+C556875,2011-06-15,M,Manual adjustment,UNKNOWN,United Kingdom,-702.38,True
+C556877,2011-06-15,D,Discount,15498,United Kingdom,-129.9,True
+556883,2011-06-15,C2,Postage,13343,United Kingdom,50.0,False
+556886,2011-06-15,POST,Postage,12624,France,36.0,False
+C556904,2011-06-15,D,Discount,14527,United Kingdom,-14.42,True
+C556919,2011-06-15,POST,Postage,17511,United Kingdom,-2.17,True
+556932,2011-06-15,DOT,Postage,UNKNOWN,United Kingdom,141.03,False
+556955,2011-06-16,GIFT_0001_20,Gift voucher,UNKNOWN,United Kingdom,0.0,False
+556969,2011-06-16,C2,Postage,16257,United Kingdom,25.0,False
+557007,2011-06-16,POST,Postage,12484,Spain,196.0,False
+557027,2011-06-16,POST,Postage,12816,Poland,80.0,False
+557055,2011-06-16,POST,Postage,12621,Germany,36.0,False
+557069,2011-06-16,POST,Postage,12562,France,54.0,False
+557112,2011-06-16,DOT,Postage,UNKNOWN,United Kingdom,273.01,False
+557136,2011-06-17,C2,Postage,14911,EIRE,50.0,False
+557147,2011-06-17,POST,Postage,12408,Belgium,60.0,False
+557232,2011-06-17,POST,Postage,12463,Belgium,36.0,False
+557295,2011-06-19,POST,Postage,12724,France,18.0,False
+557297,2011-06-19,POST,Postage,12421,Spain,56.0,False
+C557300,2011-06-19,M,Manual adjustment,12421,Spain,-0.77,True
+557314,2011-06-19,POST,Postage,12541,Spain,28.0,False
+557318,2011-06-19,C2,Postage,14911,EIRE,50.0,False
+557324,2011-06-20,DOT,Postage,UNKNOWN,United Kingdom,212.33,False
+557377,2011-06-20,M,Manual adjustment,UNKNOWN,EIRE,1917.0,False
+557377,2011-06-20,M,Manual adjustment,UNKNOWN,EIRE,1216.12,False
+C557381,2011-06-20,M,Manual adjustment,UNKNOWN,EIRE,-1216.12,True
+C557387,2011-06-20,M,Manual adjustment,UNKNOWN,EIRE,-1917.0,True
+557427,2011-06-20,POST,Postage,12429,Denmark,162.0,False
+557466,2011-06-20,POST,Postage,13815,Germany,198.0,False
+557480,2011-06-20,DOT,Postage,UNKNOWN,United Kingdom,86.38,False
+557481,2011-06-20,DOT,Postage,UNKNOWN,United Kingdom,130.63,False
+557482,2011-06-20,DOT,Postage,UNKNOWN,United Kingdom,57.58,False
+557483,2011-06-20,POST,Postage,12643,France,18.0,False
+557489,2011-06-20,POST,Postage,12490,France,54.0,False
+557493,2011-06-20,DOT,Postage,UNKNOWN,United Kingdom,132.33,False
+557494,2011-06-20,DOT,Postage,UNKNOWN,United Kingdom,182.38,False
+557495,2011-06-20,DOT,Postage,UNKNOWN,United Kingdom,26.33,False
+557496,2011-06-20,DOT,Postage,UNKNOWN,United Kingdom,101.17,False
+557497,2011-06-20,DOT,Postage,UNKNOWN,United Kingdom,46.13,False
+557500,2011-06-20,GIFT_0001_20,Gift voucher,UNKNOWN,United Kingdom,16.67,False
+557500,2011-06-20,DOT,Postage,UNKNOWN,United Kingdom,167.02,False
+557502,2011-06-20,DOT,Postage,UNKNOWN,United Kingdom,173.3,False
+557525,2011-06-21,POST,Postage,12759,Netherlands,45.0,False
+557569,2011-06-21,POST,Postage,12474,Germany,36.0,False
+557605,2011-06-21,C2,Postage,14911,EIRE,25.0,False
+C557624,2011-06-21,M,Manual adjustment,16422,United Kingdom,-0.75,True
+C557624,2011-06-21,M,Manual adjustment,16422,United Kingdom,-5.8,True
+557627,2011-06-21,POST,Postage,12583,France,18.0,False
+C557638,2011-06-21,POST,Postage,17450,United Kingdom,-545.58,True
+557641,2011-06-21,DOT,Postage,UNKNOWN,United Kingdom,75.71,False
+557642,2011-06-21,DOT,Postage,UNKNOWN,United Kingdom,88.75,False
+557643,2011-06-21,DOT,Postage,UNKNOWN,United Kingdom,129.08,False
+557644,2011-06-21,DOT,Postage,UNKNOWN,United Kingdom,138.46,False
+557645,2011-06-21,DOT,Postage,UNKNOWN,United Kingdom,87.75,False
+C557656,2011-06-21,M,Manual adjustment,14001,United Kingdom,-12.75,True
+C557663,2011-06-21,C2,Postage,UNKNOWN,EIRE,-15.0,True
+557669,2011-06-22,POST,Postage,12674,France,36.0,False
+557675,2011-06-22,POST,Postage,UNKNOWN,Hong Kong,15.0,False
+557734,2011-06-22,POST,Postage,12684,France,36.0,False
+557742,2011-06-22,C2,Postage,14911,EIRE,50.0,False
+557754,2011-06-22,POST,Postage,12432,Norway,700.0,False
+557759,2011-06-22,C2,Postage,14156,EIRE,50.0,False
+557768,2011-06-22,POST,Postage,UNKNOWN,United Kingdom,3.01,False
+557789,2011-06-22,POST,Postage,12379,Belgium,45.0,False
+557803,2011-06-23,POST,Postage,12704,Finland,40.0,False
+557850,2011-06-23,POST,Postage,12720,Germany,36.0,False
+557872,2011-06-23,C2,Postage,14911,EIRE,50.0,False
+557884,2011-06-23,M,Manual adjustment,17759,United Kingdom,1.25,False
+557885,2011-06-23,POST,Postage,12465,Belgium,30.0,False
+557889,2011-06-23,POST,Postage,12412,Denmark,36.0,False
+C557927,2011-06-23,D,Discount,16029,United Kingdom,-10.0,True
+557937,2011-06-23,DOT,Postage,UNKNOWN,United Kingdom,157.81,False
+557938,2011-06-23,DOT,Postage,UNKNOWN,United Kingdom,159.78,False
+557939,2011-06-23,POST,Postage,12697,Sweden,80.0,False
+557972,2011-06-24,POST,Postage,12500,Germany,36.0,False
+C558036,2011-06-24,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-5791.18,True
+C558037,2011-06-24,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-4534.24,True
+558041,2011-06-24,POST,Postage,12422,Switzerland,120.0,False
+558045,2011-06-24,POST,Postage,12615,France,54.0,False
+558046,2011-06-24,C2,Postage,UNKNOWN,EIRE,50.0,False
+558047,2011-06-24,M,Manual adjustment,UNKNOWN,EIRE,542.2,False
+C558048,2011-06-24,M,Manual adjustment,UNKNOWN,EIRE,-542.2,True
+558066,2011-06-24,GIFT_0001_50,Gift voucher,UNKNOWN,United Kingdom,41.67,False
+558066,2011-06-24,DOT,Postage,UNKNOWN,United Kingdom,150.77,False
+558068,2011-06-24,GIFT_0001_20,Gift voucher,UNKNOWN,United Kingdom,16.67,False
+558068,2011-06-24,DOT,Postage,UNKNOWN,United Kingdom,150.71,False
+558089,2011-06-26,POST,Postage,13505,Switzerland,120.0,False
+558108,2011-06-26,POST,Postage,12548,Spain,28.0,False
+558118,2011-06-27,DOT,Postage,UNKNOWN,United Kingdom,131.58,False
+558116,2011-06-27,DOT,Postage,UNKNOWN,United Kingdom,200.58,False
+558117,2011-06-27,DOT,Postage,UNKNOWN,United Kingdom,62.46,False
+558119,2011-06-27,DOT,Postage,UNKNOWN,United Kingdom,189.79,False
+558120,2011-06-27,DOT,Postage,UNKNOWN,United Kingdom,55.08,False
+558124,2011-06-27,POST,Postage,12493,France,18.0,False
+558240,2011-06-27,DOT,Postage,UNKNOWN,United Kingdom,147.53,False
+558316,2011-06-28,DOT,Postage,UNKNOWN,United Kingdom,107.58,False
+558319,2011-06-28,DOT,Postage,UNKNOWN,United Kingdom,58.33,False
+558321,2011-06-28,DOT,Postage,UNKNOWN,United Kingdom,81.33,False
+558334,2011-06-28,POST,Postage,12599,France,18.0,False
+558340,2011-06-28,M,Manual adjustment,UNKNOWN,United Kingdom,481.45,False
+C558347,2011-06-28,S,Samples,UNKNOWN,United Kingdom,-4.95,True
+C558347,2011-06-28,S,Samples,UNKNOWN,United Kingdom,-6.15,True
+C558347,2011-06-28,S,Samples,UNKNOWN,United Kingdom,-3.59,True
+C558347,2011-06-28,S,Samples,UNKNOWN,United Kingdom,-16.0,True
+C558347,2011-06-28,S,Samples,UNKNOWN,United Kingdom,-14.92,True
+C558347,2011-06-28,S,Samples,UNKNOWN,United Kingdom,-9.9,True
+C558349,2011-06-28,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-82.89,True
+C558357,2011-06-28,M,Manual adjustment,15502,United Kingdom,-7.12,True
+C558359,2011-06-28,S,Samples,UNKNOWN,United Kingdom,-570.0,True
+C558364,2011-06-28,POST,Postage,UNKNOWN,United Kingdom,-3.95,True
+558381,2011-06-28,M,Manual adjustment,15299,United Kingdom,600.0,False
+558461,2011-06-29,M,Manual adjustment,13263,United Kingdom,3.9,False
+558475,2011-06-29,DOT,Postage,UNKNOWN,United Kingdom,858.46,False
+558479,2011-06-29,M,Manual adjustment,17837,United Kingdom,5.9,False
+C558525,2011-06-30,M,Manual adjustment,13113,United Kingdom,-13.65,True
+558608,2011-06-30,POST,Postage,12524,Germany,18.0,False
+558614,2011-06-30,GIFT_0001_10,Gift voucher,UNKNOWN,United Kingdom,8.33,False
+558614,2011-06-30,GIFT_0001_50,Gift voucher,UNKNOWN,United Kingdom,41.67,False
+558614,2011-06-30,DOT,Postage,UNKNOWN,United Kingdom,264.65,False
+558623,2011-06-30,POST,Postage,12395,Belgium,15.0,False
+558626,2011-06-30,POST,Postage,12569,Germany,18.0,False
+558628,2011-06-30,POST,Postage,12626,Germany,90.0,False
+558640,2011-07-01,C2,Postage,14911,EIRE,50.0,False
+558644,2011-07-01,C2,Postage,14156,EIRE,50.0,False
+558679,2011-07-01,M,Manual adjustment,17800,United Kingdom,1.0,False
+558680,2011-07-01,DOT,Postage,UNKNOWN,United Kingdom,64.88,False
+558681,2011-07-01,DOT,Postage,UNKNOWN,United Kingdom,65.67,False
+558682,2011-07-01,DOT,Postage,UNKNOWN,United Kingdom,126.54,False
+558683,2011-07-01,DOT,Postage,UNKNOWN,United Kingdom,112.5,False
+558687,2011-07-01,POST,Postage,12598,France,18.0,False
+558699,2011-07-01,POST,Postage,12494,France,18.0,False
+C558712,2011-07-01,M,Manual adjustment,17338,United Kingdom,-2.95,True
+558715,2011-07-01,M,Manual adjustment,UNKNOWN,United Kingdom,116.69,False
+558717,2011-07-01,POST,Postage,12710,Germany,18.0,False
+558774,2011-07-04,DOT,Postage,UNKNOWN,United Kingdom,206.66,False
+558777,2011-07-04,DOT,Postage,UNKNOWN,United Kingdom,304.24,False
+558808,2011-07-04,DOT,Postage,UNKNOWN,United Kingdom,42.75,False
+558809,2011-07-04,DOT,Postage,UNKNOWN,United Kingdom,146.5,False
+558810,2011-07-04,DOT,Postage,UNKNOWN,United Kingdom,196.79,False
+558811,2011-07-04,DOT,Postage,UNKNOWN,United Kingdom,57.63,False
+558813,2011-07-04,POST,Postage,12682,France,54.0,False
+558837,2011-07-04,DOT,Postage,UNKNOWN,United Kingdom,117.63,False
+558835,2011-07-04,DOT,Postage,UNKNOWN,United Kingdom,54.25,False
+558841,2011-07-04,M,Manual adjustment,12471,Germany,30.0,False
+558875,2011-07-04,M,Manual adjustment,13301,United Kingdom,17.9,False
+558895,2011-07-04,M,Manual adjustment,12619,Germany,389.68,False
+C558897,2011-07-04,M,Manual adjustment,12619,Germany,-389.68,True
+558904,2011-07-04,DOT,Postage,UNKNOWN,United Kingdom,306.35,False
+C558905,2011-07-04,POST,Postage,13826,United Kingdom,-4.9,True
+558908,2011-07-05,C2,Postage,13338,United Kingdom,50.0,False
+C558969,2011-07-05,M,Manual adjustment,16729,United Kingdom,-7.04,True
+559004,2011-07-05,POST,Postage,12428,Finland,160.0,False
+559010,2011-07-05,C2,Postage,14911,EIRE,50.0,False
+559039,2011-07-05,DOT,Postage,UNKNOWN,United Kingdom,116.71,False
+559041,2011-07-05,DOT,Postage,UNKNOWN,United Kingdom,24.67,False
+559040,2011-07-05,DOT,Postage,UNKNOWN,United Kingdom,39.5,False
+559042,2011-07-05,DOT,Postage,UNKNOWN,United Kingdom,75.67,False
+559043,2011-07-05,DOT,Postage,UNKNOWN,United Kingdom,158.71,False
+559051,2011-07-05,DOT,Postage,UNKNOWN,United Kingdom,201.84,False
+559052,2011-07-05,DOT,Postage,UNKNOWN,United Kingdom,576.18,False
+559055,2011-07-05,DOT,Postage,UNKNOWN,United Kingdom,531.65,False
+559058,2011-07-06,POST,Postage,12407,Belgium,90.0,False
+559106,2011-07-06,M,Manual adjustment,15889,United Kingdom,15.9,False
+559107,2011-07-06,M,Manual adjustment,15334,United Kingdom,2.95,False
+559134,2011-07-06,POST,Postage,12700,France,90.0,False
+559135,2011-07-06,POST,Postage,12455,Spain,28.0,False
+559162,2011-07-06,DOT,Postage,UNKNOWN,United Kingdom,231.61,False
+559163,2011-07-06,DOT,Postage,UNKNOWN,United Kingdom,240.41,False
+559173,2011-07-07,POST,Postage,12540,Spain,56.0,False
+559295,2011-07-07,POST,Postage,12362,Belgium,30.0,False
+559298,2011-07-07,POST,Postage,12471,Germany,108.0,False
+559316,2011-07-07,POST,Postage,12647,Germany,18.0,False
+559337,2011-07-07,DOT,Postage,UNKNOWN,United Kingdom,298.31,False
+559338,2011-07-07,DOT,Postage,UNKNOWN,United Kingdom,296.61,False
+C559347,2011-07-07,M,Manual adjustment,18072,United Kingdom,-2.88,True
+C559347,2011-07-07,M,Manual adjustment,18072,United Kingdom,-9.36,True
+559362,2011-07-08,POST,Postage,12635,Germany,54.0,False
+559418,2011-07-08,POST,Postage,12681,France,54.0,False
+559421,2011-07-08,POST,Postage,12648,Germany,18.0,False
+559422,2011-07-08,POST,Postage,12553,France,36.0,False
+559441,2011-07-08,POST,Postage,12583,France,36.0,False
+559488,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,191.67,False
+559489,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,69.0,False
+559490,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,3.29,False
+559491,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,164.54,False
+559492,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,56.04,False
+559493,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,166.96,False
+559497,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,142.29,False
+559494,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,69.92,False
+559496,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,19.75,False
+559504,2011-07-08,M,Manual adjustment,15920,United Kingdom,1.58,False
+559506,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,319.82,False
+559511,2011-07-08,M,Manual adjustment,15920,United Kingdom,2.37,False
+559514,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,57.67,False
+559515,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,36.17,False
+559517,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,16.42,False
+559518,2011-07-08,DOT,Postage,UNKNOWN,United Kingdom,92.88,False
+559535,2011-07-10,M,Manual adjustment,17841,United Kingdom,3.75,False
+559535,2011-07-10,M,Manual adjustment,17841,United Kingdom,0.85,False
+559536,2011-07-10,M,Manual adjustment,16283,United Kingdom,1.7,False
+559607,2011-07-11,POST,Postage,12681,France,90.0,False
+559672,2011-07-11,M,Manual adjustment,14796,United Kingdom,1.56,False
+559674,2011-07-11,M,Manual adjustment,15856,United Kingdom,1.26,False
+559680,2011-07-11,POST,Postage,12717,Greece,100.0,False
+C559681,2011-07-11,POST,Postage,12717,Greece,-50.0,True
+559685,2011-07-11,POST,Postage,12599,France,18.0,False
+559693,2011-07-11,DOT,Postage,UNKNOWN,United Kingdom,275.11,False
+559699,2011-07-12,POST,Postage,12682,France,18.0,False
+559704,2011-07-12,POST,Postage,12669,France,72.0,False
+559707,2011-07-12,POST,Postage,12358,Austria,80.0,False
+559710,2011-07-12,POST,Postage,12474,Germany,18.0,False
+559799,2011-07-12,DOT,Postage,UNKNOWN,United Kingdom,23.0,False
+559800,2011-07-12,DOT,Postage,UNKNOWN,United Kingdom,34.5,False
+559801,2011-07-12,DOT,Postage,UNKNOWN,United Kingdom,90.42,False
+559802,2011-07-12,DOT,Postage,UNKNOWN,United Kingdom,175.88,False
+559816,2011-07-12,DOT,Postage,UNKNOWN,United Kingdom,375.64,False
+559817,2011-07-12,DOT,Postage,UNKNOWN,United Kingdom,169.55,False
+559819,2011-07-12,POST,Postage,12682,France,18.0,False
+C559830,2011-07-13,M,Manual adjustment,16998,United Kingdom,-0.48,True
+559835,2011-07-13,POST,Postage,13509,United Kingdom,15.0,False
+559862,2011-07-13,POST,Postage,12782,Portugal,112.0,False
+C559882,2011-07-13,POST,Postage,16156,United Kingdom,-7.62,True
+559889,2011-07-13,POST,Postage,12678,France,145.0,False
+559890,2011-07-13,POST,Postage,12464,Belgium,15.0,False
+559899,2011-07-13,POST,Postage,12528,Germany,54.0,False
+559914,2011-07-13,DOT,Postage,UNKNOWN,United Kingdom,198.75,False
+C559915,2011-07-13,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-4383.62,True
+C559917,2011-07-13,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-6497.47,True
+559923,2011-07-13,DOT,Postage,UNKNOWN,United Kingdom,240.67,False
+559928,2011-07-14,POST,Postage,12405,Finland,320.0,False
+559945,2011-07-14,M,Manual adjustment,17396,United Kingdom,18.0,False
+C559950,2011-07-14,M,Manual adjustment,14562,United Kingdom,-6.300000000000001,True
+559987,2011-07-14,POST,Postage,12619,Germany,90.0,False
+559988,2011-07-14,M,Manual adjustment,15402,United Kingdom,0.42,False
+C559992,2011-07-14,D,Discount,14527,United Kingdom,-13.99,True
+560041,2011-07-14,C2,Postage,14156,EIRE,50.0,False
+560090,2011-07-14,DOT,Postage,UNKNOWN,United Kingdom,255.83,False
+C560100,2011-07-14,M,Manual adjustment,16422,United Kingdom,-7.88,True
+560119,2011-07-15,POST,Postage,12815,Poland,80.0,False
+560162,2011-07-15,M,Manual adjustment,UNKNOWN,United Kingdom,10.0,False
+560187,2011-07-15,POST,Postage,17444,Canada,550.94,False
+560202,2011-07-15,POST,Postage,12712,Germany,72.0,False
+560209,2011-07-15,M,Manual adjustment,15004,United Kingdom,0.39,False
+560211,2011-07-15,POST,Postage,12621,Germany,54.0,False
+560225,2011-07-15,DOT,Postage,UNKNOWN,United Kingdom,377.33,False
+560228,2011-07-15,M,Manual adjustment,17750,United Kingdom,8.5,False
+560230,2011-07-17,POST,Postage,12600,Germany,36.0,False
+560272,2011-07-17,POST,Postage,12691,France,18.0,False
+560291,2011-07-18,DOT,Postage,UNKNOWN,United Kingdom,120.17,False
+560290,2011-07-18,DOT,Postage,UNKNOWN,United Kingdom,82.21,False
+560292,2011-07-18,DOT,Postage,UNKNOWN,United Kingdom,88.83,False
+560293,2011-07-18,DOT,Postage,UNKNOWN,United Kingdom,153.92,False
+560294,2011-07-18,DOT,Postage,UNKNOWN,United Kingdom,49.46,False
+560296,2011-07-18,DOT,Postage,UNKNOWN,United Kingdom,135.13,False
+560298,2011-07-18,DOT,Postage,UNKNOWN,United Kingdom,177.96,False
+560363,2011-07-18,POST,Postage,12589,France,18.0,False
+C560372,2011-07-18,M,Manual adjustment,17448,United Kingdom,-4287.63,True
+560373,2011-07-18,M,Manual adjustment,UNKNOWN,United Kingdom,4287.63,False
+C560384,2011-07-18,M,Manual adjustment,14808,United Kingdom,-125.0,True
+C560386,2011-07-18,POST,Postage,UNKNOWN,United Kingdom,-9.72,True
+C560408,2011-07-18,M,Manual adjustment,13564,United Kingdom,-550.64,True
+560411,2011-07-18,M,Manual adjustment,UNKNOWN,United Kingdom,550.64,False
+560413,2011-07-18,M,Manual adjustment,13564,United Kingdom,550.64,False
+C560414,2011-07-18,M,Manual adjustment,13564,United Kingdom,-550.64,True
+C560418,2011-07-18,M,Manual adjustment,17809,United Kingdom,-717.23,True
+560419,2011-07-18,M,Manual adjustment,UNKNOWN,United Kingdom,717.23,False
+C560420,2011-07-18,M,Manual adjustment,15369,United Kingdom,-1592.49,True
+560421,2011-07-18,M,Manual adjustment,UNKNOWN,United Kingdom,1592.49,False
+C560430,2011-07-18,M,Manual adjustment,13154,United Kingdom,-611.86,True
+560431,2011-07-18,M,Manual adjustment,UNKNOWN,United Kingdom,611.86,False
+560433,2011-07-18,DOT,Postage,UNKNOWN,United Kingdom,188.15,False
+560434,2011-07-18,DOT,Postage,UNKNOWN,United Kingdom,323.05,False
+C560435,2011-07-18,M,Manual adjustment,17603,United Kingdom,-294.92,True
+C560436,2011-07-18,M,Manual adjustment,17603,United Kingdom,-705.45,True
+560438,2011-07-18,M,Manual adjustment,UNKNOWN,United Kingdom,294.92,False
+560439,2011-07-18,M,Manual adjustment,UNKNOWN,United Kingdom,705.45,False
+560452,2011-07-19,POST,Postage,12682,France,18.0,False
+560534,2011-07-19,C2,Postage,14911,EIRE,50.0,False
+560545,2011-07-19,POST,Postage,12569,Germany,18.0,False
+560549,2011-07-19,POST,Postage,12664,Finland,80.0,False
+560566,2011-07-19,POST,Postage,12662,Germany,36.0,False
+560569,2011-07-19,POST,Postage,12480,Germany,54.0,False
+C560572,2011-07-19,M,Manual adjustment,17065,United Kingdom,-112.35,True
+560573,2011-07-19,M,Manual adjustment,UNKNOWN,United Kingdom,112.35,False
+C560574,2011-07-19,M,Manual adjustment,14437,United Kingdom,-106.4,True
+560575,2011-07-19,M,Manual adjustment,UNKNOWN,United Kingdom,106.4,False
+560579,2011-07-19,M,Manual adjustment,15867,United Kingdom,5.04,False
+560607,2011-07-20,POST,Postage,12510,Spain,84.0,False
+560635,2011-07-20,POST,Postage,12521,Germany,54.0,False
+C560645,2011-07-20,M,Manual adjustment,15802,United Kingdom,-451.42,True
+C560647,2011-07-20,M,Manual adjustment,18102,United Kingdom,-3060.6,True
+560651,2011-07-20,M,Manual adjustment,15802,United Kingdom,451.42,False
+C560653,2011-07-20,M,Manual adjustment,15802,United Kingdom,-451.42,True
+560658,2011-07-20,M,Manual adjustment,UNKNOWN,United Kingdom,451.42,False
+560710,2011-07-20,POST,Postage,14646,Netherlands,15.0,False
+560728,2011-07-20,POST,Postage,12520,Germany,36.0,False
+560755,2011-07-20,DOT,Postage,UNKNOWN,United Kingdom,0.35,False
+560772,2011-07-20,DOT,Postage,UNKNOWN,United Kingdom,268.05,False
+560773,2011-07-20,DOT,Postage,UNKNOWN,United Kingdom,252.11,False
+560777,2011-07-21,DOT,Postage,UNKNOWN,United Kingdom,79.0,False
+560778,2011-07-21,DOT,Postage,UNKNOWN,United Kingdom,79.83,False
+560779,2011-07-21,DOT,Postage,UNKNOWN,United Kingdom,178.71,False
+560780,2011-07-21,DOT,Postage,UNKNOWN,United Kingdom,233.04,False
+560783,2011-07-21,POST,Postage,15108,European Community,60.0,False
+C560822,2011-07-21,M,Manual adjustment,UNKNOWN,United Kingdom,-770.26,True
+C560823,2011-07-21,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-21.9,True
+C560825,2011-07-21,M,Manual adjustment,UNKNOWN,United Kingdom,-367.38,True
+C560842,2011-07-21,D,Discount,14527,United Kingdom,-12.15,True
+C560869,2011-07-21,D,Discount,12830,United Kingdom,-66.24,True
+560876,2011-07-21,POST,Postage,12626,Germany,108.0,False
+560900,2011-07-21,M,Manual adjustment,UNKNOWN,United Kingdom,2.95,False
+560901,2011-07-21,POST,Postage,12476,Germany,126.0,False
+C560904,2011-07-21,M,Manual adjustment,14875,United Kingdom,-8.95,True
+560916,2011-07-21,C2,Postage,14911,EIRE,50.0,False
+560922,2011-07-21,C2,Postage,14911,EIRE,50.0,False
+560926,2011-07-22,DOT,Postage,UNKNOWN,United Kingdom,356.7,False
+560991,2011-07-22,POST,Postage,12438,Norway,120.0,False
+560997,2011-07-22,POST,Postage,12627,Germany,72.0,False
+C561011,2011-07-22,POST,Postage,17612,United Kingdom,-3.15,True
+561029,2011-07-24,POST,Postage,12490,France,36.0,False
+561037,2011-07-24,POST,Postage,12472,Germany,54.0,False
+561057,2011-07-24,POST,Postage,17935,United Kingdom,2.9,False
+561091,2011-07-25,DOT,Postage,UNKNOWN,United Kingdom,75.79,False
+561090,2011-07-25,DOT,Postage,UNKNOWN,United Kingdom,53.54,False
+561093,2011-07-25,POST,Postage,12540,Spain,168.0,False
+561094,2011-07-25,POST,Postage,12474,Germany,36.0,False
+561102,2011-07-25,POST,Postage,12412,Denmark,18.0,False
+561116,2011-07-25,POST,Postage,13520,Switzerland,200.0,False
+C561117,2011-07-25,POST,Postage,13520,Switzerland,-120.0,True
+C561198,2011-07-25,M,Manual adjustment,16161,United Kingdom,-43.75,True
+561209,2011-07-25,DOT,Postage,UNKNOWN,United Kingdom,299.72,False
+561214,2011-07-25,DOT,Postage,UNKNOWN,United Kingdom,135.08,False
+561216,2011-07-25,POST,Postage,14606,United Kingdom,120.0,False
+561217,2011-07-25,DOT,Postage,UNKNOWN,United Kingdom,234.63,False
+561218,2011-07-25,DOT,Postage,UNKNOWN,United Kingdom,162.95,False
+C561225,2011-07-26,D,Discount,16029,United Kingdom,-45.6,True
+561226,2011-07-26,PADS,Other,15618,United Kingdom,0.001,False
+561245,2011-07-26,DOT,Postage,UNKNOWN,United Kingdom,6.58,False
+561257,2011-07-26,C2,Postage,14911,EIRE,50.0,False
+561368,2011-07-26,POST,Postage,14866,United Kingdom,36.5,False
+561369,2011-07-26,DOT,Postage,UNKNOWN,United Kingdom,151.61,False
+561371,2011-07-26,DOT,Postage,UNKNOWN,United Kingdom,122.99,False
+561372,2011-07-26,POST,Postage,UNKNOWN,United Kingdom,13.31,False
+C561464,2011-07-27,D,Discount,14527,United Kingdom,-26.05,True
+561468,2011-07-27,POST,Postage,12709,Germany,90.0,False
+561470,2011-07-27,POST,Postage,12523,France,18.0,False
+561507,2011-07-27,POST,Postage,12397,Belgium,105.0,False
+561513,2011-07-27,GIFT_0001_40,Gift voucher,UNKNOWN,United Kingdom,33.33,False
+561513,2011-07-27,DOT,Postage,UNKNOWN,United Kingdom,114.62,False
+561515,2011-07-27,DOT,Postage,UNKNOWN,United Kingdom,133.3,False
+561583,2011-07-28,POST,Postage,13813,Germany,54.0,False
+C561628,2011-07-28,M,Manual adjustment,16422,United Kingdom,-9.6,True
+561631,2011-07-28,C2,Postage,14911,EIRE,50.0,False
+561651,2011-07-28,DOT,Postage,UNKNOWN,United Kingdom,180.5,False
+561662,2011-07-28,POST,Postage,12407,Belgium,30.0,False
+561667,2011-07-28,C2,Postage,UNKNOWN,EIRE,50.0,False
+561669,2011-07-28,POST,Postage,12507,Spain,168.0,False
+C561703,2011-07-29,M,Manual adjustment,12709,Germany,-1.65,True
+C561725,2011-07-29,M,Manual adjustment,17841,United Kingdom,-3.25,True
+561795,2011-07-29,POST,Postage,12716,France,54.0,False
+561820,2011-07-29,DOT,Postage,UNKNOWN,United Kingdom,185.66,False
+561885,2011-07-31,M,Manual adjustment,15532,United Kingdom,9.9,False
+561890,2011-07-31,POST,Postage,12697,Sweden,80.0,False
+561894,2011-07-31,M,Manual adjustment,14456,United Kingdom,0.08,False
+561894,2011-07-31,M,Manual adjustment,14456,United Kingdom,2.88,False
+561898,2011-07-31,POST,Postage,12456,Switzerland,280.0,False
+561902,2011-07-31,M,Manual adjustment,17404,Sweden,30.0,False
+561911,2011-08-01,POST,Postage,12534,Germany,108.0,False
+561916,2011-08-01,M,Manual adjustment,15581,United Kingdom,0.0,False
+561916,2011-08-01,M,Manual adjustment,15581,United Kingdom,250.0,False
+562024,2011-08-01,DOT,Postage,UNKNOWN,United Kingdom,142.94,False
+562034,2011-08-02,POST,Postage,12449,Belgium,90.0,False
+562035,2011-08-02,POST,Postage,12627,Germany,36.0,False
+562037,2011-08-02,POST,Postage,13023,United Kingdom,45.0,False
+562038,2011-08-02,POST,Postage,12633,Germany,18.0,False
+562047,2011-08-02,POST,Postage,17788,United Kingdom,4.95,False
+C562062,2011-08-02,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-4575.64,True
+C562086,2011-08-02,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-6721.37,True
+562113,2011-08-02,DOT,Postage,UNKNOWN,United Kingdom,150.59,False
+562114,2011-08-02,DOT,Postage,UNKNOWN,United Kingdom,119.51,False
+C562159,2011-08-03,M,Manual adjustment,17389,United Kingdom,-17.4,True
+562207,2011-08-03,POST,Postage,12643,France,135.0,False
+562264,2011-08-03,DOT,Postage,UNKNOWN,United Kingdom,133.06,False
+562273,2011-08-04,POST,Postage,12502,Spain,168.0,False
+562274,2011-08-04,POST,Postage,12704,Finland,80.0,False
+562275,2011-08-04,POST,Postage,12689,France,36.0,False
+562287,2011-08-04,POST,Postage,12455,Spain,28.0,False
+562347,2011-08-04,M,Manual adjustment,13263,United Kingdom,0.42,False
+562370,2011-08-04,POST,Postage,12626,Germany,72.0,False
+562417,2011-08-04,DOT,Postage,UNKNOWN,United Kingdom,141.5,False
+562420,2011-08-04,GIFT_0001_20,Gift voucher,UNKNOWN,United Kingdom,16.67,False
+562420,2011-08-04,DOT,Postage,UNKNOWN,United Kingdom,170.98,False
+562435,2011-08-04,POST,Postage,12693,Germany,36.0,False
+562445,2011-08-04,POST,Postage,12417,Belgium,54.0,False
+562450,2011-08-05,POST,Postage,12562,France,54.0,False
+562460,2011-08-05,M,Manual adjustment,17841,United Kingdom,5.1,False
+C562514,2011-08-05,M,Manual adjustment,13408,United Kingdom,-11.95,True
+C562515,2011-08-05,M,Manual adjustment,13408,United Kingdom,-43.63,True
+562520,2011-08-05,POST,Postage,12599,France,18.0,False
+562527,2011-08-05,POST,Postage,12647,Germany,36.0,False
+562528,2011-08-05,POST,Postage,12610,Italy,112.0,False
+562537,2011-08-05,POST,Postage,12517,Germany,90.0,False
+562553,2011-08-05,DOT,Postage,UNKNOWN,United Kingdom,214.11,False
+C562597,2011-08-08,M,Manual adjustment,15518,United Kingdom,-6.76,True
+562600,2011-08-08,POST,Postage,12676,Sweden,40.0,False
+C562601,2011-08-08,M,Manual adjustment,12901,United Kingdom,-15.84,True
+562605,2011-08-08,POST,Postage,12530,Germany,36.0,False
+C562622,2011-08-08,M,Manual adjustment,15299,United Kingdom,-48.0,True
+C562647,2011-08-08,M,Manual adjustment,15502,United Kingdom,-3155.95,True
+C562648,2011-08-08,M,Manual adjustment,14606,United Kingdom,-3.25,True
+562650,2011-08-08,POST,Postage,17404,Sweden,80.0,False
+C562657,2011-08-08,POST,Postage,13588,United Kingdom,-4.41,True
+C562687,2011-08-08,POST,Postage,15157,United Kingdom,-10.34,True
+562715,2011-08-08,DOT,Postage,UNKNOWN,United Kingdom,204.85,False
+562717,2011-08-08,DOT,Postage,UNKNOWN,United Kingdom,203.63,False
+562729,2011-08-09,POST,Postage,12569,Germany,18.0,False
+C562786,2011-08-09,M,Manual adjustment,15581,United Kingdom,-250.0,True
+562787,2011-08-09,M,Manual adjustment,15581,United Kingdom,208.34,False
+C562793,2011-08-09,M,Manual adjustment,16422,United Kingdom,-57.6,True
+C562796,2011-08-09,D,Discount,13694,United Kingdom,-64.0,True
+562805,2011-08-09,POST,Postage,UNKNOWN,United Kingdom,3.59,False
+562843,2011-08-09,DOT,Postage,UNKNOWN,United Kingdom,103.4,False
+562844,2011-08-10,POST,Postage,12444,Norway,280.0,False
+562853,2011-08-10,POST,Postage,13919,Denmark,18.0,False
+562882,2011-08-10,POST,Postage,12384,Switzerland,80.0,False
+562933,2011-08-10,GIFT_0001_30,Gift voucher,UNKNOWN,United Kingdom,25.0,False
+562933,2011-08-10,DOT,Postage,UNKNOWN,United Kingdom,150.17,False
+562934,2011-08-10,DOT,Postage,UNKNOWN,United Kingdom,195.62,False
+C562938,2011-08-10,M,Manual adjustment,14156,EIRE,-1121.18,True
+562946,2011-08-11,M,Manual adjustment,15581,United Kingdom,2500.0,False
+562955,2011-08-11,DOT,Postage,UNKNOWN,United Kingdom,4505.17,False
+C562958,2011-08-11,M,Manual adjustment,17531,United Kingdom,-3.25,True
+562960,2011-08-11,C2,Postage,14911,EIRE,50.0,False
+563020,2011-08-11,POST,Postage,12428,Finland,120.0,False
+563025,2011-08-11,POST,Postage,UNKNOWN,United Kingdom,1.69,False
+563037,2011-08-11,POST,Postage,12362,Belgium,45.0,False
+563093,2011-08-11,DOT,Postage,UNKNOWN,United Kingdom,176.41,False
+563100,2011-08-12,POST,Postage,12381,Norway,240.0,False
+563137,2011-08-12,M,Manual adjustment,14534,United Kingdom,1.65,False
+563172,2011-08-12,POST,Postage,12399,Belgium,15.0,False
+A563185,2011-08-12,B,Bad debt,UNKNOWN,United Kingdom,11062.06,False
+A563186,2011-08-12,B,Bad debt,UNKNOWN,United Kingdom,-11062.06,True
+A563187,2011-08-12,B,Bad debt,UNKNOWN,United Kingdom,-11062.06,True
+563189,2011-08-12,POST,Postage,12682,France,36.0,False
+563193,2011-08-12,DOT,Postage,UNKNOWN,United Kingdom,199.89,False
+563195,2011-08-12,DOT,Postage,UNKNOWN,United Kingdom,222.49,False
+C563225,2011-08-14,D,Discount,14911,EIRE,-434.51,True
+563288,2011-08-15,POST,Postage,12656,France,72.0,False
+563345,2011-08-15,POST,Postage,12619,Germany,36.0,False
+563355,2011-08-15,C2,Postage,14156,EIRE,50.0,False
+563373,2011-08-16,POST,Postage,12569,Germany,36.0,False
+563383,2011-08-16,POST,Postage,14407,United Kingdom,15.0,False
+563443,2011-08-16,POST,Postage,12641,Sweden,40.0,False
+C563446,2011-08-16,POST,Postage,15205,United Kingdom,-4.41,True
+563480,2011-08-16,POST,Postage,UNKNOWN,United Kingdom,2.45,False
+563518,2011-08-17,POST,Postage,12421,Spain,56.0,False
+C563535,2011-08-17,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-612.46,True
+C563536,2011-08-17,M,Manual adjustment,UNKNOWN,United Kingdom,-413.68,True
+C563537,2011-08-17,M,Manual adjustment,UNKNOWN,United Kingdom,-793.32,True
+563540,2011-08-17,POST,Postage,12473,Germany,90.0,False
+563547,2011-08-17,C2,Postage,UNKNOWN,EIRE,50.0,False
+563548,2011-08-17,POST,Postage,12528,Germany,54.0,False
+563549,2011-08-17,DOT,Postage,UNKNOWN,United Kingdom,1154.67,False
+563565,2011-08-17,M,Manual adjustment,17338,United Kingdom,5.04,False
+563576,2011-08-17,M,Manual adjustment,12748,United Kingdom,8.49,False
+C563592,2011-08-18,D,Discount,16029,United Kingdom,-9.6,True
+C563593,2011-08-18,D,Discount,14646,Netherlands,-206.4,True
+563662,2011-08-18,POST,Postage,12729,France,36.0,False
+563692,2011-08-18,M,Manual adjustment,17243,United Kingdom,8.4,False
+563712,2011-08-18,POST,Postage,12680,France,36.0,False
+563714,2011-08-18,C2,Postage,14565,United Kingdom,50.0,False
+563749,2011-08-19,POST,Postage,12360,Austria,80.0,False
+563753,2011-08-19,POST,Postage,12513,France,54.0,False
+563776,2011-08-19,POST,Postage,12600,Germany,36.0,False
+563808,2011-08-19,POST,Postage,12626,Germany,36.0,False
+563820,2011-08-19,M,Manual adjustment,UNKNOWN,United Kingdom,10.0,False
+563852,2011-08-19,POST,Postage,12395,Belgium,30.0,False
+563853,2011-08-19,POST,Postage,12560,Germany,144.0,False
+563854,2011-08-19,POST,Postage,12364,Belgium,45.0,False
+563897,2011-08-21,POST,Postage,12523,France,18.0,False
+563911,2011-08-21,C2,Postage,16265,United Kingdom,50.0,False
+563913,2011-08-21,C2,Postage,14911,EIRE,50.0,False
+563914,2011-08-21,POST,Postage,12518,Germany,36.0,False
+563926,2011-08-21,POST,Postage,12553,France,36.0,False
+563936,2011-08-22,POST,Postage,17828,Malta,40.0,False
+563950,2011-08-22,POST,Postage,12471,Germany,126.0,False
+564039,2011-08-22,POST,Postage,12645,Germany,36.0,False
+564082,2011-08-23,POST,Postage,12627,Germany,72.0,False
+564085,2011-08-23,C2,Postage,14911,EIRE,50.0,False
+564086,2011-08-23,POST,Postage,UNKNOWN,Hong Kong,160.0,False
+564140,2011-08-23,POST,Postage,12621,Germany,36.0,False
+564173,2011-08-23,POST,Postage,12567,France,72.0,False
+C564183,2011-08-23,POST,Postage,UNKNOWN,United Kingdom,-14.95,True
+C564183,2011-08-23,M,Manual adjustment,UNKNOWN,United Kingdom,-58.29,True
+564196,2011-08-23,POST,Postage,17315,United Kingdom,15.0,False
+564201,2011-08-24,POST,Postage,12540,Spain,56.0,False
+564216,2011-08-24,POST,Postage,12642,Germany,36.0,False
+564221,2011-08-24,DOT,Postage,UNKNOWN,United Kingdom,1325.0,False
+564226,2011-08-24,POST,Postage,12523,France,36.0,False
+564307,2011-08-24,M,Manual adjustment,17865,United Kingdom,2.1,False
+564328,2011-08-24,POST,Postage,12662,Germany,36.0,False
+564329,2011-08-24,POST,Postage,12569,Germany,36.0,False
+C564331,2011-08-24,POST,Postage,12569,Germany,-18.0,True
+564337,2011-08-24,POST,Postage,12649,Germany,18.0,False
+C564340,2011-08-24,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-4527.65,True
+C564341,2011-08-24,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-6662.51,True
+564360,2011-08-24,POST,Postage,12471,Germany,54.0,False
+564367,2011-08-25,POST,Postage,12712,Germany,18.0,False
+564372,2011-08-25,POST,Postage,12714,France,108.0,False
+564378,2011-08-25,POST,Postage,12417,Belgium,45.0,False
+C564435,2011-08-25,POST,Postage,17676,United Kingdom,-4.41,True
+564471,2011-08-25,POST,Postage,12583,France,18.0,False
+564475,2011-08-25,POST,Postage,12500,Germany,18.0,False
+564476,2011-08-25,POST,Postage,12610,Italy,40.0,False
+564479,2011-08-25,POST,Postage,12682,France,36.0,False
+564481,2011-08-25,POST,Postage,12464,Belgium,45.0,False
+C564486,2011-08-25,S,Samples,UNKNOWN,United Kingdom,-83.06,True
+C564486,2011-08-25,S,Samples,UNKNOWN,United Kingdom,-280.17,True
+C564486,2011-08-25,S,Samples,UNKNOWN,United Kingdom,-162.0,True
+C564487,2011-08-25,D,Discount,15838,United Kingdom,-11.52,True
+C564492,2011-08-25,S,Samples,UNKNOWN,United Kingdom,-239.07,True
+C564492,2011-08-25,S,Samples,UNKNOWN,United Kingdom,-34.9,True
+C564494,2011-08-25,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-83.83,True
+C564498,2011-08-25,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-77.63,True
+564516,2011-08-25,DOT,Postage,UNKNOWN,United Kingdom,309.75,False
+564530,2011-08-25,M,Manual adjustment,UNKNOWN,United Kingdom,312.5,False
+564531,2011-08-25,POST,Postage,12624,France,36.0,False
+564539,2011-08-25,POST,Postage,12715,Sweden,80.0,False
+564558,2011-08-26,POST,Postage,12704,Finland,80.0,False
+564638,2011-08-26,POST,Postage,13812,Germany,18.0,False
+564649,2011-08-26,POST,Postage,15611,United Kingdom,15.0,False
+564654,2011-08-26,C2,Postage,14911,EIRE,50.0,False
+564665,2011-08-26,POST,Postage,UNKNOWN,United Kingdom,1.1,False
+564666,2011-08-26,POST,Postage,12492,Germany,18.0,False
+564670,2011-08-26,POST,Postage,12683,France,108.0,False
+564749,2011-08-30,POST,Postage,12708,Germany,36.0,False
+564754,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,186.87,False
+564755,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,170.92,False
+564756,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,165.2,False
+564757,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,198.09,False
+564758,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,252.37,False
+564760,2011-08-30,GIFT_0001_10,Gift voucher,UNKNOWN,United Kingdom,8.33,False
+564760,2011-08-30,GIFT_0001_30,Gift voucher,UNKNOWN,United Kingdom,25.0,False
+564760,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,191.06,False
+564762,2011-08-30,GIFT_0001_10,Gift voucher,UNKNOWN,United Kingdom,0.0,False
+564761,2011-08-30,GIFT_0001_30,Gift voucher,UNKNOWN,United Kingdom,0.0,False
+564764,2011-08-30,DOT,Postage,14096,United Kingdom,11.17,False
+C564763,2011-08-30,CRUK,Charity commission,14096,United Kingdom,-1.6,True
+C564812,2011-08-30,D,Discount,14527,United Kingdom,-16.67,True
+C564812,2011-08-30,D,Discount,14527,United Kingdom,-15.07,True
+C564812,2011-08-30,D,Discount,14527,United Kingdom,-10.06,True
+C564812,2011-08-30,D,Discount,14527,United Kingdom,-13.0,True
+564817,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,177.63,False
+564818,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,192.71,False
+564819,2011-08-30,POST,Postage,12814,Poland,40.0,False
+564820,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,150.35,False
+564825,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,124.83,False
+564835,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,176.72,False
+564837,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,177.63,False
+564838,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,171.07,False
+564840,2011-08-30,DOT,Postage,UNKNOWN,United Kingdom,191.96,False
+564844,2011-08-30,POST,Postage,UNKNOWN,United Kingdom,3.82,False
+564853,2011-08-31,POST,Postage,12423,Belgium,45.0,False
+564857,2011-08-31,DOT,Postage,UNKNOWN,United Kingdom,877.04,False
+564858,2011-08-31,POST,Postage,12484,Spain,140.0,False
+564861,2011-08-31,POST,Postage,17315,United Kingdom,15.0,False
+564862,2011-08-31,POST,Postage,12678,France,145.0,False
+C564899,2011-08-31,M,Manual adjustment,14646,Netherlands,-105.6,True
+C564905,2011-08-31,POST,Postage,17450,United Kingdom,-87.4,True
+C564905,2011-08-31,POST,Postage,17450,United Kingdom,-79.68,True
+564906,2011-08-31,POST,Postage,12682,France,36.0,False
+C564909,2011-08-31,D,Discount,15498,United Kingdom,-66.17,True
+C564909,2011-08-31,D,Discount,15498,United Kingdom,-33.75,True
+564912,2011-08-31,POST,Postage,12490,France,54.0,False
+564972,2011-08-31,POST,Postage,12621,Germany,108.0,False
+564974,2011-08-31,GIFT_0001_10,Gift voucher,UNKNOWN,United Kingdom,16.66,False
+564974,2011-08-31,DOT,Postage,UNKNOWN,United Kingdom,161.16,False
+C565075,2011-08-31,D,Discount,13408,United Kingdom,-36.3,True
+C565075,2011-08-31,D,Discount,13408,United Kingdom,-38.39,True
+C565078,2011-08-31,D,Discount,16422,United Kingdom,-57.6,True
+565123,2011-09-01,M,Manual adjustment,17949,United Kingdom,480.0,False
+565124,2011-09-01,POST,Postage,12436,Norway,80.0,False
+565197,2011-09-01,C2,Postage,13376,United Kingdom,50.0,False
+565210,2011-09-01,M,Manual adjustment,17750,United Kingdom,7.79,False
+C565229,2011-09-02,POST,Postage,17450,United Kingdom,-200.0,True
+565231,2011-09-02,GIFT_0001_30,Gift voucher,UNKNOWN,United Kingdom,25.0,False
+565231,2011-09-02,DOT,Postage,UNKNOWN,United Kingdom,119.77,False
+565232,2011-09-02,DOT,Postage,UNKNOWN,United Kingdom,131.69,False
+565233,2011-09-02,DOT,Postage,UNKNOWN,United Kingdom,235.02,False
+565234,2011-09-02,DOT,Postage,UNKNOWN,United Kingdom,178.29,False
+565239,2011-09-02,POST,Postage,12670,France,54.0,False
+565246,2011-09-02,POST,Postage,12408,Belgium,60.0,False
+565261,2011-09-02,POST,Postage,12474,Germany,36.0,False
+565286,2011-09-02,DOT,Postage,UNKNOWN,United Kingdom,249.71,False
+565287,2011-09-02,POST,Postage,12483,Sweden,18.0,False
+C565313,2011-09-02,D,Discount,14527,United Kingdom,-14.5,True
+565321,2011-09-02,POST,Postage,12437,France,36.0,False
+565333,2011-09-02,POST,Postage,12375,Finland,40.0,False
+565377,2011-09-02,M,Manual adjustment,18087,United Kingdom,852.8,False
+565383,2011-09-02,DOT,Postage,14096,United Kingdom,16.46,False
+C565382,2011-09-02,CRUK,Charity commission,14096,United Kingdom,-13.01,True
+C565390,2011-09-02,D,Discount,13408,United Kingdom,-110.43,True
+565396,2011-09-02,DOT,Postage,UNKNOWN,United Kingdom,191.46,False
+565416,2011-09-04,POST,Postage,12710,Germany,36.0,False
+565423,2011-09-04,POST,Postage,12569,Germany,18.0,False
+C565428,2011-09-04,M,Manual adjustment,12867,United Kingdom,-4.25,True
+565442,2011-09-04,POST,Postage,12627,Germany,54.0,False
+565443,2011-09-04,POST,Postage,12567,France,54.0,False
+565457,2011-09-05,C2,Postage,14565,United Kingdom,50.0,False
+565474,2011-09-05,C2,Postage,14156,EIRE,50.0,False
+565519,2011-09-05,POST,Postage,12502,Spain,196.0,False
+565556,2011-09-05,POST,Postage,UNKNOWN,United Kingdom,0.0,False
+565579,2011-09-05,M,Manual adjustment,18283,United Kingdom,4.0,False
+565583,2011-09-05,POST,Postage,12816,Poland,40.0,False
+565587,2011-09-05,POST,Postage,12727,France,108.0,False
+565612,2011-09-05,POST,Postage,12616,France,36.0,False
+565617,2011-09-05,DOT,Postage,UNKNOWN,United Kingdom,138.0,False
+565735,2011-09-06,BANK CHARGES,Bank charges,16904,United Kingdom,15.0,False
+565759,2011-09-06,POST,Postage,12720,Germany,54.0,False
+565765,2011-09-06,POST,Postage,12526,Germany,36.0,False
+565777,2011-09-06,POST,Postage,12569,Germany,18.0,False
+565785,2011-09-06,POST,Postage,12461,Switzerland,200.0,False
+565801,2011-09-07,POST,Postage,12685,France,54.0,False
+565840,2011-09-07,DOT,Postage,UNKNOWN,United Kingdom,203.73,False
+565841,2011-09-07,DOT,Postage,UNKNOWN,United Kingdom,194.7,False
+565847,2011-09-07,DOT,Postage,UNKNOWN,United Kingdom,1569.04,False
+565851,2011-09-07,C2,Postage,14911,EIRE,50.0,False
+565854,2011-09-07,POST,Postage,12490,France,72.0,False
+565870,2011-09-07,POST,Postage,16828,United Kingdom,15.0,False
+565916,2011-09-07,C2,Postage,14156,EIRE,50.0,False
+565917,2011-09-07,DOT,Postage,UNKNOWN,United Kingdom,211.86,False
+565919,2011-09-07,DOT,Postage,UNKNOWN,United Kingdom,211.8,False
+C565925,2011-09-08,POST,Postage,12471,Germany,-18.0,True
+565930,2011-09-08,POST,Postage,12685,France,90.0,False
+565931,2011-09-08,POST,Postage,12683,France,36.0,False
+565933,2011-09-08,POST,Postage,15885,United Kingdom,15.0,False
+C565962,2011-09-08,M,Manual adjustment,14410,United Kingdom,-15.0,True
+566040,2011-09-08,POST,Postage,12540,Spain,56.0,False
+566054,2011-09-08,POST,Postage,12592,Germany,18.0,False
+566059,2011-09-08,POST,Postage,12569,Germany,18.0,False
+566060,2011-09-08,DOT,Postage,UNKNOWN,United Kingdom,213.71,False
+566076,2011-09-09,POST,Postage,12449,Belgium,165.0,False
+C566078,2011-09-09,D,Discount,13137,United Kingdom,-45.33,True
+566080,2011-09-09,POST,Postage,15187,United Kingdom,15.0,False
+566115,2011-09-09,POST,Postage,12674,France,18.0,False
+C566168,2011-09-09,M,Manual adjustment,UNKNOWN,United Kingdom,-116.69,True
+566173,2011-09-09,POST,Postage,12787,Netherlands,15.0,False
+C566187,2011-09-09,M,Manual adjustment,14096,United Kingdom,-110.45,True
+C566216,2011-09-09,CRUK,Charity commission,14096,United Kingdom,-15.96,True
+566217,2011-09-09,DOT,Postage,14096,United Kingdom,13.16,False
+566221,2011-09-09,DOT,Postage,UNKNOWN,United Kingdom,197.74,False
+566233,2011-09-11,POST,Postage,12635,Germany,126.0,False
+566256,2011-09-11,POST,Postage,12680,France,18.0,False
+566261,2011-09-11,C2,Postage,13372,United Kingdom,50.0,False
+566267,2011-09-11,POST,Postage,12647,Germany,54.0,False
+566268,2011-09-11,POST,Postage,13813,Germany,54.0,False
+566446,2011-09-12,DOT,Postage,UNKNOWN,United Kingdom,228.33,False
+C566475,2011-09-12,D,Discount,14527,United Kingdom,-20.75,True
+566492,2011-09-13,POST,Postage,12679,France,18.0,False
+566562,2011-09-13,M,Manual adjustment,17365,United Kingdom,5.04,False
+C566565,2011-09-13,CRUK,Charity commission,14096,United Kingdom,-52.24,True
+566566,2011-09-13,DOT,Postage,14096,United Kingdom,85.58,False
+566577,2011-09-13,DOT,Postage,UNKNOWN,United Kingdom,484.17,False
+C566578,2011-09-13,M,Manual adjustment,UNKNOWN,United Kingdom,-92.93,True
+C566579,2011-09-13,M,Manual adjustment,UNKNOWN,United Kingdom,-6.59,True
+566586,2011-09-13,POST,Postage,12619,Germany,18.0,False
+566598,2011-09-13,POST,Postage,12664,Finland,40.0,False
+566602,2011-09-13,DOT,Postage,UNKNOWN,United Kingdom,226.37,False
+566603,2011-09-13,DOT,Postage,UNKNOWN,United Kingdom,122.65,False
+C566613,2011-09-13,D,Discount,16029,United Kingdom,-15.0,True
+C566614,2011-09-13,D,Discount,16029,United Kingdom,-102.24,True
+566736,2011-09-14,POST,Postage,12726,France,36.0,False
+566739,2011-09-14,POST,Postage,12566,Germany,54.0,False
+566757,2011-09-14,DOT,Postage,UNKNOWN,United Kingdom,141.19,False
+566773,2011-09-15,POST,Postage,12444,Norway,80.0,False
+566776,2011-09-15,C2,Postage,14911,EIRE,50.0,False
+566787,2011-09-15,DOT,Postage,UNKNOWN,United Kingdom,800.63,False
+566846,2011-09-15,C2,Postage,14911,EIRE,50.0,False
+566865,2011-09-15,POST,Postage,14735,United Kingdom,15.0,False
+C566889,2011-09-15,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-5522.14,True
+C566899,2011-09-15,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-7427.97,True
+566916,2011-09-15,POST,Postage,12457,Switzerland,160.0,False
+566918,2011-09-15,POST,Postage,12722,France,18.0,False
+C566925,2011-09-15,M,Manual adjustment,12748,United Kingdom,-1829.84,True
+566927,2011-09-15,M,Manual adjustment,17846,United Kingdom,2033.1,False
+566949,2011-09-15,DOT,Postage,UNKNOWN,United Kingdom,178.84,False
+566952,2011-09-15,DOT,Postage,UNKNOWN,United Kingdom,239.91,False
+566984,2011-09-16,POST,Postage,12471,Germany,54.0,False
+566985,2011-09-16,DOT,Postage,UNKNOWN,United Kingdom,594.0,False
+566987,2011-09-16,POST,Postage,12476,Germany,72.0,False
+C567130,2011-09-16,M,Manual adjustment,UNKNOWN,United Kingdom,-1039.73,True
+567134,2011-09-16,POST,Postage,12600,Germany,18.0,False
+C567136,2011-09-16,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-366.27,True
+C567155,2011-09-16,M,Manual adjustment,17728,United Kingdom,-345.03,True
+567183,2011-09-18,M,Manual adjustment,14769,United Kingdom,1.65,False
+567191,2011-09-19,POST,Postage,12562,France,54.0,False
+567196,2011-09-19,POST,Postage,12379,Belgium,30.0,False
+C567289,2011-09-19,POST,Postage,17612,United Kingdom,-4.41,True
+567293,2011-09-19,POST,Postage,12640,France,90.0,False
+567296,2011-09-19,POST,Postage,12682,France,18.0,False
+567298,2011-09-19,POST,Postage,12497,Germany,90.0,False
+567300,2011-09-19,POST,Postage,12724,France,54.0,False
+567305,2011-09-19,POST,Postage,12621,Germany,36.0,False
+567336,2011-09-19,POST,Postage,12621,Germany,72.0,False
+567340,2011-09-19,POST,Postage,12540,Spain,112.0,False
+567342,2011-09-19,POST,Postage,16235,United Kingdom,10.0,False
+C567352,2011-09-19,M,Manual adjustment,UNKNOWN,Hong Kong,-2653.95,True
+567353,2011-09-19,M,Manual adjustment,UNKNOWN,Hong Kong,2653.95,False
+567424,2011-09-20,M,Manual adjustment,16369,United Kingdom,0.38,False
+567424,2011-09-20,M,Manual adjustment,16369,United Kingdom,1.7,False
+567460,2011-09-20,M,Manual adjustment,15888,United Kingdom,0.5700000000000001,False
+567460,2011-09-20,M,Manual adjustment,15888,United Kingdom,5.1,False
+567462,2011-09-20,M,Manual adjustment,14446,United Kingdom,4.8,False
+C567479,2011-09-20,M,Manual adjustment,UNKNOWN,United Kingdom,-232.57,True
+567485,2011-09-20,M,Manual adjustment,15026,United Kingdom,4.8,False
+567505,2011-09-20,POST,Postage,12352,Norway,80.0,False
+567507,2011-09-20,DOT,Postage,UNKNOWN,United Kingdom,1092.21,False
+C567518,2011-09-20,M,Manual adjustment,UNKNOWN,EIRE,-5.95,True
+567530,2011-09-21,POST,Postage,12390,Belgium,45.0,False
+567552,2011-09-21,POST,Postage,12583,France,54.0,False
+567578,2011-09-21,POST,Postage,12701,Germany,36.0,False
+567616,2011-09-21,C2,Postage,14911,EIRE,50.0,False
+567618,2011-09-21,POST,Postage,12721,France,18.0,False
+C567627,2011-09-21,M,Manual adjustment,17511,United Kingdom,-10.65,True
+567631,2011-09-21,C2,Postage,13350,United Kingdom,50.0,False
+567653,2011-09-21,POST,Postage,12550,Spain,140.0,False
+C567655,2011-09-21,CRUK,Charity commission,14096,United Kingdom,-608.66,True
+567656,2011-09-21,DOT,Postage,14096,United Kingdom,878.55,False
+567665,2011-09-21,DOT,Postage,UNKNOWN,United Kingdom,148.55,False
+567666,2011-09-21,POST,Postage,12520,Germany,72.0,False
+567667,2011-09-21,DOT,Postage,UNKNOWN,United Kingdom,213.79,False
+567668,2011-09-21,DOT,Postage,UNKNOWN,United Kingdom,234.94,False
+567670,2011-09-21,DOT,Postage,UNKNOWN,United Kingdom,220.5,False
+567671,2011-09-21,DOT,Postage,UNKNOWN,United Kingdom,248.51,False
+567673,2011-09-21,DOT,Postage,UNKNOWN,United Kingdom,224.26,False
+C567682,2011-09-21,M,Manual adjustment,17997,United Kingdom,-10.27,True
+C567682,2011-09-21,M,Manual adjustment,17997,United Kingdom,-7.11,True
+C567713,2011-09-22,M,Manual adjustment,UNKNOWN,United Kingdom,-3.0,True
+567720,2011-09-22,C2,Postage,14911,EIRE,50.0,False
+567756,2011-09-22,POST,Postage,12678,France,54.0,False
+567793,2011-09-22,POST,Postage,12657,France,72.0,False
+567795,2011-09-22,POST,Postage,14646,Netherlands,90.0,False
+567824,2011-09-22,POST,Postage,12739,United Arab Emirates,37.5,False
+567866,2011-09-22,M,Manual adjustment,16669,United Kingdom,4.0,False
+C567867,2011-09-22,M,Manual adjustment,16669,United Kingdom,-4.0,True
+567869,2011-09-22,M,Manual adjustment,16669,United Kingdom,0.4,False
+C567896,2011-09-22,D,Discount,14527,United Kingdom,-18.62,True
+567897,2011-09-22,POST,Postage,12364,Belgium,15.0,False
+567901,2011-09-22,DOT,Postage,UNKNOWN,United Kingdom,175.6,False
+C567903,2011-09-22,M,Manual adjustment,16422,United Kingdom,-3.5999999999999996,True
+567904,2011-09-22,POST,Postage,12609,Germany,36.0,False
+567910,2011-09-22,POST,Postage,12437,France,18.0,False
+567912,2011-09-22,M,Manual adjustment,15555,United Kingdom,1.74,False
+567914,2011-09-22,POST,Postage,12647,Germany,18.0,False
+567915,2011-09-22,POST,Postage,12579,France,54.0,False
+C567916,2011-09-22,POST,Postage,12579,France,-18.0,True
+567924,2011-09-22,POST,Postage,12471,Germany,18.0,False
+567928,2011-09-22,POST,Postage,12380,Belgium,54.0,False
+567938,2011-09-22,POST,Postage,12704,Finland,80.0,False
+567958,2011-09-23,POST,Postage,12619,Germany,36.0,False
+567959,2011-09-23,POST,Postage,12516,Germany,72.0,False
+567968,2011-09-23,POST,Postage,12546,Spain,84.0,False
+C567997,2011-09-23,M,Manual adjustment,13097,United Kingdom,-14.95,True
+568001,2011-09-23,POST,Postage,12540,Spain,28.0,False
+568040,2011-09-23,POST,Postage,12681,France,72.0,False
+568050,2011-09-23,M,Manual adjustment,15901,United Kingdom,1.5,False
+568050,2011-09-23,M,Manual adjustment,15901,United Kingdom,0.48,False
+568056,2011-09-23,POST,Postage,12705,Germany,90.0,False
+568057,2011-09-23,DOT,Postage,UNKNOWN,United Kingdom,698.5,False
+568103,2011-09-23,POST,Postage,12518,Germany,54.0,False
+568132,2011-09-23,M,Manual adjustment,15549,United Kingdom,3.75,False
+568134,2011-09-23,DOT,Postage,UNKNOWN,United Kingdom,218.75,False
+568135,2011-09-23,DOT,Postage,UNKNOWN,United Kingdom,201.82,False
+C568138,2011-09-25,M,Manual adjustment,16689,United Kingdom,-51.839999999999996,True
+568158,2011-09-25,PADS,Other,16133,United Kingdom,0.0,False
+568172,2011-09-25,POST,Postage,12348,Finland,40.0,False
+568176,2011-09-25,POST,Postage,12685,France,18.0,False
+568179,2011-09-25,POST,Postage,12545,Spain,84.0,False
+568200,2011-09-25,PADS,Other,16198,United Kingdom,0.001,False
+568208,2011-09-25,POST,Postage,12783,Portugal,56.0,False
+568221,2011-09-26,C2,Postage,14911,EIRE,50.0,False
+568223,2011-09-26,POST,Postage,12412,Denmark,30.0,False
+C568240,2011-09-26,POST,Postage,17172,United Kingdom,-4.5,True
+568346,2011-09-26,DOT,Postage,14096,United Kingdom,688.08,False
+C568345,2011-09-26,CRUK,Charity commission,14096,United Kingdom,-447.56,True
+568350,2011-09-26,POST,Postage,12612,Germany,36.0,False
+568375,2011-09-26,BANK CHARGES,Bank charges,13405,United Kingdom,15.0,False
+568375,2011-09-26,BANK CHARGES,Bank charges,13405,United Kingdom,0.001,False
+568384,2011-09-27,M,Manual adjustment,12748,United Kingdom,0.0,False
+568398,2011-09-27,POST,Postage,14543,United Kingdom,5.0,False
+C568410,2011-09-27,POST,Postage,12748,United Kingdom,-80.0,True
+568411,2011-09-27,DOT,Postage,UNKNOWN,United Kingdom,837.46,False
+568472,2011-09-27,POST,Postage,12517,Germany,36.0,False
+568514,2011-09-27,POST,Postage,UNKNOWN,United Kingdom,1.36,False
+568518,2011-09-27,POST,Postage,12680,France,18.0,False
+568554,2011-09-27,POST,Postage,12455,Spain,28.0,False
+568567,2011-09-27,DOT,Postage,UNKNOWN,United Kingdom,227.99,False
+568645,2011-09-28,POST,Postage,12656,France,54.0,False
+C568646,2011-09-28,POST,Postage,13430,United Kingdom,-3.38,True
+568650,2011-09-28,POST,Postage,13505,Switzerland,320.0,False
+568651,2011-09-28,POST,Postage,12362,Belgium,60.0,False
+568674,2011-09-28,POST,Postage,12708,Germany,36.0,False
+568698,2011-09-28,C2,Postage,14911,EIRE,50.0,False
+568699,2011-09-28,POST,Postage,12352,Norway,40.0,False
+568703,2011-09-28,M,Manual adjustment,12748,United Kingdom,14.64,False
+568706,2011-09-28,C2,Postage,14911,EIRE,50.0,False
+568716,2011-09-28,DOT,Postage,UNKNOWN,United Kingdom,160.9,False
+568719,2011-09-28,DOT,Postage,UNKNOWN,United Kingdom,236.91,False
+568721,2011-09-28,DOT,Postage,UNKNOWN,United Kingdom,225.68,False
+568798,2011-09-29,POST,Postage,12615,France,54.0,False
+C568799,2011-09-29,M,Manual adjustment,17450,United Kingdom,-180.0,True
+C568799,2011-09-29,M,Manual adjustment,17450,United Kingdom,-2.88,True
+568872,2011-09-29,POST,Postage,12372,Denmark,30.0,False
+568914,2011-09-29,POST,Postage,UNKNOWN,United Kingdom,1.36,False
+568949,2011-09-29,DOT,Postage,UNKNOWN,United Kingdom,182.25,False
+568950,2011-09-29,POST,Postage,12458,Switzerland,80.0,False
+568953,2011-09-29,POST,Postage,12728,France,18.0,False
+568988,2011-09-29,POST,Postage,12718,France,36.0,False
+568994,2011-09-29,POST,Postage,12598,France,36.0,False
+569001,2011-09-29,POST,Postage,12703,Germany,18.0,False
+569006,2011-09-29,C2,Postage,16268,United Kingdom,50.0,False
+569017,2011-09-30,POST,Postage,13813,Germany,36.0,False
+569018,2011-09-30,POST,Postage,12676,Sweden,40.0,False
+569028,2011-09-30,C2,Postage,14911,EIRE,50.0,False
+569033,2011-09-30,POST,Postage,15611,United Kingdom,6.0,False
+569089,2011-09-30,M,Manual adjustment,13764,United Kingdom,3.0,False
+C569115,2011-09-30,POST,Postage,13426,United Kingdom,-7.62,True
+569120,2011-09-30,POST,Postage,12583,France,36.0,False
+569122,2011-09-30,POST,Postage,12694,France,54.0,False
+569126,2011-09-30,C2,Postage,13347,United Kingdom,50.0,False
+569130,2011-09-30,C2,Postage,14911,EIRE,50.0,False
+569137,2011-09-30,DOT,Postage,UNKNOWN,United Kingdom,639.83,False
+569202,2011-09-30,DOT,Postage,UNKNOWN,United Kingdom,244.51,False
+569246,2011-10-03,DOT,Postage,14096,United Kingdom,490.25,False
+C569245,2011-10-03,CRUK,Charity commission,14096,United Kingdom,-361.59,True
+569332,2011-10-03,POST,Postage,12637,France,36.0,False
+569360,2011-10-03,M,Manual adjustment,14653,United Kingdom,9.95,False
+569364,2011-10-03,M,Manual adjustment,13167,United Kingdom,12.0,False
+569372,2011-10-03,DOT,Postage,UNKNOWN,United Kingdom,250.68,False
+569374,2011-10-03,DOT,Postage,UNKNOWN,United Kingdom,197.83,False
+569382,2011-10-03,M,Manual adjustment,15502,United Kingdom,3155.95,False
+569389,2011-10-03,M,Manual adjustment,15502,United Kingdom,152.78,False
+569389,2011-10-03,M,Manual adjustment,15502,United Kingdom,32.22,False
+569389,2011-10-03,M,Manual adjustment,15502,United Kingdom,120.0,False
+C569390,2011-10-03,M,Manual adjustment,15502,United Kingdom,-152.78,True
+C569390,2011-10-03,M,Manual adjustment,15502,United Kingdom,-32.22,True
+C569390,2011-10-03,M,Manual adjustment,15502,United Kingdom,-120.0,True
+569402,2011-10-04,POST,Postage,12413,France,18.0,False
+569415,2011-10-04,DOT,Postage,UNKNOWN,United Kingdom,492.46,False
+569487,2011-10-04,C2,Postage,13351,United Kingdom,50.0,False
+569496,2011-10-04,POST,Postage,12395,Belgium,30.0,False
+569522,2011-10-04,POST,Postage,12664,Finland,40.0,False
+569530,2011-10-04,M,Manual adjustment,17957,United Kingdom,0.96,False
+569533,2011-10-04,M,Manual adjustment,16374,United Kingdom,7.95,False
+569544,2011-10-04,DOT,Postage,UNKNOWN,United Kingdom,213.33,False
+569545,2011-10-04,DOT,Postage,UNKNOWN,United Kingdom,252.16,False
+569562,2011-10-05,POST,Postage,12720,Germany,54.0,False
+569563,2011-10-05,POST,Postage,12481,Germany,144.0,False
+569568,2011-10-05,POST,Postage,12700,France,90.0,False
+569639,2011-10-05,POST,Postage,12471,Germany,240.0,False
+569665,2011-10-05,POST,Postage,12789,Netherlands,15.0,False
+569686,2011-10-05,POST,Postage,12719,France,36.0,False
+569700,2011-10-05,DOT,Postage,UNKNOWN,United Kingdom,195.37,False
+569719,2011-10-06,POST,Postage,14646,Netherlands,120.0,False
+569721,2011-10-06,POST,Postage,12628,Germany,18.0,False
+569727,2011-10-06,POST,Postage,12500,Germany,36.0,False
+C569733,2011-10-06,POST,Postage,12500,Germany,-18.0,True
+569735,2011-10-06,POST,Postage,14646,Netherlands,30.0,False
+569739,2011-10-06,C2,Postage,14911,EIRE,50.0,False
+569816,2011-10-06,POST,Postage,UNKNOWN,United Kingdom,2.2,False
+C569829,2011-10-06,D,Discount,14527,United Kingdom,-16.74,True
+C569829,2011-10-06,D,Discount,14527,United Kingdom,-16.07,True
+569844,2011-10-06,POST,Postage,12626,Germany,126.0,False
+569861,2011-10-06,POST,Postage,13816,Germany,54.0,False
+569860,2011-10-06,POST,Postage,13812,Germany,18.0,False
+569866,2011-10-06,M,Manual adjustment,12757,Portugal,2.5,False
+569867,2011-10-06,POST,Postage,12569,Germany,36.0,False
+569893,2011-10-06,POST,Postage,12627,Germany,108.0,False
+569898,2011-10-06,DOT,Postage,UNKNOWN,United Kingdom,297.66,False
+569901,2011-10-06,M,Manual adjustment,12923,United Kingdom,1.25,False
+569904,2011-10-06,POST,Postage,13023,United Kingdom,45.0,False
+569907,2011-10-06,POST,Postage,12569,Germany,18.0,False
+C569982,2011-10-06,M,Manual adjustment,15365,United Kingdom,-218.72,True
+569997,2011-10-07,POST,Postage,12394,Denmark,162.0,False
+569998,2011-10-07,POST,Postage,12540,Spain,56.0,False
+570007,2011-10-07,POST,Postage,12519,Germany,54.0,False
+570008,2011-10-07,C2,Postage,13359,United Kingdom,50.0,False
+570020,2011-10-07,POST,Postage,12684,France,18.0,False
+C570025,2011-10-07,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-5942.57,True
+570026,2011-10-07,POST,Postage,12781,Czech Republic,40.0,False
+570082,2011-10-07,POST,Postage,12524,Germany,126.0,False
+570095,2011-10-07,POST,Postage,12528,Germany,36.0,False
+570187,2011-10-07,DOT,Postage,UNKNOWN,United Kingdom,255.81,False
+570189,2011-10-07,POST,Postage,12492,Germany,18.0,False
+570191,2011-10-07,POST,Postage,12778,Netherlands,15.0,False
+570202,2011-10-07,POST,Postage,UNKNOWN,United Kingdom,6.32,False
+570258,2011-10-10,DOT,Postage,UNKNOWN,United Kingdom,930.04,False
+570267,2011-10-10,POST,Postage,12682,France,18.0,False
+C570279,2011-10-10,M,Manual adjustment,13694,United Kingdom,-24.0,True
+C570301,2011-10-10,M,Manual adjustment,16900,United Kingdom,-682.05,True
+570333,2011-10-10,M,Manual adjustment,18126,United Kingdom,2.34,False
+570409,2011-10-10,POST,Postage,12682,France,36.0,False
+570417,2011-10-10,POST,Postage,UNKNOWN,United Kingdom,3.82,False
+570426,2011-10-10,C2,Postage,13352,United Kingdom,50.0,False
+570446,2011-10-10,POST,Postage,12431,Belgium,30.0,False
+570448,2011-10-10,M,Manual adjustment,13224,United Kingdom,3.0,False
+570452,2011-10-10,POST,Postage,12427,Germany,36.0,False
+C570453,2011-10-10,M,Manual adjustment,UNKNOWN,United Kingdom,-821.9,True
+C570454,2011-10-10,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-472.77,True
+C570456,2011-10-10,S,Samples,UNKNOWN,United Kingdom,-98.18,True
+C570456,2011-10-10,S,Samples,UNKNOWN,United Kingdom,-4.88,True
+C570463,2011-10-10,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-49.65,True
+C570464,2011-10-10,S,Samples,UNKNOWN,United Kingdom,-47.98,True
+570465,2011-10-10,DOT,Postage,UNKNOWN,United Kingdom,188.46,False
+C570468,2011-10-10,M,Manual adjustment,UNKNOWN,United Kingdom,-238.78,True
+570475,2011-10-10,M,Manual adjustment,UNKNOWN,United Kingdom,5.04,False
+570479,2011-10-10,M,Manual adjustment,17589,United Kingdom,1.25,False
+C570487,2011-10-10,CRUK,Charity commission,14096,United Kingdom,-411.92,True
+570488,2011-10-10,DOT,Postage,14096,United Kingdom,635.01,False
+570499,2011-10-11,POST,Postage,12772,Portugal,140.0,False
+570637,2011-10-11,POST,Postage,12530,Germany,36.0,False
+570640,2011-10-11,POST,Postage,12474,Germany,36.0,False
+570651,2011-10-11,C2,Postage,14911,EIRE,50.0,False
+C570654,2011-10-11,POST,Postage,UNKNOWN,United Kingdom,-14.95,True
+C570654,2011-10-11,M,Manual adjustment,UNKNOWN,United Kingdom,-58.29,True
+570666,2011-10-11,POST,Postage,13919,Denmark,18.0,False
+570667,2011-10-11,POST,Postage,12362,Belgium,30.0,False
+570681,2011-10-11,POST,Postage,12381,Norway,6.0,False
+570685,2011-10-11,M,Manual adjustment,13208,United Kingdom,18.0,False
+570688,2011-10-11,DOT,Postage,UNKNOWN,United Kingdom,199.04,False
+570690,2011-10-11,DOT,Postage,UNKNOWN,United Kingdom,199.81,False
+570694,2011-10-12,C2,Postage,14911,EIRE,50.0,False
+570700,2011-10-12,C2,Postage,14156,EIRE,50.0,False
+C570704,2011-10-12,M,Manual adjustment,13208,United Kingdom,-18.0,True
+570705,2011-10-12,M,Manual adjustment,13208,United Kingdom,6.4799999999999995,False
+C570708,2011-10-12,M,Manual adjustment,12908,United Kingdom,-114.0,True
+570714,2011-10-12,POST,Postage,13520,Switzerland,80.0,False
+570718,2011-10-12,POST,Postage,12518,Germany,36.0,False
+570725,2011-10-12,POST,Postage,12381,Norway,4.5,False
+570754,2011-10-12,POST,Postage,12633,Germany,18.0,False
+570769,2011-10-12,POST,Postage,12664,Finland,36.0,False
+C570775,2011-10-12,POST,Postage,12664,Finland,-18.0,True
+570784,2011-10-12,POST,Postage,12569,Germany,18.0,False
+570793,2011-10-12,POST,Postage,12444,Norway,320.0,False
+570798,2011-10-12,POST,Postage,12679,France,36.0,False
+570823,2011-10-12,POST,Postage,12691,France,18.0,False
+570841,2011-10-12,POST,Postage,12553,France,36.0,False
+570851,2011-10-12,POST,Postage,12583,France,18.0,False
+570871,2011-10-12,DOT,Postage,UNKNOWN,United Kingdom,218.93,False
+570872,2011-10-12,DOT,Postage,UNKNOWN,United Kingdom,214.32,False
+570875,2011-10-12,POST,Postage,12667,Finland,160.0,False
+570879,2011-10-13,POST,Postage,12685,France,36.0,False
+570881,2011-10-13,POST,Postage,12498,Germany,36.0,False
+571030,2011-10-13,POST,Postage,12876,Belgium,105.0,False
+571035,2011-10-13,M,Manual adjustment,12446,RSA,0.0,False
+571053,2011-10-13,POST,Postage,12631,Finland,160.0,False
+571061,2011-10-13,DOT,Postage,UNKNOWN,United Kingdom,852.25,False
+571065,2011-10-13,POST,Postage,12613,Germany,126.0,False
+571082,2011-10-13,DOT,Postage,UNKNOWN,United Kingdom,213.13,False
+571106,2011-10-13,M,Manual adjustment,14976,United Kingdom,1.0,False
+571111,2011-10-13,POST,Postage,14976,United Kingdom,15.0,False
+571129,2011-10-14,C2,Postage,14156,EIRE,50.0,False
+571179,2011-10-14,M,Manual adjustment,15482,United Kingdom,40.0,False
+571187,2011-10-14,POST,Postage,12380,Belgium,54.0,False
+571188,2011-10-14,POST,Postage,12783,Portugal,112.0,False
+571190,2011-10-14,M,Manual adjustment,17771,United Kingdom,0.48,False
+571191,2011-10-14,POST,Postage,17404,Sweden,15.0,False
+571215,2011-10-14,POST,Postage,13810,Germany,54.0,False
+C571220,2011-10-14,M,Manual adjustment,13810,Germany,-599.5,True
+571223,2011-10-14,M,Manual adjustment,13810,Germany,599.5,False
+571240,2011-10-14,POST,Postage,12562,France,36.0,False
+571257,2011-10-14,DOT,Postage,UNKNOWN,United Kingdom,271.18,False
+571289,2011-10-16,M,Manual adjustment,15113,United Kingdom,0.39,False
+571304,2011-10-17,POST,Postage,12526,Germany,72.0,False
+571305,2011-10-17,DOT,Postage,UNKNOWN,United Kingdom,657.29,False
+571308,2011-10-17,POST,Postage,12475,Germany,54.0,False
+571312,2011-10-17,POST,Postage,12474,Germany,72.0,False
+571324,2011-10-17,M,Manual adjustment,12783,Portugal,283.02,False
+C571325,2011-10-17,M,Manual adjustment,12783,Portugal,-339.02,True
+571326,2011-10-17,M,Manual adjustment,12783,Portugal,339.02,False
+C571327,2011-10-17,M,Manual adjustment,12783,Portugal,-283.02,True
+571328,2011-10-17,POST,Postage,12473,Germany,126.0,False
+571425,2011-10-17,C2,Postage,14911,EIRE,50.0,False
+571441,2011-10-17,DOT,Postage,14096,United Kingdom,743.62,False
+C571440,2011-10-17,CRUK,Charity commission,14096,United Kingdom,-495.98,True
+571445,2011-10-17,POST,Postage,12463,Belgium,36.0,False
+571465,2011-10-17,M,Manual adjustment,14830,United Kingdom,0.85,False
+C571501,2011-10-17,M,Manual adjustment,UNKNOWN,United Kingdom,-153.13,True
+571508,2011-10-17,DOT,Postage,UNKNOWN,United Kingdom,195.06,False
+571556,2011-10-18,POST,Postage,12662,Germany,36.0,False
+C571625,2011-10-18,POST,Postage,16140,United Kingdom,-4.41,True
+C571634,2011-10-18,M,Manual adjustment,16029,United Kingdom,-79.2,True
+C571639,2011-10-18,M,Manual adjustment,15498,United Kingdom,-120.58,True
+571658,2011-10-18,POST,Postage,12621,Germany,54.0,False
+571665,2011-10-18,POST,Postage,12540,Spain,84.0,False
+571697,2011-10-18,POST,Postage,12759,Netherlands,45.0,False
+571705,2011-10-18,POST,Postage,12360,Austria,120.0,False
+C571707,2011-10-18,M,Manual adjustment,14056,United Kingdom,-0.84,True
+571713,2011-10-18,DOT,Postage,UNKNOWN,United Kingdom,243.87,False
+571714,2011-10-18,DOT,Postage,UNKNOWN,United Kingdom,127.89,False
+571716,2011-10-18,DOT,Postage,UNKNOWN,United Kingdom,206.38,False
+571724,2011-10-19,POST,Postage,12572,Germany,54.0,False
+571729,2011-10-19,POST,Postage,12500,Germany,18.0,False
+C571750,2011-10-19,M,Manual adjustment,12744,Singapore,-3949.32,True
+C571750,2011-10-19,M,Manual adjustment,12744,Singapore,-2118.74,True
+571751,2011-10-19,M,Manual adjustment,12744,Singapore,3949.32,False
+571751,2011-10-19,M,Manual adjustment,12744,Singapore,2118.74,False
+571797,2011-10-19,DOT,Postage,UNKNOWN,United Kingdom,868.21,False
+571824,2011-10-19,POST,Postage,12472,Germany,108.0,False
+571851,2011-10-19,POST,Postage,12596,Spain,112.0,False
+571883,2011-10-19,M,Manual adjustment,14704,United Kingdom,2.34,False
+571900,2011-10-19,BANK CHARGES,Bank charges,13263,United Kingdom,15.0,False
+571904,2011-10-19,POST,Postage,12522,Germany,18.0,False
+571909,2011-10-19,M,Manual adjustment,15006,United Kingdom,4.95,False
+571923,2011-10-19,POST,Postage,12685,France,36.0,False
+571931,2011-10-19,DOT,Postage,UNKNOWN,United Kingdom,230.59,False
+572054,2011-10-20,POST,Postage,12642,Germany,36.0,False
+572056,2011-10-20,POST,Postage,17402,United Kingdom,35.0,False
+572060,2011-10-20,POST,Postage,12569,Germany,18.0,False
+572061,2011-10-20,POST,Postage,12474,Germany,36.0,False
+572069,2011-10-20,C2,Postage,14911,EIRE,50.0,False
+572072,2011-10-20,POST,Postage,UNKNOWN,United Kingdom,1.36,False
+572087,2011-10-20,POST,Postage,12683,France,108.0,False
+572103,2011-10-20,M,Manual adjustment,17571,United Kingdom,1.25,False
+572133,2011-10-21,POST,Postage,12407,Belgium,36.0,False
+572184,2011-10-21,POST,Postage,12403,Denmark,36.0,False
+C572187,2011-10-21,POST,Postage,12403,Denmark,-18.0,True
+572233,2011-10-21,POST,Postage,14646,Netherlands,105.0,False
+572241,2011-10-21,POST,Postage,12712,Germany,18.0,False
+572293,2011-10-23,M,Manual adjustment,12748,United Kingdom,50.0,False
+572316,2011-10-23,M,Manual adjustment,17836,United Kingdom,0.38,False
+572344,2011-10-24,M,Manual adjustment,14607,United Kingdom,684.0,False
+572344,2011-10-24,M,Manual adjustment,14607,United Kingdom,72.0,False
+C572346,2011-10-24,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-49.65,True
+C572347,2011-10-24,S,Samples,UNKNOWN,United Kingdom,-33.05,True
+C572398,2011-10-24,POST,Postage,UNKNOWN,United Kingdom,-11.85,True
+C572398,2011-10-24,M,Manual adjustment,UNKNOWN,United Kingdom,-162.2,True
+572423,2011-10-24,M,Manual adjustment,16742,United Kingdom,464.9,False
+C572422,2011-10-24,POST,Postage,UNKNOWN,United Kingdom,-35.65,True
+C572422,2011-10-24,M,Manual adjustment,UNKNOWN,United Kingdom,-183.16,True
+C572428,2011-10-24,M,Manual adjustment,17949,United Kingdom,-464.9,True
+C572441,2011-10-24,POST,Postage,UNKNOWN,United Kingdom,-20.47,True
+C572441,2011-10-24,M,Manual adjustment,UNKNOWN,United Kingdom,-177.04,True
+572442,2011-10-24,POST,Postage,12546,Spain,56.0,False
+C572444,2011-10-24,POST,Postage,UNKNOWN,United Kingdom,-15.53,True
+C572444,2011-10-24,M,Manual adjustment,UNKNOWN,United Kingdom,-235.54,True
+C572445,2011-10-24,POST,Postage,UNKNOWN,United Kingdom,-31.6,True
+C572445,2011-10-24,M,Manual adjustment,UNKNOWN,United Kingdom,-186.21,True
+C572446,2011-10-24,POST,Postage,UNKNOWN,United Kingdom,-70.21,True
+C572446,2011-10-24,M,Manual adjustment,UNKNOWN,United Kingdom,-302.04,True
+C572448,2011-10-24,POST,Postage,UNKNOWN,United Kingdom,-69.72,True
+C572448,2011-10-24,M,Manual adjustment,UNKNOWN,United Kingdom,-259.79,True
+C572450,2011-10-24,POST,Postage,UNKNOWN,United Kingdom,-29.28,True
+C572450,2011-10-24,M,Manual adjustment,UNKNOWN,United Kingdom,-248.87,True
+C572455,2011-10-24,POST,Postage,UNKNOWN,United Kingdom,-30.53,True
+C572455,2011-10-24,M,Manual adjustment,UNKNOWN,United Kingdom,-265.7,True
+C572456,2011-10-24,POST,Postage,UNKNOWN,United Kingdom,-22.56,True
+C572456,2011-10-24,M,Manual adjustment,UNKNOWN,United Kingdom,-181.75,True
+572459,2011-10-24,C2,Postage,14911,EIRE,50.0,False
+C572467,2011-10-24,POST,Postage,UNKNOWN,United Kingdom,-42.05,True
+C572467,2011-10-24,M,Manual adjustment,UNKNOWN,United Kingdom,-276.08,True
+C572470,2011-10-24,POST,Postage,UNKNOWN,United Kingdom,-26.0,True
+C572470,2011-10-24,M,Manual adjustment,UNKNOWN,United Kingdom,-233.25,True
+572540,2011-10-24,DOT,Postage,UNKNOWN,United Kingdom,743.96,False
+572549,2011-10-24,DOT,Postage,UNKNOWN,United Kingdom,235.98,False
+572550,2011-10-24,DOT,Postage,UNKNOWN,United Kingdom,215.13,False
+C572551,2011-10-24,CRUK,Charity commission,14096,United Kingdom,-425.14,True
+572552,2011-10-24,DOT,Postage,14096,United Kingdom,638.3,False
+572553,2011-10-24,DOT,Postage,UNKNOWN,United Kingdom,276.48,False
+572560,2011-10-25,POST,Postage,12476,Germany,144.0,False
+572567,2011-10-25,POST,Postage,12398,Switzerland,200.0,False
+572656,2011-10-25,M,Manual adjustment,14607,United Kingdom,432.0,False
+C572659,2011-10-25,M,Manual adjustment,14527,United Kingdom,-80.0,True
+572665,2011-10-25,POST,Postage,UNKNOWN,United Kingdom,4.48,False
+572682,2011-10-25,M,Manual adjustment,17928,United Kingdom,28.080000000000002,False
+572696,2011-10-25,M,Manual adjustment,17857,United Kingdom,250.0,False
+572758,2011-10-25,DOT,Postage,UNKNOWN,United Kingdom,246.54,False
+572770,2011-10-26,POST,Postage,12371,Switzerland,360.0,False
+572832,2011-10-26,M,Manual adjustment,16454,United Kingdom,1.0,False
+572849,2011-10-26,S,Samples,UNKNOWN,United Kingdom,33.05,False
+572886,2011-10-26,POST,Postage,12448,Spain,84.0,False
+572887,2011-10-26,POST,Postage,12362,Belgium,60.0,False
+572894,2011-10-26,POST,Postage,12569,Germany,18.0,False
+572895,2011-10-26,POST,Postage,12569,Germany,18.0,False
+572896,2011-10-26,POST,Postage,12456,Switzerland,160.0,False
+572897,2011-10-26,DOT,Postage,UNKNOWN,United Kingdom,1016.58,False
+572934,2011-10-27,POST,Postage,12610,Italy,160.0,False
+572964,2011-10-27,POST,Postage,12630,Finland,120.0,False
+572969,2011-10-27,C2,Postage,13363,United Kingdom,50.0,False
+572986,2011-10-27,POST,Postage,12681,France,54.0,False
+572992,2011-10-27,POST,Postage,12681,France,36.0,False
+573036,2011-10-27,POST,Postage,12437,France,36.0,False
+573077,2011-10-27,M,Manual adjustment,12536,France,4161.06,False
+C573079,2011-10-27,M,Manual adjustment,12536,France,-8322.12,True
+C573081,2011-10-27,D,Discount,14527,United Kingdom,-23.27,True
+573080,2011-10-27,M,Manual adjustment,12536,France,4161.06,False
+573106,2011-10-27,POST,Postage,12626,Germany,18.0,False
+573108,2011-10-27,POST,Postage,12430,Norway,40.0,False
+573136,2011-10-27,POST,Postage,12709,Germany,36.0,False
+573137,2011-10-27,DOT,Postage,UNKNOWN,United Kingdom,188.89,False
+573153,2011-10-28,POST,Postage,12678,France,435.0,False
+C573172,2011-10-28,M,Manual adjustment,16966,United Kingdom,-0.5,True
+573173,2011-10-28,POST,Postage,12362,Belgium,60.0,False
+C573253,2011-10-28,POST,Postage,17552,United Kingdom,-3.95,True
+C573257,2011-10-28,POST,Postage,14297,United Kingdom,-6.42,True
+C573268,2011-10-28,M,Manual adjustment,12748,United Kingdom,-907.0,True
+573284,2011-10-28,POST,Postage,13812,Germany,18.0,False
+573289,2011-10-28,POST,Postage,12705,Germany,72.0,False
+573307,2011-10-28,POST,Postage,UNKNOWN,United Kingdom,11.27,False
+573310,2011-10-28,DOT,Postage,UNKNOWN,United Kingdom,6.63,False
+573311,2011-10-28,M,Manual adjustment,14071,United Kingdom,3.12,False
+573313,2011-10-28,DOT,Postage,UNKNOWN,United Kingdom,3.29,False
+573328,2011-10-30,M,Manual adjustment,16601,United Kingdom,1.17,False
+573333,2011-10-30,POST,Postage,12483,Sweden,80.0,False
+573340,2011-10-30,M,Manual adjustment,14159,United Kingdom,2.37,False
+573345,2011-10-30,M,Manual adjustment,17609,United Kingdom,5.0,False
+573362,2011-10-30,POST,Postage,12597,Spain,280.0,False
+573391,2011-10-30,C2,Postage,14911,EIRE,50.0,False
+573401,2011-10-30,POST,Postage,12364,Belgium,30.0,False
+573402,2011-10-30,POST,Postage,12494,France,18.0,False
+573417,2011-10-31,POST,Postage,12581,Germany,18.0,False
+573430,2011-10-31,POST,Postage,13813,Germany,54.0,False
+C573549,2011-10-31,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-5942.57,True
+C573550,2011-10-31,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-2185.04,True
+573553,2011-10-31,DOT,Postage,UNKNOWN,United Kingdom,757.63,False
+573576,2011-10-31,DOT,Postage,14096,United Kingdom,901.58,False
+C573575,2011-10-31,CRUK,Charity commission,14096,United Kingdom,-606.0,True
+573580,2011-10-31,DOT,Postage,UNKNOWN,United Kingdom,254.42,False
+573581,2011-10-31,C2,Postage,14911,EIRE,50.0,False
+573585,2011-10-31,DOT,Postage,UNKNOWN,United Kingdom,2019.05,False
+573585,2011-10-31,GIFT_0001_20,Gift voucher,UNKNOWN,United Kingdom,16.67,False
+573586,2011-10-31,BANK CHARGES,Bank charges,14704,United Kingdom,15.0,False
+573588,2011-10-31,POST,Postage,12588,Finland,40.0,False
+573589,2011-10-31,POST,Postage,UNKNOWN,United Kingdom,0.55,False
+573601,2011-10-31,DOT,Postage,UNKNOWN,United Kingdom,511.25,False
+573629,2011-10-31,POST,Postage,12522,Germany,18.0,False
+573633,2011-10-31,DOT,Postage,UNKNOWN,United Kingdom,98.79,False
+573656,2011-10-31,POST,Postage,12417,Belgium,45.0,False
+573669,2011-10-31,POST,Postage,UNKNOWN,United Kingdom,2.46,False
+573768,2011-11-01,POST,Postage,12552,Italy,120.0,False
+573867,2011-11-01,POST,Postage,12674,France,36.0,False
+573868,2011-11-01,POST,Postage,12491,France,36.0,False
+573891,2011-11-01,POST,Postage,12682,France,90.0,False
+C574031,2011-11-02,POST,Postage,13394,United Kingdom,-5.5,True
+574068,2011-11-02,POST,Postage,12490,France,54.0,False
+574071,2011-11-02,POST,Postage,12654,Germany,18.0,False
+574074,2011-11-02,DOT,Postage,UNKNOWN,United Kingdom,371.65,False
+574076,2011-11-02,DOT,Postage,UNKNOWN,United Kingdom,378.02,False
+574097,2011-11-03,POST,Postage,12471,Germany,90.0,False
+574104,2011-11-03,POST,Postage,12615,France,54.0,False
+C574238,2011-11-03,D,Discount,13408,United Kingdom,-11.84,True
+C574238,2011-11-03,D,Discount,13408,United Kingdom,-39.7,True
+C574238,2011-11-03,D,Discount,13408,United Kingdom,-11.59,True
+574252,2011-11-03,POST,Postage,12437,France,36.0,False
+574252,2011-11-03,M,Manual adjustment,12437,France,0.0,False
+C574254,2011-11-03,M,Manual adjustment,15527,United Kingdom,-64.11,True
+574255,2011-11-03,POST,Postage,12569,Germany,18.0,False
+574270,2011-11-03,DOT,Postage,UNKNOWN,United Kingdom,3.29,False
+574275,2011-11-03,POST,Postage,12352,Norway,80.0,False
+574277,2011-11-03,M,Manual adjustment,17857,United Kingdom,208.0,False
+574298,2011-11-03,DOT,Postage,UNKNOWN,United Kingdom,286.88,False
+574301,2011-11-03,POST,Postage,12544,Spain,56.0,False
+574317,2011-11-03,M,Manual adjustment,17078,United Kingdom,2.34,False
+574329,2011-11-04,POST,Postage,12362,Belgium,60.0,False
+574332,2011-11-04,POST,Postage,12664,Finland,54.0,False
+574336,2011-11-04,POST,Postage,12397,Belgium,90.0,False
+C574344,2011-11-04,POST,Postage,12415,Australia,-262.73,True
+574442,2011-11-04,POST,Postage,12704,Finland,200.0,False
+C574447,2011-11-04,POST,Postage,12704,Finland,-80.0,True
+574474,2011-11-04,M,Manual adjustment,17979,United Kingdom,3.4,False
+574506,2011-11-04,M,Manual adjustment,12577,France,3.95,False
+C574524,2011-11-04,M,Manual adjustment,17841,United Kingdom,-12.75,True
+574546,2011-11-04,BANK CHARGES,Bank charges,13651,United Kingdom,15.0,False
+574561,2011-11-04,DOT,Postage,UNKNOWN,United Kingdom,368.62,False
+574653,2011-11-06,POST,Postage,12619,Germany,36.0,False
+574679,2011-11-06,POST,Postage,12645,Germany,54.0,False
+574690,2011-11-06,POST,Postage,12638,Sweden,160.0,False
+574694,2011-11-06,POST,Postage,12381,Norway,80.0,False
+574713,2011-11-06,POST,Postage,12628,Germany,18.0,False
+574722,2011-11-06,M,Manual adjustment,14502,United Kingdom,3.04,False
+574741,2011-11-06,M,Manual adjustment,15993,United Kingdom,8.7,False
+574745,2011-11-07,C2,Postage,14911,EIRE,50.0,False
+574838,2011-11-07,POST,Postage,12484,Spain,140.0,False
+574841,2011-11-07,C2,Postage,14156,EIRE,50.0,False
+574844,2011-11-07,POST,Postage,12783,Portugal,28.0,False
+574856,2011-11-07,DOT,Postage,UNKNOWN,United Kingdom,1126.29,False
+574862,2011-11-07,POST,Postage,12408,Belgium,75.0,False
+C574865,2011-11-07,POST,Postage,12408,Belgium,-15.0,True
+574869,2011-11-07,POST,Postage,12708,Germany,18.0,False
+C574875,2011-11-07,POST,Postage,16416,United Kingdom,-4.41,True
+574874,2011-11-07,C2,Postage,14911,EIRE,50.0,False
+574885,2011-11-07,POST,Postage,12472,Germany,18.0,False
+C574897,2011-11-07,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-5877.18,True
+C574902,2011-11-07,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-8286.22,True
+574950,2011-11-08,DOT,Postage,UNKNOWN,United Kingdom,401.8,False
+C575013,2011-11-08,M,Manual adjustment,16253,United Kingdom,-18.240000000000002,True
+575034,2011-11-08,M,Manual adjustment,15573,United Kingdom,7.95,False
+575043,2011-11-08,M,Manual adjustment,13047,United Kingdom,4.95,False
+C575047,2011-11-08,M,Manual adjustment,13047,United Kingdom,-14.95,True
+575049,2011-11-08,POST,Postage,12721,France,54.0,False
+575059,2011-11-08,M,Manual adjustment,14071,United Kingdom,11.700000000000001,False
+575067,2011-11-08,POST,Postage,12583,France,36.0,False
+575138,2011-11-08,DOT,Postage,UNKNOWN,United Kingdom,1483.21,False
+575144,2011-11-08,POST,Postage,12540,Spain,84.0,False
+575151,2011-11-08,POST,Postage,12395,Belgium,15.0,False
+575154,2011-11-08,POST,Postage,12395,Belgium,36.0,False
+575176,2011-11-08,DOT,Postage,UNKNOWN,United Kingdom,428.78,False
+575177,2011-11-08,DOT,Postage,UNKNOWN,United Kingdom,375.71,False
+575193,2011-11-09,POST,Postage,12681,France,90.0,False
+C575257,2011-11-09,M,Manual adjustment,13623,United Kingdom,-43.8,True
+575304,2011-11-09,M,Manual adjustment,17841,United Kingdom,1.25,False
+575326,2011-11-09,POST,Postage,12532,France,36.0,False
+575328,2011-11-09,M,Manual adjustment,17857,United Kingdom,300.0,False
+575352,2011-11-09,POST,Postage,12504,Germany,54.0,False
+575477,2011-11-09,DOT,Postage,UNKNOWN,United Kingdom,533.59,False
+575498,2011-11-10,POST,Postage,12708,Germany,18.0,False
+575505,2011-11-10,POST,Postage,UNKNOWN,United Kingdom,0.0,False
+575506,2011-11-10,C2,Postage,UNKNOWN,United Kingdom,0.0,False
+575514,2011-11-10,POST,Postage,12541,Spain,84.0,False
+575519,2011-11-10,POST,Postage,12682,France,36.0,False
+575581,2011-11-10,POST,Postage,12659,France,18.0,False
+575584,2011-11-10,POST,Postage,12682,France,18.0,False
+575607,2011-11-10,DOT,Postage,14096,United Kingdom,908.16,False
+C575606,2011-11-10,CRUK,Charity commission,14096,United Kingdom,-517.51,True
+575629,2011-11-10,POST,Postage,12599,France,18.0,False
+575632,2011-11-10,M,Manual adjustment,12473,Germany,40.46,False
+575632,2011-11-10,M,Manual adjustment,12473,Germany,424.06,False
+575632,2011-11-10,M,Manual adjustment,12473,Germany,549.34,False
+C575635,2011-11-10,M,Manual adjustment,12473,Germany,-424.06,True
+C575635,2011-11-10,M,Manual adjustment,12473,Germany,-549.34,True
+575636,2011-11-10,M,Manual adjustment,12473,Germany,40.46,False
+C575638,2011-11-10,M,Manual adjustment,12473,Germany,-40.46,True
+575671,2011-11-10,POST,Postage,12670,France,54.0,False
+575709,2011-11-10,POST,Postage,14646,Netherlands,30.0,False
+575713,2011-11-10,POST,Postage,13817,Germany,36.0,False
+575732,2011-11-11,POST,Postage,12712,Germany,36.0,False
+575733,2011-11-11,POST,Postage,13810,Germany,18.0,False
+575734,2011-11-11,POST,Postage,12384,Switzerland,80.0,False
+575735,2011-11-11,C2,Postage,14156,EIRE,50.0,False
+575736,2011-11-11,POST,Postage,12697,Sweden,40.0,False
+575739,2011-11-11,DOT,Postage,UNKNOWN,United Kingdom,469.2,False
+575747,2011-11-11,POST,Postage,12589,France,54.0,False
+575750,2011-11-11,POST,Postage,12600,Germany,54.0,False
+575787,2011-11-11,POST,Postage,12518,Germany,54.0,False
+575845,2011-11-11,POST,Postage,12598,France,18.0,False
+575848,2011-11-11,M,Manual adjustment,14178,United Kingdom,10.0,False
+575871,2011-11-11,C2,Postage,14911,EIRE,50.0,False
+C575872,2011-11-11,D,Discount,13408,United Kingdom,-97.14,True
+575875,2011-11-11,DOT,Postage,UNKNOWN,United Kingdom,571.9,False
+575880,2011-11-11,POST,Postage,12726,France,54.0,False
+575881,2011-11-11,POST,Postage,UNKNOWN,United Kingdom,1.34,False
+575884,2011-11-11,POST,Postage,12685,France,54.0,False
+575888,2011-11-11,POST,Postage,12517,Germany,54.0,False
+575896,2011-11-11,POST,Postage,12480,Germany,144.0,False
+575901,2011-11-11,POST,Postage,UNKNOWN,United Kingdom,1.69,False
+575904,2011-11-11,M,Manual adjustment,18014,United Kingdom,7.95,False
+575916,2011-11-11,POST,Postage,12691,France,18.0,False
+575930,2011-11-11,DOT,Postage,UNKNOWN,United Kingdom,454.35,False
+575947,2011-11-13,DOT,Postage,UNKNOWN,United Kingdom,1211.17,False
+575952,2011-11-13,M,Manual adjustment,16015,United Kingdom,0.29,False
+576082,2011-11-14,POST,Postage,12428,Finland,80.0,False
+576087,2011-11-14,POST,Postage,12689,France,72.0,False
+576141,2011-11-14,C2,Postage,14911,EIRE,50.0,False
+576213,2011-11-14,M,Manual adjustment,18117,United Kingdom,1.25,False
+C576218,2011-11-14,D,Discount,13694,United Kingdom,-183.0,True
+576222,2011-11-14,POST,Postage,12490,France,36.0,False
+C576233,2011-11-14,M,Manual adjustment,UNKNOWN,Hong Kong,-326.1,True
+576234,2011-11-14,M,Manual adjustment,UNKNOWN,Hong Kong,326.1,False
+C576244,2011-11-14,D,Discount,18167,United Kingdom,-6.0,True
+576245,2011-11-14,POST,Postage,12553,France,54.0,False
+576269,2011-11-14,POST,Postage,12762,Portugal,56.0,False
+576322,2011-11-14,POST,Postage,12642,Germany,36.0,False
+576327,2011-11-14,POST,Postage,12476,Germany,36.0,False
+576329,2011-11-14,DOT,Postage,UNKNOWN,United Kingdom,518.98,False
+C576338,2011-11-14,CRUK,Charity commission,14096,United Kingdom,-1038.75,True
+576339,2011-11-14,DOT,Postage,14096,United Kingdom,1500.36,False
+576345,2011-11-14,POST,Postage,12374,Austria,120.0,False
+576349,2011-11-14,M,Manual adjustment,16519,United Kingdom,2.1,False
+576371,2011-11-15,C2,Postage,14911,EIRE,50.0,False
+576373,2011-11-15,POST,Postage,12640,France,72.0,False
+576389,2011-11-15,M,Manual adjustment,12748,United Kingdom,850.5,False
+576390,2011-11-15,POST,Postage,12569,Germany,18.0,False
+576399,2011-11-15,POST,Postage,12684,France,36.0,False
+C576402,2011-11-15,POST,Postage,13026,United Kingdom,-7.62,True
+576519,2011-11-15,POST,Postage,12676,Sweden,40.0,False
+576553,2011-11-15,M,Manual adjustment,14666,United Kingdom,15.299999999999999,False
+576595,2011-11-15,C2,Postage,14911,EIRE,50.0,False
+576603,2011-11-15,C2,Postage,14911,EIRE,50.0,False
+576607,2011-11-15,POST,Postage,12474,Germany,72.0,False
+576617,2011-11-15,DOT,Postage,UNKNOWN,United Kingdom,596.9,False
+576618,2011-11-15,DOT,Postage,UNKNOWN,United Kingdom,584.94,False
+576629,2011-11-16,POST,Postage,12621,Germany,54.0,False
+576630,2011-11-16,POST,Postage,13816,Germany,18.0,False
+576644,2011-11-16,DOT,Postage,UNKNOWN,United Kingdom,1556.08,False
+576657,2011-11-16,POST,Postage,12720,Germany,54.0,False
+576664,2011-11-16,POST,Postage,14646,Netherlands,15.0,False
+576669,2011-11-16,POST,Postage,12640,France,18.0,False
+576787,2011-11-16,POST,Postage,13815,Germany,72.0,False
+576789,2011-11-16,POST,Postage,12569,Germany,18.0,False
+576790,2011-11-16,POST,Postage,12569,Germany,18.0,False
+C576816,2011-11-16,POST,Postage,12569,Germany,-18.0,True
+576829,2011-11-16,C2,Postage,UNKNOWN,EIRE,50.0,False
+576837,2011-11-16,DOT,Postage,UNKNOWN,United Kingdom,710.95,False
+576840,2011-11-16,DOT,Postage,UNKNOWN,United Kingdom,690.21,False
+576863,2011-11-16,POST,Postage,12626,Germany,36.0,False
+576869,2011-11-16,POST,Postage,12500,Germany,18.0,False
+576880,2011-11-16,C2,Postage,14911,EIRE,50.0,False
+576890,2011-11-16,POST,Postage,12662,Germany,36.0,False
+576893,2011-11-17,POST,Postage,12481,Germany,18.0,False
+576894,2011-11-17,POST,Postage,12681,France,36.0,False
+576897,2011-11-17,POST,Postage,17828,Malta,455.0,False
+C576898,2011-11-17,POST,Postage,17828,Malta,-130.0,True
+576904,2011-11-17,C2,Postage,14931,Channel Islands,50.0,False
+576907,2011-11-17,POST,Postage,12610,Italy,40.0,False
+576909,2011-11-17,POST,Postage,12471,Germany,144.0,False
+576927,2011-11-17,POST,Postage,12567,France,108.0,False
+576941,2011-11-17,POST,Postage,12562,France,90.0,False
+577009,2011-11-17,C2,Postage,12749,United Kingdom,50.0,False
+577027,2011-11-17,POST,Postage,12647,Germany,90.0,False
+577029,2011-11-17,M,Manual adjustment,15563,United Kingdom,30.0,False
+577046,2011-11-17,POST,Postage,12449,Belgium,126.0,False
+577058,2011-11-17,M,Manual adjustment,18122,United Kingdom,0.58,False
+C577066,2011-11-17,M,Manual adjustment,15563,United Kingdom,-30.0,True
+577067,2011-11-17,POST,Postage,12704,Finland,80.0,False
+577068,2011-11-17,M,Manual adjustment,15563,United Kingdom,9.0,False
+C577070,2011-11-17,POST,Postage,12704,Finland,-40.0,True
+577078,2011-11-17,DOT,Postage,UNKNOWN,United Kingdom,695.08,False
+577087,2011-11-17,POST,Postage,12464,Belgium,30.0,False
+577121,2011-11-17,POST,Postage,12681,France,72.0,False
+577125,2011-11-17,POST,Postage,12445,Spain,56.0,False
+577135,2011-11-18,POST,Postage,12427,Germany,36.0,False
+577152,2011-11-18,POST,Postage,14277,France,36.0,False
+C577164,2011-11-18,POST,Postage,16678,United Kingdom,-4.41,True
+577168,2011-11-18,POST,Postage,12603,Germany,126.0,False
+577168,2011-11-18,M,Manual adjustment,12603,Germany,0.0,False
+577178,2011-11-18,POST,Postage,12618,Italy,40.0,False
+577180,2011-11-18,POST,Postage,12380,Belgium,144.0,False
+C577227,2011-11-18,D,Discount,14527,United Kingdom,-27.26,True
+C577227,2011-11-18,D,Discount,14527,United Kingdom,-14.88,True
+C577227,2011-11-18,D,Discount,14527,United Kingdom,-19.82,True
+C577227,2011-11-18,D,Discount,14527,United Kingdom,-16.76,True
+577295,2011-11-18,POST,Postage,12682,France,54.0,False
+577299,2011-11-18,POST,Postage,12498,Germany,18.0,False
+577314,2011-11-18,POST,Postage,12444,Norway,240.0,False
+577316,2011-11-18,POST,Postage,12578,Italy,196.0,False
+577326,2011-11-18,POST,Postage,14646,Netherlands,30.0,False
+C577330,2011-11-18,S,Samples,UNKNOWN,United Kingdom,-2.89,True
+C577330,2011-11-18,S,Samples,UNKNOWN,United Kingdom,-75.0,True
+C577330,2011-11-18,S,Samples,UNKNOWN,United Kingdom,-5.99,True
+C577342,2011-11-18,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-490.06,True
+C577343,2011-11-18,BANK CHARGES,Bank charges,UNKNOWN,United Kingdom,-27.21,True
+577344,2011-11-18,POST,Postage,12437,France,18.0,False
+C577346,2011-11-18,M,Manual adjustment,UNKNOWN,United Kingdom,-530.25,True
+C577348,2011-11-18,M,Manual adjustment,UNKNOWN,United Kingdom,-1149.98,True
+C577353,2011-11-18,POST,Postage,12781,Czech Republic,-4.0,True
+577358,2011-11-18,DOT,Postage,UNKNOWN,United Kingdom,579.21,False
+577406,2011-11-20,POST,Postage,12702,Germany,18.0,False
+577474,2011-11-20,POST,Postage,12778,Netherlands,54.0,False
+577476,2011-11-20,POST,Postage,12540,Spain,84.0,False
+C577481,2011-11-20,POST,Postage,12778,Netherlands,-18.0,True
+577523,2011-11-20,POST,Postage,12597,Spain,28.0,False
+577531,2011-11-20,DOT,Postage,UNKNOWN,United Kingdom,1236.75,False
+577551,2011-11-20,POST,Postage,12395,Belgium,30.0,False
+577606,2011-11-21,POST,Postage,12462,Spain,84.0,False
+577609,2011-11-21,POST,Postage,12349,Italy,300.0,False
+577615,2011-11-21,POST,Postage,12658,Germany,54.0,False
+577618,2011-11-21,POST,Postage,12795,Portugal,112.0,False
+577687,2011-11-21,POST,Postage,12583,France,54.0,False
+577695,2011-11-21,M,Manual adjustment,15645,United Kingdom,0.42,False
+577696,2011-11-21,M,Manual adjustment,16406,United Kingdom,0.0,False
+577768,2011-11-21,DOT,Postage,UNKNOWN,United Kingdom,523.77,False
+577773,2011-11-21,M,Manual adjustment,16712,United Kingdom,7.6499999999999995,False
+577856,2011-11-22,POST,Postage,12490,France,72.0,False
+C577892,2011-11-22,POST,Postage,16191,United Kingdom,-3.25,True
+577893,2011-11-22,M,Manual adjustment,17073,United Kingdom,1.25,False
+577906,2011-11-22,M,Manual adjustment,13268,United Kingdom,22.04,False
+577938,2011-11-22,M,Manual adjustment,15525,United Kingdom,2.5,False
+578006,2011-11-22,C2,Postage,13363,United Kingdom,50.0,False
+578017,2011-11-22,M,Manual adjustment,13569,United Kingdom,1.5,False
+578033,2011-11-22,POST,Postage,12656,France,72.0,False
+578034,2011-11-22,POST,Postage,14646,Netherlands,75.0,False
+578036,2011-11-22,M,Manual adjustment,16474,United Kingdom,0.16,False
+578041,2011-11-22,M,Manual adjustment,17338,United Kingdom,3.75,False
+578043,2011-11-22,POST,Postage,12474,Germany,36.0,False
+578054,2011-11-22,C2,Postage,14911,EIRE,50.0,False
+578060,2011-11-22,M,Manual adjustment,17857,United Kingdom,400.0,False
+578065,2011-11-22,DOT,Postage,UNKNOWN,United Kingdom,455.75,False
+578067,2011-11-22,DOT,Postage,UNKNOWN,United Kingdom,416.48,False
+C578073,2011-11-22,M,Manual adjustment,18139,United Kingdom,-11.52,True
+C578073,2011-11-22,M,Manual adjustment,18139,United Kingdom,-20.160000000000004,True
+578074,2011-11-22,M,Manual adjustment,17590,United Kingdom,1.25,False
+C578076,2011-11-22,M,Manual adjustment,18139,United Kingdom,-13.440000000000001,True
+578082,2011-11-22,POST,Postage,12775,Netherlands,15.0,False
+578084,2011-11-22,POST,Postage,12465,Belgium,30.0,False
+578089,2011-11-22,POST,Postage,12483,Sweden,160.0,False
+C578090,2011-11-22,POST,Postage,12483,Sweden,-80.0,True
+578093,2011-11-22,C2,Postage,14911,EIRE,50.0,False
+578099,2011-11-23,POST,Postage,12452,Switzerland,2.0,False
+578105,2011-11-23,C2,Postage,14911,EIRE,50.0,False
+C578122,2011-11-23,POST,Postage,12452,Switzerland,-2.0,True
+578123,2011-11-23,POST,Postage,12452,Switzerland,80.0,False
+578126,2011-11-23,POST,Postage,16900,United Kingdom,4.95,False
+578149,2011-11-23,DOT,Postage,UNKNOWN,United Kingdom,2275.54,False
+C578239,2011-11-23,D,Discount,14912,Italy,-26.33,True
+578270,2011-11-23,DOT,Postage,14096,United Kingdom,1270.06,False
+C578269,2011-11-23,CRUK,Charity commission,14096,United Kingdom,-849.93,True
+578295,2011-11-23,POST,Postage,12569,Germany,36.0,False
+578298,2011-11-23,POST,Postage,12619,Germany,54.0,False
+578300,2011-11-23,POST,Postage,12664,Finland,40.0,False
+578314,2011-11-23,C2,Postage,13350,United Kingdom,50.0,False
+578331,2011-11-24,C2,Postage,14911,EIRE,50.0,False
+578333,2011-11-24,POST,Postage,12471,Germany,36.0,False
+578339,2011-11-24,POST,Postage,12421,Spain,28.0,False
+578344,2011-11-24,DOT,Postage,UNKNOWN,United Kingdom,793.33,False
+578347,2011-11-24,DOT,Postage,UNKNOWN,United Kingdom,644.28,False
+578348,2011-11-24,POST,Postage,12494,France,36.0,False
+578425,2011-11-24,POST,Postage,12705,Germany,72.0,False
+578463,2011-11-24,POST,Postage,12757,Portugal,56.0,False
+578469,2011-11-24,POST,Postage,12471,Germany,72.0,False
+578472,2011-11-24,POST,Postage,12476,Germany,162.0,False
+578509,2011-11-24,POST,Postage,12705,Germany,18.0,False
+578547,2011-11-24,POST,Postage,12720,Germany,54.0,False
+578698,2011-11-25,POST,Postage,12620,France,36.0,False
+578736,2011-11-25,POST,Postage,12681,France,144.0,False
+C578743,2011-11-25,POST,Postage,12681,France,-54.0,True
+578757,2011-11-25,M,Manual adjustment,12748,United Kingdom,1.7,False
+C578784,2011-11-25,POST,Postage,13081,United Kingdom,-7.6,True
+578792,2011-11-25,C2,Postage,14911,EIRE,50.0,False
+578811,2011-11-25,POST,Postage,12438,Norway,320.0,False
+578827,2011-11-25,DOT,Postage,UNKNOWN,United Kingdom,634.39,False
+578828,2011-11-25,DOT,Postage,UNKNOWN,United Kingdom,3.29,False
+578833,2011-11-25,DOT,Postage,UNKNOWN,United Kingdom,2028.25,False
+578835,2011-11-25,POST,Postage,12682,France,18.0,False
+578844,2011-11-25,DOT,Postage,UNKNOWN,United Kingdom,545.25,False
+578941,2011-11-27,M,Manual adjustment,16024,United Kingdom,2.34,False
+578941,2011-11-27,M,Manual adjustment,16024,United Kingdom,2.94,False
+578996,2011-11-27,M,Manual adjustment,13991,United Kingdom,1.0,False
+C579018,2011-11-28,POST,Postage,16678,United Kingdom,-7.0,True
+C579092,2011-11-28,POST,Postage,16900,United Kingdom,-4.41,True
+579094,2011-11-28,POST,Postage,12668,Germany,144.0,False
+579137,2011-11-28,BANK CHARGES,Bank charges,14704,United Kingdom,15.0,False
+579153,2011-11-28,POST,Postage,12660,France,18.0,False
+579152,2011-11-28,POST,Postage,12479,Germany,54.0,False
+579187,2011-11-28,DOT,Postage,UNKNOWN,United Kingdom,634.54,False
+579190,2011-11-28,POST,Postage,12657,France,72.0,False
+C579192,2011-11-28,POST,Postage,12657,France,-72.0,True
+579193,2011-11-28,POST,Postage,12657,France,72.0,False
+579196,2011-11-28,DOT,Postage,14096,United Kingdom,1526.76,False
+C579195,2011-11-28,CRUK,Charity commission,14096,United Kingdom,-987.14,True
+579256,2011-11-29,C2,Postage,13349,United Kingdom,50.0,False
+579259,2011-11-29,POST,Postage,12451,Switzerland,40.0,False
+579276,2011-11-29,POST,Postage,12654,Germany,18.0,False
+579281,2011-11-29,POST,Postage,12375,Finland,40.0,False
+579297,2011-11-29,DOT,Postage,UNKNOWN,United Kingdom,1563.0,False
+579345,2011-11-29,POST,Postage,12727,France,72.0,False
+C579366,2011-11-29,POST,Postage,14205,United Kingdom,-9.72,True
+579393,2011-11-29,POST,Postage,12627,Germany,54.0,False
+579416,2011-11-29,POST,Postage,12471,Germany,90.0,False
+579441,2011-11-29,POST,Postage,12464,Belgium,60.0,False
+579471,2011-11-29,DOT,Postage,UNKNOWN,United Kingdom,892.5,False
+579492,2011-11-29,POST,Postage,12670,France,54.0,False
+579508,2011-11-29,DOT,Postage,UNKNOWN,United Kingdom,732.69,False
+579512,2011-11-29,DOT,Postage,UNKNOWN,United Kingdom,620.22,False
+579528,2011-11-30,POST,Postage,12787,Netherlands,15.0,False
+579529,2011-11-30,POST,Postage,12488,France,54.0,False
+C579532,2011-11-30,POST,Postage,12494,France,-18.0,True
+579539,2011-11-30,C2,Postage,14911,EIRE,50.0,False
+579550,2011-11-30,POST,Postage,12630,Finland,120.0,False
+579694,2011-11-30,DOT,Postage,UNKNOWN,United Kingdom,1119.63,False
+579708,2011-11-30,POST,Postage,12682,France,72.0,False
+579711,2011-11-30,M,Manual adjustment,15060,United Kingdom,1.25,False
+579747,2011-11-30,POST,Postage,12528,Germany,54.0,False
+579751,2011-11-30,DOT,Postage,UNKNOWN,United Kingdom,307.17,False
+579768,2011-11-30,C2,Postage,14911,EIRE,50.0,False
+579777,2011-11-30,DOT,Postage,UNKNOWN,United Kingdom,888.42,False
+579786,2011-11-30,POST,Postage,12524,Germany,36.0,False
+579787,2011-11-30,DOT,Postage,UNKNOWN,United Kingdom,988.0,False
+579790,2011-11-30,POST,Postage,12784,Portugal,56.0,False
+579792,2011-11-30,POST,Postage,12714,France,90.0,False
+579870,2011-11-30,POST,Postage,12437,France,36.0,False
+C579884,2011-11-30,D,Discount,14527,United Kingdom,-20.53,True
+579901,2011-12-01,POST,Postage,12569,Germany,54.0,False
+C579908,2011-12-01,D,Discount,14527,United Kingdom,-28.68,True
+579910,2011-12-01,C2,Postage,14911,EIRE,50.0,False
+579927,2011-12-01,POST,Postage,12572,Germany,54.0,False
+580027,2011-12-01,M,Manual adjustment,14178,United Kingdom,10.0,False
+580054,2011-12-01,M,Manual adjustment,18122,United Kingdom,0.64,False
+580115,2011-12-01,DOT,Postage,UNKNOWN,United Kingdom,1042.84,False
+580120,2011-12-01,POST,Postage,12553,France,18.0,False
+580123,2011-12-01,POST,Postage,12664,Finland,80.0,False
+580124,2011-12-01,C2,Postage,UNKNOWN,EIRE,50.0,False
+580126,2011-12-01,POST,Postage,12562,France,54.0,False
+580127,2011-12-01,C2,Postage,14911,EIRE,50.0,False
+580144,2011-12-02,POST,Postage,12684,France,18.0,False
+580148,2011-12-02,DOT,Postage,UNKNOWN,United Kingdom,274.25,False
+580152,2011-12-02,POST,Postage,12364,Belgium,15.0,False
+580153,2011-12-02,POST,Postage,12762,Portugal,140.0,False
+580154,2011-12-02,POST,Postage,12569,Germany,18.0,False
+580160,2011-12-02,POST,Postage,12700,France,126.0,False
+C580161,2011-12-02,POST,Postage,12700,France,-36.0,True
+C580263,2011-12-02,M,Manual adjustment,12536,France,-39.8,True
+C580263,2011-12-02,M,Manual adjustment,12536,France,-4.64,True
+580265,2011-12-02,POST,Postage,12587,Finland,40.0,False
+580281,2011-12-02,POST,Postage,12704,Finland,40.0,False
+580366,2011-12-02,DOT,Postage,UNKNOWN,United Kingdom,0.0,False
+580367,2011-12-02,DOT,Postage,UNKNOWN,United Kingdom,888.06,False
+580509,2011-12-04,POST,Postage,12719,France,36.0,False
+C580510,2011-12-04,M,Manual adjustment,14456,United Kingdom,-1.25,True
+580511,2011-12-04,POST,Postage,12560,Germany,72.0,False
+580512,2011-12-04,POST,Postage,12673,Germany,36.0,False
+580531,2011-12-04,POST,Postage,12569,Germany,18.0,False
+580534,2011-12-04,POST,Postage,12724,France,18.0,False
+580536,2011-12-04,POST,Postage,12490,France,54.0,False
+580545,2011-12-05,POST,Postage,12782,Portugal,28.0,False
+580548,2011-12-05,POST,Postage,12569,Germany,18.0,False
+580555,2011-12-05,C2,Postage,14911,EIRE,50.0,False
+C580604,2011-12-05,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-11586.5,True
+C580605,2011-12-05,AMAZONFEE,Amazon fee,UNKNOWN,United Kingdom,-17836.46,True
+580610,2011-12-05,DOT,Postage,UNKNOWN,United Kingdom,2196.67,False
+580611,2011-12-05,M,Manual adjustment,12748,United Kingdom,0.85,False
+580612,2011-12-05,DOT,Postage,UNKNOWN,United Kingdom,2114.0,False
+580638,2011-12-05,POST,Postage,12381,Norway,40.0,False
+580645,2011-12-05,M,Manual adjustment,17857,United Kingdom,219.5,False
+580646,2011-12-05,M,Manual adjustment,17857,United Kingdom,200.0,False
+580648,2011-12-05,POST,Postage,12628,Germany,18.0,False
+580705,2011-12-05,POST,Postage,12683,France,5.0,False
+580706,2011-12-05,POST,Postage,12683,France,85.0,False
+580716,2011-12-05,POST,Postage,12367,Denmark,18.0,False
+C580726,2011-12-05,CRUK,Charity commission,14096,United Kingdom,-1100.44,True
+580727,2011-12-05,DOT,Postage,14096,United Kingdom,1599.26,False
+580729,2011-12-05,DOT,Postage,UNKNOWN,United Kingdom,1172.1,False
+580730,2011-12-05,DOT,Postage,UNKNOWN,United Kingdom,845.23,False
+580734,2011-12-06,POST,Postage,12766,Portugal,112.0,False
+580736,2011-12-06,POST,Postage,12716,France,36.0,False
+580752,2011-12-06,POST,Postage,12478,Greece,135.0,False
+580753,2011-12-06,POST,Postage,12682,France,54.0,False
+580756,2011-12-06,POST,Postage,12723,France,18.0,False
+580884,2011-12-06,M,Manual adjustment,15907,United Kingdom,0.85,False
+580955,2011-12-06,POST,Postage,12442,Spain,28.0,False
+580956,2011-12-06,M,Manual adjustment,17841,United Kingdom,5.0,False
+C580957,2011-12-06,POST,Postage,12839,United Kingdom,-4.5,True
+580965,2011-12-06,POST,Postage,12417,Belgium,45.0,False
+580976,2011-12-06,POST,Postage,UNKNOWN,United Kingdom,5.29,False
+580979,2011-12-06,POST,Postage,12362,Belgium,54.0,False
+580983,2011-12-06,DOT,Postage,UNKNOWN,United Kingdom,736.38,False
+580986,2011-12-06,POST,Postage,12650,France,72.0,False
+581000,2011-12-07,POST,Postage,12720,Germany,90.0,False
+581001,2011-12-07,POST,Postage,12583,France,54.0,False
+C581009,2011-12-07,M,Manual adjustment,16971,United Kingdom,-125.0,True
+581023,2011-12-07,DOT,Postage,UNKNOWN,United Kingdom,1861.46,False
+581127,2011-12-07,BANK CHARGES,Bank charges,16271,United Kingdom,15.0,False
+C581145,2011-12-07,M,Manual adjustment,17490,United Kingdom,-9.95,True
+581171,2011-12-07,POST,Postage,12615,France,36.0,False
+581179,2011-12-07,POST,Postage,12471,Germany,240.0,False
+581182,2011-12-07,POST,Postage,12783,Portugal,112.0,False
+581184,2011-12-07,POST,Postage,12569,Germany,36.0,False
+581183,2011-12-07,POST,Postage,12569,Germany,72.0,False
+581217,2011-12-08,GIFT_0001_10,Gift voucher,UNKNOWN,United Kingdom,8.33,False
+581217,2011-12-08,DOT,Postage,UNKNOWN,United Kingdom,863.8,False
+581219,2011-12-08,DOT,Postage,UNKNOWN,United Kingdom,1008.96,False
+581232,2011-12-08,POST,Postage,12358,Austria,160.0,False
+581238,2011-12-08,DOT,Postage,UNKNOWN,United Kingdom,1683.75,False
+581266,2011-12-08,POST,Postage,12621,Germany,90.0,False
+581279,2011-12-08,POST,Postage,12437,France,54.0,False
+581405,2011-12-08,M,Manual adjustment,13521,United Kingdom,1.26,False
+581439,2011-12-08,DOT,Postage,UNKNOWN,United Kingdom,938.59,False
+581492,2011-12-09,DOT,Postage,UNKNOWN,United Kingdom,933.17,False
+581493,2011-12-09,POST,Postage,12423,Belgium,15.0,False
+581494,2011-12-09,POST,Postage,12518,Germany,36.0,False
+581498,2011-12-09,DOT,Postage,UNKNOWN,United Kingdom,1714.17,False
+C581499,2011-12-09,M,Manual adjustment,15498,United Kingdom,-224.69,True
+581570,2011-12-09,POST,Postage,12662,Germany,18.0,False
+581574,2011-12-09,POST,Postage,12526,Germany,36.0,False
+581578,2011-12-09,POST,Postage,12713,Germany,54.0,False
+581587,2011-12-09,POST,Postage,12680,France,18.0,False

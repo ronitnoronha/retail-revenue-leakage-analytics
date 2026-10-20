@@ -1,0 +1,16 @@
+Budget,Strategy,Churners reached,£ at risk reached,% of lost £ reached
+top 5% (139 customers),Model: expected £ at risk (p × value),58,137877.82981209568,0.2956599998738988
+top 5% (139 customers),Model: churn probability only,99,48347.00770029636,0.1036734934837145
+top 5% (139 customers),Rule: longest silence (recency),87,18574.06265848548,0.039829516977093
+top 5% (139 customers),Rule: biggest spenders,13,96086.0916854388,0.2060433783612398
+top 5% (139 customers),Random contact,51,24099.487535570093,0.0516780289582321
+top 10% (278 customers),Model: expected £ at risk (p × value),111,178011.38575422883,0.3817208782686445
+top 10% (278 customers),Model: churn probability only,181,59409.566467229575,0.1273956258098033
+top 10% (278 customers),Rule: longest silence (recency),168,32410.250124487586,0.0694993137096678
+top 10% (278 customers),Rule: biggest spenders,36,134487.3813513769,0.2883896505158135
+top 10% (278 customers),Random contact,106,52730.24475771168,0.1130727411336728
+top 20% (556 customers),Model: expected £ at risk (p × value),233,247392.52623319303,0.5304991699868823
+top 20% (556 customers),Model: churn probability only,360,95049.87179050704,0.2038213476372113
+top 20% (556 customers),Rule: longest silence (recency),327,100321.32072797748,0.2151252432258772
+top 20% (556 customers),Rule: biggest spenders,79,180896.0320520494,0.3879066046121197
+top 20% (556 customers),Random contact,212,90000.12273190421,0.1929928568779322

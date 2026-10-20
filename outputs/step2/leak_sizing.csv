@@ -1,0 +1,6 @@
+Leak,Value,Note,% of sales
+Customer cancellations,229414.71000000002,lost sales,0.022939789811624076
+Stock write-offs (at selling price),364556.875,upper bound,0.03645301596781876
+Manual credits (gross),146784.46,unexplained reversals,0.014677370339559922
+Amazon fees (net),221520.5,channel cost,0.022150426661681242
+"Bad debt, bank, CRUK, discounts",31867.349000000002,finance,0.0031865013708740324
