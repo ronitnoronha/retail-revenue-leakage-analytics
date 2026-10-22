@@ -4,8 +4,9 @@ Where does a UK online retailer lose money between order and cash, and what shou
 
 **▶ Live app: [retail-revenue-leakage-analytics-qmxob66jeefzalezisradg.streamlit.app](https://retail-revenue-leakage-analytics-qmxob66jeefzalezisradg.streamlit.app/)** – explore the results, simulate a retention campaign and look up any customer.
 
-**Data:** [UCI Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii), 2010–2011 sheet –
-541,910 transactions, £10.0M product sales, 4,333 customers, 38 countries.
+**Data:** [UCI Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) by Daqing Chen (CC BY 4.0), 2010–2011 sheet –
+541,910 transactions from a UK online giftware retailer, £10.0M product sales, 4,333 customers, 38 countries.
+Source, columns, licence, citation and data-quality issues: [`DATA.md`](DATA.md).
 
 ## Headline results
 * **Up to ~£1M (9.9% of sales) of value leakage**, mostly from internal processes: stock write-offs

@@ -69,8 +69,9 @@ with st.sidebar:
     st.markdown(
         "A UK online gift retailer sold **£10M** in a year. This app shows where value leaks out between "
         "order and cash, which customers are about to stop buying, and what to do about each.\n\n"
-        "**Data:** [UCI Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii), "
-        "Dec 2010 – Dec 2011, 541,910 transactions.\n\n"
+        "**Data:** [UCI Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) "
+        "(Daqing Chen, CC BY 4.0) – every transaction of a UK online giftware retailer whose customers are "
+        "mostly wholesalers. This app uses Dec 2010 – Dec 2011: 541,910 transactions.\n\n"
         "**Method:** data audit and cleaning → process audit → time-based features → 7 churn models compared "
         "on an out-of-time test → value-based targeting → K-Means customer segments.\n\n"
         f"**Code:** [GitHub]({REPO})"
@@ -385,4 +386,15 @@ with tabs[6]:
    and Ward clustering for k = 2–10; stability checked across seeds and subsamples; validated on next-90-day churn.
 
 Full code and write-ups: [{REPO}]({REPO})
+""")
+    st.subheader("About the data")
+    st.markdown("""
+**Online Retail II**, UCI Machine Learning Repository. Every transaction of a UK-based, non-store online retailer
+that sells all-occasion giftware; many customers are wholesalers. The full dataset runs from Dec 2009 to Dec 2011;
+this project uses the 2010–2011 sheet (541,910 rows). Customers appear only as anonymous IDs.
+
+* Source: [archive.ics.uci.edu/dataset/502/online+retail+ii](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
+* Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Citation: Chen, D. (2012). *Online Retail II* [Dataset]. UCI Machine Learning Repository.
+  [https://doi.org/10.24432/C5CG6D](https://doi.org/10.24432/C5CG6D)
 """)
