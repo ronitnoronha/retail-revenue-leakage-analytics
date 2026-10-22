@@ -1,0 +1,8 @@
+reason,lines,units,value_gbp,share,reason_recorded
+Damaged,153,31367,113515.0,0.3114,True
+No reason given,862,46156,78136.0,0.2143,False
+Stock check / unexplained,198,38464,65782.0,0.1804,False
+Destroyed/unsaleable,27,54967,48866.0,0.134,True
+Other notes,34,19036,40364.0,0.1107,False
+Lost/missing,17,7860,9262.0,0.0254,True
+Channel / set re-coding,45,9107,8632.0,0.0237,True

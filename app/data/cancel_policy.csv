@@ -1,0 +1,5 @@
+strategy,pct_cancelled_gbp_covered,pct_revenue_touched
+Model: expected £ loss (p × size),0.5591,0.4596
+Model: cancel probability only,0.4706,0.4012
+Rule: biggest spenders,0.5597,0.4681
+Rule: past cancellers by £,0.4644,0.2873

@@ -1,0 +1,6 @@
+model,family,cv_roc_auc,cv_sd,test_roc_auc,test_pr_auc,brier,top20_capture,fit_seconds,top20_gbp_capture
+Logistic Regression,Linear,0.764,0.016,0.767,0.477,0.128,0.4952,3.2,0.688
+MLP Neural Net,Neural network,0.761,0.019,0.765,0.471,0.128,0.478,38.2,0.6769
+LightGBM,Gradient boosting,0.766,0.015,0.762,0.462,0.128,0.4837,42.9,0.674
+Random Forest,Tree ensemble,0.766,0.015,0.763,0.46,0.128,0.4685,142.1,0.6692
+Baseline: spend rule,Rule,0.741,0.019,0.729,0.404,,0.4245,0.0,0.7362

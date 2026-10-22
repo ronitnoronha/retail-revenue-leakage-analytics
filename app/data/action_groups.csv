@@ -1,0 +1,6 @@
+action,action_label,customers,churn_risk_gbp,cancel_risk_gbp,actual_churn_rate,actual_cancel_rate
+1. Account review (cancel + churn risk),Account review (cancel + churn risk),21,54032.0,9112.0,0.2381,0.4762
+2. Confirm orders before dispatch,Confirm orders before dispatch,119,10805.0,28190.0,0.0168,0.6218
+3. Retention contact,Retention contact,258,107670.0,3833.0,0.4109,0.1744
+4. Low-cost win-back email,Low-cost win-back email,993,120146.0,997.0,0.5962,0.0675
+5. Business as usual,Business as usual,1392,164848.0,16141.0,0.2579,0.2349

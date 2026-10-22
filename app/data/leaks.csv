@@ -1,0 +1,6 @@
+leak,value_gbp,pct_of_sales,kind,root_cause
+Stock write-offs (at selling price),364557.0,0.0365,Process,Half the value has no recorded reason
+Customer cancellations,229415.0,0.0229,Customer,10% of products cause 50% of product cancel £
+Amazon fees (net),221520.0,0.0222,Channel cost,"A margin question for the channel, not an error"
+Manual credits (gross),146784.0,0.0147,Process,No reason codes; 10 credits are 52% of the value
+"Bad debt, bank, CRUK, discounts",31867.0,0.0032,Finance,"Bad debt, bank charges, commission, discounts"

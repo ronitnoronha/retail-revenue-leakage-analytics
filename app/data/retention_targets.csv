@@ -1,0 +1,26 @@
+customer_id,country,orders_before_sep,days_since_last_order,churn_probability,typical_90d_spend_gbp,gbp_at_risk,actually_churned
+15098,United Kingdom,3,91,0.812,39478.0,32074.0,Yes
+15749,United Kingdom,3,144,0.393,16631.0,6543.0,Yes
+12590,Germany,1,120,0.358,7006.0,2509.0,Yes
+12409,Switzerland,1,91,0.393,6139.0,2414.0,No
+12688,Israel,1,22,0.352,4874.0,1717.0,Yes
+12378,Switzerland,1,38,0.361,4009.0,1446.0,Yes
+13135,United Kingdom,1,105,0.502,2654.0,1333.0,Yes
+12432,Norway,2,81,0.358,3317.0,1187.0,No
+16041,United Kingdom,2,50,0.42,2740.0,1150.0,No
+12435,Denmark,1,176,0.561,2035.0,1141.0,No
+12744,Singapore,3,53,0.341,3220.0,1098.0,No
+16984,United Kingdom,1,39,0.324,3213.0,1041.0,No
+15786,United Kingdom,1,23,0.301,3148.0,949.0,No
+12406,Denmark,1,92,0.554,1586.0,878.0,No
+14459,United Kingdom,1,64,0.441,1838.0,810.0,Yes
+16902,United Kingdom,1,25,0.47,1707.0,802.0,Yes
+17597,United Kingdom,1,122,0.53,1508.0,799.0,Yes
+16671,United Kingdom,1,73,0.559,1383.0,774.0,No
+13952,United Kingdom,2,126,0.387,1990.0,770.0,Yes
+12539,Spain,3,171,0.456,1680.0,767.0,No
+17553,United Kingdom,1,38,0.503,1488.0,749.0,Yes
+12798,Japan,1,79,0.465,1607.0,747.0,No
+15372,United Kingdom,1,46,0.37,2007.0,742.0,Yes
+12444,Norway,2,30,0.307,2347.0,721.0,No
+14566,Channel Islands,1,19,0.494,1432.0,708.0,Yes

@@ -1,0 +1,6 @@
+threshold_gbp,credits_needing_approval,total_credits,pct_of_credits,value_covered_gbp,pct_of_value
+100,134,244,0.5492,144281,0.9829
+250,93,244,0.3811,137169,0.9345
+500,60,244,0.2459,125945,0.858
+1000,31,244,0.127,106760,0.7273
+2500,9,244,0.0369,73913,0.5036

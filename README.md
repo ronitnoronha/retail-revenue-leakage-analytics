@@ -32,6 +32,7 @@ See [`docs/recommendation_memo.md`](docs/recommendation_memo.md) for the one-pag
 | 5. Decisions & policy simulation | `src/05_decisions.py` | [`docs/step5_decisions.md`](docs/step5_decisions.md) |
 | 6. Power BI export | `src/06_export_powerbi.py` | [`powerbi/README.md`](powerbi/README.md) |
 | 8. Customer segmentation (K-Means, 5 segments) | `src/08_segments.py` | [`docs/step8_segmentation.md`](docs/step8_segmentation.md) |
+| 9. Streamlit app (7 tabs) | `app/streamlit_app.py` | [`app/README.md`](app/README.md) |
 | 7. Online dashboard (4 tabs) | `dashboard/build_data.py`, `dashboard/index.html` | data in `dashboard/data/` |
 
 ## Models compared (churn, out-of-time test 10 Sep – 9 Dec 2011)
