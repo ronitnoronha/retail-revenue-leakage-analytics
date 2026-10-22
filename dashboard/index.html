@@ -1,0 +1,808 @@
+<style>
+/* Layout: one-line header + takeaway, four tabs (overview, process audit, customer risk, model evidence); cards in an auto-fit grid. */
+#dash-root .rl { display: flex; flex-direction: column; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); color: var(--color-fg); max-width: 1280px; margin-inline: auto; }
+.rl-head { display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+.rl-head h1 { margin: 0; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); text-wrap: balance; }
+.rl-takeaway { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); max-width: 72ch; line-height: 1.5; }
+.rl .rl-takeaway b, .rl .rl-note b { font-weight: 600; color: var(--color-fg); }
+.rl-tabs { display: flex; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); overflow-x: auto; }
+.rl-tab { appearance: none; background: none; border: 0; border-bottom: 2px solid transparent; padding: var(--cds-pad-sm) var(--cds-pad-md); font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg-muted); cursor: pointer; white-space: nowrap; margin-bottom: -1px; }
+.rl-tab:hover { color: var(--color-fg); }
+.rl-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+.rl-tab:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+.rl-page { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+.rl-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: var(--cds-gap-md); }
+.rl-kpi { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-xs); min-width: 0; }
+.rl-kpi-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.rl-kpi-value { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: calc(var(--cds-font-size-title) * 1.3); line-height: 1.1; font-variant-numeric: tabular-nums; }
+.rl-kpi-sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+.rl-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+.rl-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+.rl-card.rl-wide { grid-column: 1 / -1; }
+.rl-card h2 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); text-wrap: balance; }
+.rl-note { margin: 0; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.5; max-width: 80ch; }
+.rl-chart { position: relative; min-height: 200px; }
+.rl-chart svg { display: block; overflow: visible; }
+.rl-chart text { font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-caption); fill: var(--color-fg-muted); }
+.rl-chart text.rl-lab { fill: var(--color-fg); }
+.rl-chart text.rl-val { fill: var(--color-fg); font-variant-numeric: tabular-nums; }
+.rl-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs) var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.rl-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.rl-sw { width: 10px; height: 10px; border-radius: 3px; display: inline-block; flex: none; }
+.rl-sw.rl-line { height: 3px; border-radius: 2px; width: 14px; }
+.rl-tip { position: absolute; z-index: 5; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); min-width: 9rem; max-width: 16rem; }
+.rl-tip-h { color: var(--cds-text-secondary); margin-bottom: 2px; }
+.rl-tip-r { display: flex; align-items: center; gap: 6px; }
+.rl-tip-r b { margin-left: auto; font-weight: 600; font-variant-numeric: tabular-nums; padding-left: var(--cds-pad-sm); }
+.rl-fail { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: inherit; height: 100%; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.rl-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+.rl-tablebox { overflow-x: auto; }
+.rl-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.rl-table th { text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+.rl-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: middle; }
+.rl-table tr:last-child td { border-bottom: 0; }
+.rl-table .rl-num { text-align: right; white-space: nowrap; }
+.rl-table tr.rl-pick td { background: color-mix(in srgb, var(--color-fg) 6%, transparent); }
+.rl-table tr.rl-base td { color: var(--color-fg-muted); }
+.rl-cellbar { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.rl-cellbar i { display: block; height: 8px; border-radius: 4px; background: var(--cds-chart-muted); }
+.rl-cellbar.rl-hot i { background: var(--cds-chart-status-critical); }
+.rl-scroll { max-height: 26rem; overflow: auto; }
+.rl-scroll th { position: sticky; top: 0; background: var(--color-panel); }
+.rl-pill { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); }
+.rl-yes { color: var(--color-bad); }
+.rl-no { color: var(--color-ok); }
+.rl-matrix { display: grid; grid-template-columns: auto repeat(3, 1fr); gap: 4px; font-variant-numeric: tabular-nums; }
+.rl-matrix > div { padding: var(--cds-pad-sm); border-radius: var(--cds-radius); font-size: var(--cds-font-size-caption); }
+.rl-mh { color: var(--color-fg-muted); display: flex; align-items: center; }
+.rl-mc { border: 1px solid var(--color-border-line); display: flex; flex-direction: column; gap: 2px; }
+.rl-mc b { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-heading); }
+.rl-mc .rl-pos { color: var(--color-ok); }
+.rl-mc .rl-neg { color: var(--color-bad); }
+.rl-mc small { color: var(--color-fg-muted); }
+.rl-foot { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.5; max-width: 90ch; }
+[data-dash-source-state=empty] { color: transparent; }
+[data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+</style>
+
+<div class="rl">
+  <header class="rl-head">
+    <h1>Retail leakage &amp; customer risk</h1>
+    <p class="rl-takeaway" id="takeaway">
+      Up to <b data-source="leak_total" data-field="total_gbp" data-row="0" data-fill="gbpc" class="dash-skeleton">—</b>
+      (<b data-source="leak_total" data-field="pct_of_sales" data-row="0" data-fill="pct" class="dash-skeleton">—</b> of sales)
+      leaks out between order and cash, mostly through internal processes. Contacting the riskiest 10% of customers by revenue at risk reaches
+      <b data-source="retention_gains" data-field="model_expected_gbp" data-where="pct_contacted=0.1" data-fill="pct" class="dash-skeleton">—</b>
+      of the revenue churners take with them.
+    </p>
+  </header>
+
+  <nav class="rl-tabs" role="tablist" aria-label="Dashboard pages">
+    <button class="rl-tab" role="tab" data-tab="overview" id="tab-overview">Overview</button>
+    <button class="rl-tab" role="tab" data-tab="process" id="tab-process">Process audit</button>
+    <button class="rl-tab" role="tab" data-tab="customers" id="tab-customers">Customer risk</button>
+    <button class="rl-tab" role="tab" data-tab="models" id="tab-models">Model evidence</button>
+  </nav>
+
+  <!-- ============================================================ OVERVIEW -->
+  <section class="rl-page" id="overview" role="tabpanel" aria-labelledby="tab-overview">
+    <div class="rl-kpis">
+      <div class="rl-kpi" id="kpi-sales">
+        <span class="rl-kpi-label">Product sales</span>
+        <span class="rl-kpi-value dash-skeleton" data-source="overview" data-field="product_sales_gbp" data-row="0" data-fill="gbpc">—</span>
+        <span class="rl-kpi-sub">Dec 2010 – Dec 2011, cleaned</span>
+      </div>
+      <div class="rl-kpi" id="kpi-leakage">
+        <span class="rl-kpi-label">Value leakage (upper bound)</span>
+        <span class="rl-kpi-value dash-skeleton" data-source="leak_total" data-field="total_gbp" data-row="0" data-fill="gbpc">—</span>
+        <span class="rl-kpi-sub"><span data-source="leak_total" data-field="pct_of_sales" data-row="0" data-fill="pct" class="dash-skeleton">—</span> of product sales</span>
+      </div>
+      <div class="rl-kpi" id="kpi-cancel">
+        <span class="rl-kpi-label">Cancellations, share of sales</span>
+        <span class="rl-kpi-value dash-skeleton" data-source="overview" data-field="clean_cancel_pct" data-row="0" data-fill="pct">—</span>
+        <span class="rl-kpi-sub">Raw data said <span data-source="overview" data-field="raw_cancel_pct" data-row="0" data-fill="pct" class="dash-skeleton">—</span></span>
+      </div>
+      <div class="rl-kpi" id="kpi-unattributed">
+        <span class="rl-kpi-label">Revenue with no customer ID</span>
+        <span class="rl-kpi-value dash-skeleton" data-source="overview" data-field="unattributed_pct" data-row="0" data-fill="pct">—</span>
+        <span class="rl-kpi-sub"><span data-source="overview" data-field="unattributed_gbp" data-row="0" data-fill="gbpc" class="dash-skeleton">—</span> untraceable</span>
+      </div>
+      <div class="rl-kpi" id="kpi-customers">
+        <span class="rl-kpi-label">Customers</span>
+        <span class="rl-kpi-value dash-skeleton" data-source="overview" data-field="customers" data-row="0" data-fill="int">—</span>
+        <span class="rl-kpi-sub">in <span data-source="overview" data-field="countries" data-row="0" data-fill="int" class="dash-skeleton">—</span> countries</span>
+      </div>
+    </div>
+
+    <div class="rl-grid">
+      <div class="rl-card" id="card-leaks">
+        <h2>Where value leaks out</h2>
+        <p class="rl-note">Internal processes (highlighted) outweigh customer cancellations. Write-offs are valued at selling price, so they are an upper bound; Amazon fees are a channel cost, not an error.</p>
+        <div class="rl-legend" id="leaks-legend"><span><i class="rl-sw" data-c="accent"></i>Internal process</span><span><i class="rl-sw" data-c="muted"></i>Other</span></div>
+        <div class="rl-chart" id="leaks-chart" data-source="leaks" style="min-height: 230px"></div>
+      </div>
+      <div class="rl-card" id="card-monthly">
+        <h2>Monthly product sales</h2>
+        <p class="rl-note">Sep–Nov is the peak season. December 2011 holds only 9 days of data, so it is shown lighter.</p>
+        <div class="rl-chart" id="monthly-chart" data-source="monthly" style="min-height: 240px"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ PROCESS AUDIT -->
+  <section class="rl-page" id="process" role="tabpanel" aria-labelledby="tab-process" hidden>
+    <div class="rl-kpis">
+      <div class="rl-kpi" id="kpi-wo-unexplained">
+        <span class="rl-kpi-label">Write-off value with no usable reason</span>
+        <span class="rl-kpi-value dash-skeleton" data-source="writeoff_unexplained" data-field="share" data-row="0" data-fill="pct">—</span>
+        <span class="rl-kpi-sub"><span data-source="writeoff_unexplained" data-field="value_gbp" data-row="0" data-fill="gbpc" class="dash-skeleton">—</span> at selling price</span>
+      </div>
+      <div class="rl-kpi" id="kpi-manual">
+        <span class="rl-kpi-label">Manual-credit value a £500 approval rule covers</span>
+        <span class="rl-kpi-value dash-skeleton" data-source="manual_thresholds" data-field="pct_of_value" data-where="threshold_gbp=500" data-fill="pct">—</span>
+        <span class="rl-kpi-sub">while checking only <span data-source="manual_thresholds" data-field="pct_of_credits" data-where="threshold_gbp=500" data-fill="pct" class="dash-skeleton">—</span> of credits</span>
+      </div>
+      <div class="rl-kpi" id="kpi-nov">
+        <span class="rl-kpi-label">November revenue with no customer ID</span>
+        <span class="rl-kpi-value dash-skeleton" data-source="monthly" data-field="unattributed_pct" data-where="month=2011-11" data-fill="pct">—</span>
+        <span class="rl-kpi-sub"><span data-source="monthly" data-field="unattributed_gbp" data-where="month=2011-11" data-fill="gbpc" class="dash-skeleton">—</span> in the busiest month</span>
+      </div>
+    </div>
+
+    <div class="rl-grid">
+      <div class="rl-card" id="card-writeoffs">
+        <h2>Stock write-offs by recorded reason</h2>
+        <p class="rl-note">Free-text notes grouped into reasons. Highlighted rows have no usable reason: blank, "check", "?" or a vague note. Recommendation: mandatory reason codes.</p>
+        <div class="rl-legend"><span><i class="rl-sw" data-c="accent"></i>No usable reason</span><span><i class="rl-sw" data-c="muted"></i>Reason recorded</span></div>
+        <div class="rl-chart" id="writeoff-chart" data-source="writeoff_reasons" style="min-height: 320px"></div>
+      </div>
+      <div class="rl-card" id="card-unattrib">
+        <h2>Revenue recorded with no customer ID</h2>
+        <p class="rl-note">Data capture breaks down when volume is highest. Those buyers can't be retained or analysed. Recommendation: make customer ID mandatory at checkout.</p>
+        <div class="rl-chart" id="unattrib-chart" data-source="monthly" style="min-height: 240px"></div>
+      </div>
+      <div class="rl-card" id="card-manual">
+        <h2>Manual credits: second-approval threshold options</h2>
+        <p class="rl-note">Every manual credit is labelled only "Manual", with no reason code. A second approval above a threshold covers most of the value while checking few credits. Highlighted: the recommended £500 rule.</p>
+        <div class="rl-tablebox">
+          <table class="rl-table" id="manual-table" data-source="manual_thresholds" data-row-key="threshold_gbp">
+            <thead><tr>
+              <th data-field="threshold_gbp">Credits of at least</th>
+              <th data-field="credits_needing_approval" class="rl-num">Need approval</th>
+              <th data-field="pct_of_credits" class="rl-num">Share of credits</th>
+              <th data-field="value_covered_gbp" class="rl-num">Value covered</th>
+              <th data-field="pct_of_value" class="rl-num">Share of value</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="rl-card" id="card-products">
+        <h2>Products to review for cancellations</h2>
+        <p class="rl-note">Top 15 products, by cancelled £, where at least 5% of sales £ was cancelled (and at least £1k sold). Candidates for a listing, description or quality review.</p>
+        <div class="rl-tablebox rl-scroll">
+          <table class="rl-table" id="products-table" data-source="products_review" data-row-key="stock_code">
+            <thead><tr>
+              <th data-field="stock_code">Code</th>
+              <th data-field="description">Product</th>
+              <th data-field="sold_gbp" class="rl-num">Sold</th>
+              <th data-field="cancelled_gbp" class="rl-num">Cancelled</th>
+              <th data-field="cancel_rate" class="rl-num">Cancel rate</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ CUSTOMER RISK -->
+  <section class="rl-page" id="customers" role="tabpanel" aria-labelledby="tab-customers" hidden>
+    <div class="rl-grid">
+      <div class="rl-card rl-wide" id="card-gains">
+        <h2>Who to contact: share of at-risk revenue reached by contact budget</h2>
+        <p class="rl-note">Customers scored on 10 Sep 2011, outcomes measured over the next 90 days. Ranking by expected £ at risk (churn probability × typical 90-day spend) reaches far more lost revenue than ranking by silence or by spend alone. The dashed diagonal is random contact.</p>
+        <div class="rl-legend" id="gains-legend">
+          <span><i class="rl-sw rl-line" data-c="0"></i>Model: expected £ at risk</span>
+          <span><i class="rl-sw rl-line" data-c="1"></i>Rule: biggest spenders</span>
+          <span><i class="rl-sw rl-line" data-c="2"></i>Rule: longest silence</span>
+        </div>
+        <div class="rl-chart" id="gains-chart" data-source="retention_gains" style="min-height: 300px"></div>
+      </div>
+      <div class="rl-card" id="card-actions">
+        <h2>Recommended action per customer</h2>
+        <p class="rl-note">Groups set from the model scores on 10 Sep 2011. The last two columns are what each group actually did over the next 90 days.</p>
+        <div class="rl-tablebox">
+          <table class="rl-table" id="actions-table" data-source="action_groups" data-row-key="action">
+            <thead><tr>
+              <th data-field="action_label">Action</th>
+              <th data-field="customers" class="rl-num">Customers</th>
+              <th data-field="churn_risk_gbp" class="rl-num">Churn £ at risk</th>
+              <th data-field="actual_churn_rate" class="rl-num">Churned</th>
+              <th data-field="actual_cancel_rate" class="rl-num">Cancelled</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="rl-card" id="card-campaign">
+        <h2>Retention campaign: net £ per quarter</h2>
+        <p class="rl-note">Contacting the top 10%. Save rate and cost per contact are assumptions (no campaign data exists), so every combination is shown. Large figure: model targeting; small: the silence rule. An A/B test would measure the real save rate.</p>
+        <div class="rl-matrix" id="campaign-matrix" data-source="campaign"></div>
+      </div>
+      <div class="rl-card rl-wide" id="card-targets">
+        <h2>Top 25 retention targets</h2>
+        <p class="rl-note">Highest expected £ at risk on 10 Sep 2011. "Churned" shows whether they really stopped buying in the next 90 days.</p>
+        <div class="rl-tablebox rl-scroll">
+          <table class="rl-table" id="targets-table" data-source="retention_targets" data-row-key="customer_id">
+            <thead><tr>
+              <th data-field="customer_id">Customer</th>
+              <th data-field="country">Country</th>
+              <th data-field="days_since_last_order" class="rl-num">Days since order</th>
+              <th data-field="churn_probability" class="rl-num">Churn probability</th>
+              <th data-field="typical_90d_spend_gbp" class="rl-num">Typical 90-day spend</th>
+              <th data-field="gbp_at_risk" class="rl-num">£ at risk</th>
+              <th data-field="actually_churned">Churned</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ MODEL EVIDENCE -->
+  <section class="rl-page" id="models" role="tabpanel" aria-labelledby="tab-models" hidden>
+    <div class="rl-grid">
+      <div class="rl-card rl-wide" id="card-churn-models">
+        <h2>Churn: 7 models from 6 families vs a simple rule</h2>
+        <p class="rl-note">ROC-AUC: how often a random churner is ranked above a random non-churner (0.5 = coin flip). Dot: out-of-time test (10 Sep – 9 Dec 2011). Line: cross-validation mean ± 1 sd, grouped by customer. All models land close together, so the simplest one, logistic regression, was chosen.</p>
+        <div class="rl-legend" id="models-legend"><span><i class="rl-sw" data-c="0" style="border-radius:50%"></i>Test ROC-AUC</span><span><i class="rl-sw rl-line" data-c="muted"></i>Cross-validation ± 1 sd</span></div>
+        <div class="rl-chart" id="churn-models-chart" data-source="churn_models" style="min-height: 340px"></div>
+      </div>
+      <div class="rl-card rl-wide" id="card-churn-table">
+        <h2>Churn model scores</h2>
+        <div class="rl-tablebox">
+          <table class="rl-table" id="churn-table" data-source="churn_models" data-row-key="model">
+            <thead><tr>
+              <th data-field="model">Model</th>
+              <th data-field="family">Family</th>
+              <th data-field="cv_roc_auc" class="rl-num">CV ROC-AUC</th>
+              <th data-field="test_roc_auc" class="rl-num">Test ROC-AUC</th>
+              <th data-field="test_pr_auc" class="rl-num">Test PR-AUC</th>
+              <th data-field="brier" class="rl-num">Brier</th>
+              <th data-field="top20_capture" class="rl-num">Churners in top 20%</th>
+              <th data-field="fit_seconds" class="rl-num">Fit time (s)</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="rl-card" id="card-cancel-models">
+        <h2>Cancellation models</h2>
+        <p class="rl-note">PR-AUC suits a rarer outcome. Models find more cancelling customers than the spend rule, but the spend rule catches slightly more cancelled £, because the biggest cancellations come from the biggest buyers.</p>
+        <div class="rl-tablebox">
+          <table class="rl-table" id="cancel-table" data-source="cancel_models" data-row-key="model">
+            <thead><tr>
+              <th data-field="model">Model</th>
+              <th data-field="test_pr_auc" class="rl-num">Test PR-AUC</th>
+              <th data-field="top20_capture" class="rl-num">Cancellers in top 20%</th>
+              <th data-field="top20_gbp_capture" class="rl-num">Cancelled £ in top 20%</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="rl-card" id="card-cancel-policy">
+        <h2>Which 5% of accounts to flag for order confirmation</h2>
+        <p class="rl-note">Flagging the biggest accounts adds friction to almost half of revenue. Flagging past cancellers covers a similar share of cancelled £ while touching far less revenue, so it is the recommended policy.</p>
+        <div class="rl-tablebox">
+          <table class="rl-table" id="policy-table" data-source="cancel_policy" data-row-key="strategy">
+            <thead><tr>
+              <th data-field="strategy">Flag accounts by</th>
+              <th data-field="pct_cancelled_gbp_covered" class="rl-num">Cancelled £ covered</th>
+              <th data-field="pct_revenue_touched" class="rl-num">Revenue touched</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <p class="rl-foot">Data: UCI Online Retail II, 2010–2011 sheet (a UK online gift retailer). Cleaning removed duplicates, keying errors, fees and zero-price lines; models were trained on snapshots from Mar–Jun 2011 and tested on Sep–Dec 2011. Code and method: github.com/ronitnoronha/retail-revenue-leakage-analytics (private).</p>
+</div>
+
+<script>
+// ---------------------------------------------------------------- calculations
+dash.calc('leak_total', {
+  title: 'Total value leakage',
+  description: 'Sum of all leaks, and that sum as a share of product sales.',
+  inputs: ['leaks', 'overview'],
+  fn: (leaks, overview) => {
+    const total = leaks.reduce((s, l) => s + Number(l.value_gbp), 0);
+    return [{ total_gbp: total, pct_of_sales: total / Number(overview[0].product_sales_gbp) }];
+  },
+});
+dash.calc('writeoff_unexplained', {
+  title: 'Write-offs with no usable reason',
+  description: 'Write-off value whose note gives no usable reason, and its share of all write-off value.',
+  inputs: ['writeoff_reasons'],
+  fn: (writeoff_reasons) => {
+    const all = writeoff_reasons.reduce((s, r) => s + Number(r.value_gbp), 0);
+    const none = writeoff_reasons.filter((r) => String(r.reason_recorded) === 'False').reduce((s, r) => s + Number(r.value_gbp), 0);
+    return [{ value_gbp: none, share: none / all }];
+  },
+});
+</script>
+
+<script>
+(() => {
+  // ---------------------------------------------------------------- helpers
+  const gbpCompact = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP', notation: 'compact', maximumFractionDigits: 1 });
+  const F = {
+    gbpc: (v) => gbpCompact.format(v),
+    gbp: (v) => '£' + d3.format(',.0f')(v),
+    pct: d3.format('.1%'),
+    int: d3.format(','),
+    auc: d3.format('.3f'),
+  };
+  const BAD = ['error', 'connect', 'declined', 'missing'];
+  const status = (ids) => {
+    const s = ids.map((i) => dash.data(i).status);
+    if (s.every((x) => x === 'ok')) return 'ok';
+    if (s.some((x) => BAD.includes(x))) return 'error';
+    return 'loading';
+  };
+  const toNum = (v) => (typeof v === 'string' && v.trim() !== '' && !isNaN(+v) ? +v : v);
+  const rows = (id) => (dash.data(id).data || []).map((r) => Object.fromEntries(Object.entries(r).map(([k, v]) => [k, toNum(v)])));
+  const ACCENT = () => dash.colors[0];
+  const MUTED = 'var(--cds-chart-muted)';
+
+  function failBox(box) {
+    box.replaceChildren();
+    const d = document.createElement('div');
+    d.className = 'rl-fail';
+    d.textContent = 'Failed to load';
+    box.appendChild(d);
+    box.classList.remove('dash-skeleton');
+  }
+  function prep(box, ids) {
+    const s = status(ids);
+    if (s === 'error') { failBox(box); return false; }
+    if (s === 'loading') { box.querySelector('svg')?.remove(); box.classList.add('dash-skeleton'); return false; }
+    box.classList.remove('dash-skeleton');
+    box.querySelector('.rl-fail')?.remove();
+    return box.clientWidth > 0;
+  }
+  function newSvg(box, w, h) {
+    d3.select(box).select('svg').remove();
+    return d3.select(box).insert('svg', ':first-child').attr('width', '100%').attr('height', h).attr('viewBox', `0 0 ${w} ${h}`);
+  }
+  function measure(svg, texts) {
+    const t = svg.append('text').attr('class', 'rl-measure');
+    let m = 0;
+    texts.forEach((s) => { t.text(s); m = Math.max(m, t.node().getComputedTextLength()); });
+    t.remove();
+    return m;
+  }
+  function tipFor(box) {
+    let t = box.querySelector('.rl-tip');
+    if (!t) { t = document.createElement('div'); t.className = 'rl-tip'; t.hidden = true; box.appendChild(t); }
+    return {
+      show(ev, title, lines) {
+        t.replaceChildren();
+        const h = document.createElement('div'); h.className = 'rl-tip-h'; h.textContent = title; t.appendChild(h);
+        lines.forEach(([color, label, value]) => {
+          const r = document.createElement('div'); r.className = 'rl-tip-r';
+          if (color) { const s = document.createElement('i'); s.className = 'rl-sw'; s.style.background = color; r.appendChild(s); }
+          const a = document.createElement('span'); a.textContent = label;
+          const b = document.createElement('b'); b.textContent = value;
+          r.append(a, b); t.appendChild(r);
+        });
+        t.hidden = false;
+        const br = box.getBoundingClientRect();
+        let x = ev.clientX - br.left + 12, y = ev.clientY - br.top + 12;
+        if (x + t.offsetWidth > br.width) x = Math.max(0, ev.clientX - br.left - t.offsetWidth - 12);
+        if (y + t.offsetHeight > br.height) y = Math.max(0, ev.clientY - br.top - t.offsetHeight - 12);
+        t.style.left = x + 'px'; t.style.top = y + 'px';
+      },
+      hide() { t.hidden = true; },
+    };
+  }
+  function cleanAxis(g) {
+    g.attr('font-size', null).attr('font-family', null);
+    g.select('.domain').remove();
+    g.selectAll('.tick line').remove();
+  }
+
+  // ---------------------------------------------------------------- single-value marks
+  function fillMarks() {
+    document.querySelectorAll('#dash-root [data-fill]').forEach((el) => {
+      const id = el.dataset.source;
+      const d = dash.data(id);
+      if (d.status !== 'ok') {
+        if (BAD.includes(d.status)) { el.textContent = '—'; el.classList.remove('dash-skeleton'); }
+        return;
+      }
+      const raw = d.data || [];
+      let r;
+      if (el.dataset.row != null) r = raw[+el.dataset.row];
+      else if (el.dataset.where) {
+        const conds = el.dataset.where.split('&').map((p) => p.split('=').map(decodeURIComponent));
+        r = raw.find((x) => conds.every(([k, v]) => String(x[k]) === v));
+      }
+      if (!r) return;
+      el.textContent = F[el.dataset.fill](Number(r[el.dataset.field]));
+      el.classList.remove('dash-skeleton');
+    });
+  }
+
+  // ---------------------------------------------------------------- legends
+  function paintLegends() {
+    document.querySelectorAll('#dash-root .rl-sw[data-c]').forEach((s) => {
+      const c = s.dataset.c;
+      s.style.background = c === 'accent' ? ACCENT() : c === 'muted' ? MUTED : dash.colors[+c];
+    });
+  }
+
+  // ---------------------------------------------------------------- bar rows (label above bar)
+  function barRows(box, data, { label, value, fmt, color, tip }) {
+    const w = box.clientWidth, rowH = 44, h = data.length * rowH;
+    const svg = newSvg(box, w, h);
+    const valW = measure(svg, data.map((d) => fmt(value(d)))) + 10;
+    const x = d3.scaleLinear([0, d3.max(data, value)], [0, Math.max(40, w - valW)]);
+    const t = tipFor(box);
+    const g = svg.selectAll('g.row').data(data).join('g').attr('class', 'row').attr('transform', (d, i) => `translate(0,${i * rowH})`);
+    g.append('text').attr('class', 'rl-lab').attr('x', 0).attr('y', 13).text(label);
+    g.append('rect').attr('x', 0).attr('y', 20).attr('height', 14).attr('rx', 4)
+      .attr('width', (d) => Math.max(3, x(value(d)))).style('fill', color);
+    g.append('text').attr('class', 'rl-val').attr('x', (d) => Math.max(3, x(value(d))) + 6).attr('y', 31).text((d) => fmt(value(d)));
+    g.append('rect').attr('width', w).attr('height', rowH).style('fill', 'transparent')
+      .on('mousemove', (ev, d) => t.show(ev, label(d), tip(d))).on('mouseleave', () => t.hide());
+  }
+
+  function drawLeaks() {
+    const box = document.getElementById('leaks-chart');
+    if (!prep(box, ['leaks'])) return;
+    const data = rows('leaks').sort((a, b) => b.value_gbp - a.value_gbp);
+    barRows(box, data, {
+      label: (d) => d.leak, value: (d) => d.value_gbp, fmt: F.gbpc,
+      color: (d) => (d.kind === 'Process' ? ACCENT() : MUTED),
+      tip: (d) => [[null, 'Value', F.gbp(d.value_gbp)], [null, 'Share of sales', F.pct(d.pct_of_sales)], [null, 'Type', d.kind], [null, d.root_cause, '']],
+    });
+  }
+
+  function drawWriteoffs() {
+    const box = document.getElementById('writeoff-chart');
+    if (!prep(box, ['writeoff_reasons'])) return;
+    const data = rows('writeoff_reasons').sort((a, b) => b.value_gbp - a.value_gbp);
+    barRows(box, data, {
+      label: (d) => d.reason, value: (d) => d.value_gbp, fmt: F.gbpc,
+      color: (d) => (String(d.reason_recorded) === 'False' ? ACCENT() : MUTED),
+      tip: (d) => [[null, 'Value at selling price', F.gbp(d.value_gbp)], [null, 'Share of write-offs', F.pct(d.share)], [null, 'Lines', F.int(d.lines)], [null, 'Units', F.int(d.units)]],
+    });
+  }
+
+  // ---------------------------------------------------------------- monthly axis helper
+  const parseMonth = (m) => new Date(m + '-01T00:00:00Z');
+  const monthLabel = (m) => {
+    const d = parseMonth(m);
+    const mon = d3.utcFormat('%b')(d);
+    return d.getUTCMonth() === 0 || d.getUTCMonth() === 11 ? `${mon} ${d3.utcFormat('%y')(d)}` : mon;
+  };
+  function monthAxes(svg, months, y, w, h, m, yfmt) {
+    const ticks = y.ticks(4);
+    const left = measure(svg, ticks.map(yfmt)) + 10;
+    const x = d3.scaleBand(months, [left, w - m.r]).padding(0.28);
+    svg.append('g').selectAll('line').data(ticks).join('line')
+      .attr('x1', left).attr('x2', w - m.r).attr('y1', y).attr('y2', y)
+      .style('stroke', 'var(--cds-chart-grid)').style('stroke-width', 1);
+    svg.append('g').attr('transform', `translate(${left - 6},0)`)
+      .call(d3.axisLeft(y).tickValues(ticks).tickFormat(yfmt).tickSize(0)).call(cleanAxis);
+    const lab = months.map(monthLabel);
+    const step = Math.ceil(d3.max(lab, (s) => s.length * 7 + 8) / x.step());
+    svg.append('g').attr('transform', `translate(0,${h - m.b + 6})`)
+      .call(d3.axisBottom(x).tickFormat((d, i) => (i % step === 0 ? monthLabel(d) : '')).tickSize(0)).call(cleanAxis);
+    svg.append('line').attr('x1', left).attr('x2', w - m.r).attr('y1', h - m.b).attr('y2', h - m.b).style('stroke', 'var(--cds-chart-axis)');
+    return x;
+  }
+
+  function drawMonthly() {
+    const box = document.getElementById('monthly-chart');
+    if (!prep(box, ['monthly'])) return;
+    const data = rows('monthly');
+    const w = box.clientWidth, h = 240, m = { t: 14, r: 4, b: 24 };
+    const svg = newSvg(box, w, h);
+    const y = d3.scaleLinear([0, d3.max(data, (d) => d.sales_gbp)], [h - m.b, m.t]).nice();
+    const x = monthAxes(svg, data.map((d) => d.month), y, w, h, m, F.gbpc);
+    const t = tipFor(box);
+    svg.append('g').selectAll('rect').data(data).join('rect')
+      .attr('x', (d) => x(d.month)).attr('width', x.bandwidth()).attr('rx', 4)
+      .attr('y', (d) => y(d.sales_gbp)).attr('height', (d) => y(0) - y(d.sales_gbp))
+      .style('fill', (d) => (String(d.partial_month) === 'True' ? MUTED : ACCENT()));
+    const part = data.find((d) => String(d.partial_month) === 'True');
+    if (part) svg.append('text').attr('x', x(part.month) + x.bandwidth() / 2).attr('y', y(part.sales_gbp) - 6).attr('text-anchor', 'middle').text('9 days');
+    svg.append('g').selectAll('rect').data(data).join('rect')
+      .attr('x', (d) => x(d.month) - (x.step() - x.bandwidth()) / 2).attr('width', x.step()).attr('y', m.t).attr('height', h - m.t - m.b)
+      .style('fill', 'transparent')
+      .on('mousemove', (ev, d) => t.show(ev, d3.utcFormat('%B %Y')(parseMonth(d.month)) + (String(d.partial_month) === 'True' ? ' (9 days)' : ''), [
+        [null, 'Product sales', F.gbp(d.sales_gbp)], [null, 'Cancelled', F.gbp(d.cancelled_gbp)],
+        [null, 'Cancel rate', F.pct(d.cancel_rate)], [null, 'Active customers', F.int(d.active_customers)]]))
+      .on('mouseleave', () => t.hide());
+  }
+
+  function drawUnattrib() {
+    const box = document.getElementById('unattrib-chart');
+    if (!prep(box, ['monthly'])) return;
+    const data = rows('monthly');
+    const w = box.clientWidth, h = 240, m = { t: 22, r: 8, b: 24 };
+    const svg = newSvg(box, w, h);
+    const y = d3.scaleLinear([0, d3.max(data, (d) => d.unattributed_pct)], [h - m.b, m.t]).nice();
+    const x = monthAxes(svg, data.map((d) => d.month), y, w, h, m, d3.format('.0%'));
+    const cx = (d) => x(d.month) + x.bandwidth() / 2;
+    const full = data.filter((d) => String(d.partial_month) !== 'True');
+    svg.append('path').datum(full).attr('d', d3.line().x(cx).y((d) => y(d.unattributed_pct)))
+      .style('fill', 'none').style('stroke', ACCENT()).style('stroke-width', 2).style('stroke-linecap', 'round').style('stroke-linejoin', 'round');
+    const last = full[full.length - 1], part = data.find((d) => String(d.partial_month) === 'True');
+    if (part && last) svg.append('path').datum([last, part]).attr('d', d3.line().x(cx).y((d) => y(d.unattributed_pct)))
+      .style('fill', 'none').style('stroke', ACCENT()).style('stroke-width', 2).style('stroke-dasharray', '4 4');
+    svg.append('g').selectAll('circle').data(data).join('circle').attr('cx', cx).attr('cy', (d) => y(d.unattributed_pct)).attr('r', 3.5)
+      .style('fill', (d) => (String(d.partial_month) === 'True' ? 'var(--color-panel)' : ACCENT())).style('stroke', ACCENT()).style('stroke-width', 1.5);
+    const peak = full.reduce((a, b) => (b.unattributed_pct > a.unattributed_pct ? b : a), full[0]);
+    if (peak) svg.append('text').attr('class', 'rl-val').attr('x', cx(peak)).attr('y', y(peak.unattributed_pct) - 9).attr('text-anchor', 'middle').text(F.pct(peak.unattributed_pct));
+    const t = tipFor(box);
+    svg.append('g').selectAll('rect').data(data).join('rect')
+      .attr('x', (d) => x(d.month) - (x.step() - x.bandwidth()) / 2).attr('width', x.step()).attr('y', m.t).attr('height', h - m.t - m.b)
+      .style('fill', 'transparent')
+      .on('mousemove', (ev, d) => t.show(ev, d3.utcFormat('%B %Y')(parseMonth(d.month)) + (String(d.partial_month) === 'True' ? ' (9 days)' : ''), [
+        [null, 'No customer ID', F.pct(d.unattributed_pct)], [null, 'Value', F.gbp(d.unattributed_gbp)], [null, 'Product sales', F.gbp(d.sales_gbp)]]))
+      .on('mouseleave', () => t.hide());
+  }
+
+  // ---------------------------------------------------------------- gains curve
+  const SERIES = [
+    { key: 'model_expected_gbp', name: 'Model: expected £ at risk', c: 0, wd: 2.5 },
+    { key: 'biggest_spenders', name: 'Rule: biggest spenders', c: 1, wd: 2 },
+    { key: 'recency_rule', name: 'Rule: longest silence', c: 2, wd: 2 },
+  ];
+  function drawGains() {
+    const box = document.getElementById('gains-chart');
+    if (!prep(box, ['retention_gains'])) return;
+    const data = rows('retention_gains').sort((a, b) => a.pct_contacted - b.pct_contacted);
+    const w = box.clientWidth, h = 300, m = { t: 10, r: 12, b: 36 };
+    const svg = newSvg(box, w, h);
+    const yt = [0, 0.25, 0.5, 0.75, 1];
+    const left = measure(svg, yt.map(d3.format('.0%'))) + 10;
+    const x = d3.scaleLinear([0, 1], [left, w - m.r]);
+    const y = d3.scaleLinear([0, 1], [h - m.b, m.t]);
+    svg.append('g').selectAll('line').data(yt).join('line').attr('x1', left).attr('x2', w - m.r).attr('y1', y).attr('y2', y).style('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').attr('transform', `translate(${left - 6},0)`).call(d3.axisLeft(y).tickValues(yt).tickFormat(d3.format('.0%')).tickSize(0)).call(cleanAxis);
+    const xt = w < 420 ? [0, 0.5, 1] : [0, 0.2, 0.4, 0.6, 0.8, 1];
+    svg.append('g').attr('transform', `translate(0,${h - m.b + 8})`).call(d3.axisBottom(x).tickValues(xt).tickFormat(d3.format('.0%')).tickSize(0)).call(cleanAxis);
+    svg.append('text').attr('x', w - m.r).attr('y', h - 2).attr('text-anchor', 'end').text('share of customers contacted, riskiest first');
+    svg.append('line').attr('x1', x(0)).attr('y1', y(0)).attr('x2', x(1)).attr('y2', y(1))
+      .style('stroke', 'var(--cds-chart-reference)').style('stroke-dasharray', '4 4');
+    SERIES.forEach((s) => {
+      svg.append('path').datum(data).attr('d', d3.line().x((d) => x(d.pct_contacted)).y((d) => y(d[s.key])))
+        .style('fill', 'none').style('stroke', dash.colors[s.c]).style('stroke-width', s.wd).style('stroke-linejoin', 'round').style('stroke-linecap', 'round');
+    });
+    // The 10% contact budget used in the recommendation
+    const at = data.find((d) => Math.abs(d.pct_contacted - 0.1) < 1e-9);
+    if (at) {
+      svg.append('line').attr('x1', x(0.1)).attr('x2', x(0.1)).attr('y1', m.t).attr('y2', h - m.b).style('stroke', 'var(--cds-chart-axis)');
+      svg.append('text').attr('x', x(0.1) + 4).attr('y', m.t + 10).text('contact 10%');
+      const pts = SERIES.map((s) => ({ s, v: at[s.key], py: y(at[s.key]) })).sort((a, b) => a.py - b.py);
+      for (let i = 1; i < pts.length; i++) pts[i].ly = Math.max(pts[i].py, (pts[i - 1].ly ?? pts[i - 1].py) + 14);
+      pts[0].ly = pts[0].py;
+      pts.forEach((p) => {
+        svg.append('circle').attr('cx', x(0.1)).attr('cy', p.py).attr('r', 4).style('fill', dash.colors[p.s.c]).style('stroke', 'var(--color-panel)').style('stroke-width', 2);
+        svg.append('text').attr('class', 'rl-val').attr('x', x(0.1) + 8).attr('y', p.ly + 4).text(F.pct(p.v));
+      });
+    }
+    const t = tipFor(box);
+    const cross = svg.append('line').attr('y1', m.t).attr('y2', h - m.b).style('stroke', 'var(--cds-chart-axis)').style('opacity', 0);
+    const dots = svg.append('g').selectAll('circle').data(SERIES).join('circle').attr('r', 4).style('fill', (s) => dash.colors[s.c]).style('opacity', 0);
+    svg.append('rect').attr('x', left).attr('y', m.t).attr('width', w - m.r - left).attr('height', h - m.t - m.b).style('fill', 'transparent')
+      .on('mousemove', (ev) => {
+        const [mx] = d3.pointer(ev);
+        const p = Math.round(x.invert(mx) * 100) / 100;
+        const d = data.reduce((a, b) => (Math.abs(b.pct_contacted - p) < Math.abs(a.pct_contacted - p) ? b : a), data[0]);
+        cross.attr('x1', x(d.pct_contacted)).attr('x2', x(d.pct_contacted)).style('opacity', 1);
+        dots.attr('cx', x(d.pct_contacted)).attr('cy', (s) => y(d[s.key])).style('opacity', 1);
+        t.show(ev, `Contact ${F.pct(d.pct_contacted).replace('.0%', '%')} of customers`, [
+          ...SERIES.map((s) => [dash.colors[s.c], s.name, F.pct(d[s.key])]),
+          ['var(--cds-chart-reference)', 'Random contact', F.pct(d.random_expected)]]);
+      })
+      .on('mouseleave', () => { t.hide(); cross.style('opacity', 0); dots.style('opacity', 0); });
+  }
+
+  // ---------------------------------------------------------------- model dot plot
+  function drawChurnModels() {
+    const box = document.getElementById('churn-models-chart');
+    if (!prep(box, ['churn_models'])) return;
+    const data = rows('churn_models').sort((a, b) => b.test_roc_auc - a.test_roc_auc);
+    const rowH = 40, axisH = 24, w = box.clientWidth, h = data.length * rowH + axisH;
+    const svg = newSvg(box, w, h);
+    const lo = Math.floor(d3.min(data, (d) => Math.min(d.cv_roc_auc - d.cv_sd, d.test_roc_auc)) * 50) / 50;
+    const hi = Math.ceil(d3.max(data, (d) => Math.max(d.cv_roc_auc + d.cv_sd, d.test_roc_auc)) * 50) / 50;
+    const valW = measure(svg, ['0.000']) + 12;
+    const x = d3.scaleLinear([lo, hi], [6, w - valW]);
+    const ticks = x.ticks(w < 420 ? 3 : 6);
+    svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', x).attr('x2', x).attr('y1', 0).attr('y2', h - axisH)
+      .style('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').attr('transform', `translate(0,${h - axisH + 8})`).call(d3.axisBottom(x).tickValues(ticks).tickFormat(d3.format('.2f')).tickSize(0)).call(cleanAxis);
+    const t = tipFor(box);
+    const g = svg.selectAll('g.row').data(data).join('g').attr('class', 'row').attr('transform', (d, i) => `translate(0,${i * rowH})`);
+    const isBase = (d) => d.family === 'Rule';
+    g.append('text').attr('class', 'rl-lab').attr('x', 6).attr('y', 13).text((d) => `${d.model} · ${d.family}`);
+    g.append('line').attr('x1', (d) => x(d.cv_roc_auc - d.cv_sd)).attr('x2', (d) => x(d.cv_roc_auc + d.cv_sd)).attr('y1', 27).attr('y2', 27)
+      .style('stroke', MUTED).style('stroke-width', 3).style('stroke-linecap', 'round');
+    g.append('circle').attr('cx', (d) => x(d.test_roc_auc)).attr('cy', 27).attr('r', 5.5)
+      .style('fill', (d) => (isBase(d) ? MUTED : ACCENT())).style('stroke', 'var(--color-panel)').style('stroke-width', 2);
+    g.append('text').attr('class', 'rl-val').attr('x', w - 2).attr('y', 31).attr('text-anchor', 'end').text((d) => F.auc(d.test_roc_auc));
+    g.append('rect').attr('width', w).attr('height', rowH).style('fill', 'transparent')
+      .on('mousemove', (ev, d) => t.show(ev, d.model, [[null, 'Test ROC-AUC', F.auc(d.test_roc_auc)], [null, 'CV ROC-AUC', `${F.auc(d.cv_roc_auc)} ± ${F.auc(d.cv_sd)}`], [null, 'Test PR-AUC', F.auc(d.test_pr_auc)]]))
+      .on('mouseleave', () => t.hide());
+  }
+
+  // ---------------------------------------------------------------- tables
+  function fillTable(id, source, key, cols, opts = {}) {
+    const table = document.getElementById(id);
+    const tbody = table.querySelector('tbody');
+    const s = status([source]);
+    if (s !== 'ok') {
+      tbody.replaceChildren();
+      if (s === 'error') { const tr = document.createElement('tr'); const td = document.createElement('td'); td.colSpan = cols.length; td.appendChild(Object.assign(document.createElement('div'), { className: 'rl-fail', textContent: 'Failed to load' })); tr.appendChild(td); tbody.appendChild(tr); }
+      return;
+    }
+    const raw = dash.data(source).data || [];
+    let data = rows(source).map((r, i) => ({ r, key: String(raw[i][key]) }));
+    if (opts.sort) data = data.sort((a, b) => opts.sort(a.r, b.r));
+    const maxes = {};
+    cols.filter((c) => c.bar).forEach((c) => { maxes[c.f] = d3.max(data, (d) => d.r[c.f]); });
+    tbody.replaceChildren(...data.map(({ r, key: k }) => {
+      const tr = document.createElement('tr');
+      tr.dataset.key = k;
+      if (opts.rowClass) { const c = opts.rowClass(r); if (c) tr.className = c; }
+      cols.forEach((c) => {
+        const td = document.createElement('td');
+        if (c.num) td.className = 'rl-num';
+        const text = c.fmt ? c.fmt(r[c.f], r) : String(r[c.f] ?? '');
+        if (c.bar) {
+          const wrap = document.createElement('div'); wrap.className = 'rl-cellbar' + (c.hot && c.hot(r) ? ' rl-hot' : '');
+          const span = document.createElement('span'); span.textContent = text;
+          const bar = document.createElement('i'); bar.style.width = Math.max(2, 60 * (r[c.f] / (maxes[c.f] || 1))) + 'px';
+          wrap.append(span, bar); td.appendChild(wrap);
+        } else if (c.cls) {
+          const span = document.createElement('span'); span.className = c.cls(r); span.textContent = text; td.appendChild(span);
+        } else td.textContent = text;
+        tr.appendChild(td);
+      });
+      return tr;
+    }));
+  }
+
+  function drawTables() {
+    fillTable('manual-table', 'manual_thresholds', 'threshold_gbp', [
+      { f: 'threshold_gbp', fmt: (v) => F.gbp(v) },
+      { f: 'credits_needing_approval', num: true, fmt: (v, r) => `${F.int(v)} of ${F.int(r.total_credits)}` },
+      { f: 'pct_of_credits', num: true, fmt: F.pct },
+      { f: 'value_covered_gbp', num: true, fmt: F.gbp },
+      { f: 'pct_of_value', num: true, fmt: F.pct, bar: true },
+    ], { rowClass: (r) => (r.threshold_gbp === 500 ? 'rl-pick' : '') });
+    fillTable('products-table', 'products_review', 'stock_code', [
+      { f: 'stock_code' },
+      { f: 'description' },
+      { f: 'sold_gbp', num: true, fmt: F.gbp },
+      { f: 'cancelled_gbp', num: true, fmt: F.gbp, bar: true },
+      { f: 'cancel_rate', num: true, fmt: F.pct },
+    ]);
+    fillTable('actions-table', 'action_groups', 'action', [
+      { f: 'action_label' },
+      { f: 'customers', num: true, fmt: F.int },
+      { f: 'churn_risk_gbp', num: true, fmt: F.gbp, bar: true },
+      { f: 'actual_churn_rate', num: true, fmt: F.pct },
+      { f: 'actual_cancel_rate', num: true, fmt: F.pct },
+    ], { sort: (a, b) => String(a.action).localeCompare(String(b.action)) });
+    fillTable('targets-table', 'retention_targets', 'customer_id', [
+      { f: 'customer_id' },
+      { f: 'country' },
+      { f: 'days_since_last_order', num: true, fmt: F.int },
+      { f: 'churn_probability', num: true, fmt: F.pct },
+      { f: 'typical_90d_spend_gbp', num: true, fmt: F.gbp },
+      { f: 'gbp_at_risk', num: true, fmt: F.gbp, bar: true },
+      { f: 'actually_churned', cls: (r) => (r.actually_churned === 'Yes' ? 'rl-yes' : 'rl-no') },
+    ], { sort: (a, b) => b.gbp_at_risk - a.gbp_at_risk });
+    fillTable('churn-table', 'churn_models', 'model', [
+      { f: 'model' },
+      { f: 'family' },
+      { f: 'cv_roc_auc', num: true, fmt: (v, r) => `${F.auc(v)} ± ${F.auc(r.cv_sd)}` },
+      { f: 'test_roc_auc', num: true, fmt: F.auc },
+      { f: 'test_pr_auc', num: true, fmt: F.auc },
+      { f: 'brier', num: true, fmt: (v) => (v === '' || v == null ? 'n/a' : F.auc(v)) },
+      { f: 'top20_capture', num: true, fmt: F.pct },
+      { f: 'fit_seconds', num: true, fmt: d3.format(',.1f') },
+    ], { sort: (a, b) => b.test_roc_auc - a.test_roc_auc, rowClass: (r) => (r.family === 'Rule' ? 'rl-base' : '') });
+    fillTable('cancel-table', 'cancel_models', 'model', [
+      { f: 'model' },
+      { f: 'test_pr_auc', num: true, fmt: F.auc, bar: true },
+      { f: 'top20_capture', num: true, fmt: F.pct },
+      { f: 'top20_gbp_capture', num: true, fmt: F.pct },
+    ], { sort: (a, b) => b.test_pr_auc - a.test_pr_auc, rowClass: (r) => (r.family === 'Rule' ? 'rl-base' : '') });
+    fillTable('policy-table', 'cancel_policy', 'strategy', [
+      { f: 'strategy' },
+      { f: 'pct_cancelled_gbp_covered', num: true, fmt: F.pct, bar: true },
+      { f: 'pct_revenue_touched', num: true, fmt: F.pct, bar: true, hot: (r) => r.pct_revenue_touched > 0.4 },
+    ], { rowClass: (r) => (String(r.strategy).startsWith('Rule: past') ? 'rl-pick' : '') });
+  }
+
+  // ---------------------------------------------------------------- campaign matrix
+  function drawCampaign() {
+    const box = document.getElementById('campaign-matrix');
+    const s = status(['campaign']);
+    if (s === 'error') { failBox(box); return; }
+    if (s !== 'ok') { box.classList.add('dash-skeleton'); return; }
+    box.classList.remove('dash-skeleton');
+    const raw = dash.data('campaign').data || [];
+    const saves = [...new Set(raw.map((r) => String(r.save_rate)))];
+    const costs = [...new Set(raw.map((r) => String(r.cost_per_contact_gbp)))];
+    const cells = [];
+    const head = (text) => Object.assign(document.createElement('div'), { className: 'rl-mh', textContent: text });
+    cells.push(head('Save rate \\ cost'));
+    costs.forEach((c) => cells.push(head(`£${c} / contact`)));
+    saves.forEach((sv) => {
+      cells.push(head(`${F.pct(+sv).replace('.0%', '%')} saved`));
+      costs.forEach((c) => {
+        const r = raw.find((x) => String(x.save_rate) === sv && String(x.cost_per_contact_gbp) === c);
+        const cell = document.createElement('div'); cell.className = 'rl-mc';
+        const where = `save_rate=${encodeURIComponent(sv)}&cost_per_contact_gbp=${encodeURIComponent(c)}`;
+        const v = Number(r.net_gbp_model), q = Number(r.net_gbp_recency_rule);
+        const b = document.createElement('b');
+        b.className = v >= 0 ? 'rl-pos' : 'rl-neg';
+        b.dataset.source = 'campaign'; b.dataset.field = 'net_gbp_model'; b.dataset.where = where;
+        b.textContent = (v >= 0 ? '+' : '−') + F.gbpc(Math.abs(v));
+        const sm = document.createElement('small');
+        const lab = document.createElement('span'); lab.textContent = 'rule ';
+        const qv = document.createElement('span');
+        qv.dataset.source = 'campaign'; qv.dataset.field = 'net_gbp_recency_rule'; qv.dataset.where = where;
+        qv.textContent = (q >= 0 ? '+' : '−') + F.gbpc(Math.abs(q));
+        sm.append(lab, qv);
+        cell.append(b, sm);
+        cells.push(cell);
+      });
+    });
+    box.replaceChildren(...cells);
+  }
+
+  // ---------------------------------------------------------------- tabs
+  const PAGES = ['overview', 'process', 'customers', 'models'];
+  let current = 'overview';
+  const DRAW = {
+    overview: [drawLeaks, drawMonthly],
+    process: [drawWriteoffs, drawUnattrib],
+    customers: [drawGains],
+    models: [drawChurnModels],
+  };
+  function render() {
+    paintLegends();
+    fillMarks();
+    drawTables();
+    drawCampaign();
+    DRAW[current].forEach((f) => f());
+  }
+  function show(id, link) {
+    if (!PAGES.includes(id)) return;
+    current = id;
+    PAGES.forEach((p) => {
+      document.getElementById(p).hidden = p !== id;
+      document.getElementById('tab-' + p).setAttribute('aria-selected', String(p === id));
+    });
+    if (link) dash.setLink(id);
+    render();
+  }
+  document.querySelectorAll('#dash-root .rl-tab').forEach((b) => b.addEventListener('click', () => show(b.dataset.tab, true)));
+  show(PAGES.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'overview', false);
+  dash.onData(render);
+})();
+</script>

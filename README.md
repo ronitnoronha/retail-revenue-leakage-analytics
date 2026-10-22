@@ -28,6 +28,7 @@ See [`docs/recommendation_memo.md`](docs/recommendation_memo.md) for the one-pag
 | 4. Model comparison (7 models) | `src/04_models.py`, `src/bgnbd.py` | [`docs/step4_model_guide.md`](docs/step4_model_guide.md) |
 | 5. Decisions & policy simulation | `src/05_decisions.py` | [`docs/step5_decisions.md`](docs/step5_decisions.md) |
 | 6. Power BI export | `src/06_export_powerbi.py` | [`powerbi/README.md`](powerbi/README.md) |
+| 7. Online dashboard (4 tabs) | `dashboard/build_data.py`, `dashboard/index.html` | data in `dashboard/data/` |
 
 ## Models compared (churn, out-of-time test 10 Sep – 9 Dec 2011)
 | Model | Family | Test ROC-AUC |

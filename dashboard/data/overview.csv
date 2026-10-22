@@ -1,0 +1,2 @@
+raw_transactions,product_sales_gbp,invoices,customers,countries,raw_cancel_pct,clean_cancel_pct,unattributed_gbp,unattributed_pct
+541910,10000733,19771,4333,38,0.0841,0.0229,1509992,0.151
