@@ -2,6 +2,8 @@
 
 Where does a UK online retailer lose money between order and cash, and what should it do about it?
 
+**▶ Live app: [retail-revenue-leakage-analytics-qmxob66jeefzalezisradg.streamlit.app](https://retail-revenue-leakage-analytics-qmxob66jeefzalezisradg.streamlit.app/)** – explore the results, simulate a retention campaign and look up any customer.
+
 **Data:** [UCI Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii), 2010–2011 sheet –
 541,910 transactions, £10.0M product sales, 4,333 customers, 38 countries.
 
@@ -31,9 +33,9 @@ See [`docs/recommendation_memo.md`](docs/recommendation_memo.md) for the one-pag
 | 4. Model comparison (7 models) | `src/04_models.py`, `src/bgnbd.py` | [`docs/step4_model_guide.md`](docs/step4_model_guide.md) |
 | 5. Decisions & policy simulation | `src/05_decisions.py` | [`docs/step5_decisions.md`](docs/step5_decisions.md) |
 | 6. Power BI export | `src/06_export_powerbi.py` | [`powerbi/README.md`](powerbi/README.md) |
+| 7. Online dashboard (4 tabs) | `dashboard/build_data.py`, `dashboard/index.html` | data in `dashboard/data/` |
 | 8. Customer segmentation (K-Means, 5 segments) | `src/08_segments.py` | [`docs/step8_segmentation.md`](docs/step8_segmentation.md) |
 | 9. Streamlit app (7 tabs) | `app/streamlit_app.py` | [`app/README.md`](app/README.md) |
-| 7. Online dashboard (4 tabs) | `dashboard/build_data.py`, `dashboard/index.html` | data in `dashboard/data/` |
 
 ## Models compared (churn, out-of-time test 10 Sep – 9 Dec 2011)
 | Model | Family | Test ROC-AUC |
